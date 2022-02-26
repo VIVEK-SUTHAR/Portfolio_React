@@ -5,6 +5,7 @@
   list-style: none;
   text-decoration: none;
   font-family: 'Baloo Bhaijaan 2', cursive;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -16,6 +17,30 @@
   --colorr-light: rgba(255, 255, 255, 0.6);
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(61, 61, 61, 0.637);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(175, 175, 175, 0.637);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(102, 102, 102, 0.637);
+}
+
+::-webkit-scrollbar-track:horizontal {
+  height: 10px;
+}
+
 body {
   background-color: var(--color-bg);
+  overflow-x: hidden;
+
 }

@@ -28,11 +28,30 @@ nav a {
 nav a:hover {
     background-color: rgba(0, 0, 0, 0.3);
 }
+
 nav a.active {
     background-color: var(--color-bg);
 }
+
 @media screen and (max-width: 768px) {
- nav{
-     bottom: 2;
- }
+    nav {
+        bottom: 2;
+    }
 }
+@media  screen and (max-width: 426px) {
+    nav {
+        bottom: 1rem;
+    }
+}
+    
+@media screen and (max-width: 361px) {
+    nav {
+        bottom: 1rem;
+        padding: 0.5rem 1.7rem;
+
+    }
+    nav a{
+        padding: 0.3rem;
+    }
+}
+    

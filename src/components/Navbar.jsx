@@ -4,8 +4,8 @@ import { AiOutlineHome, AiOutlineUser, AioutlineBook, AiOutlineBook, AiOutlinePr
 function Navbar() {
     return (
         <nav>
-            <a href="#" className='active'><AiOutlineHome /></a>
-            <a href="#"><AiOutlineUser /></a>
+            <a href="#about_section" className='active'><AiOutlineHome /></a>
+            <a href="#Me"><AiOutlineUser /></a>
             <a href="#"><AiOutlineBook /></a>
             <a href="#"><AiOutlineProject /></a>
             <a href="#"><AiOutlineContacts /></a>

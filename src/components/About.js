@@ -1,8 +1,9 @@
 import React, { useEffect, useRef } from 'react'
 import "./About.css";
 import Typed from "typed.js";
+import Socials from './Socials';
 function About() {
-    const el = useRef(null); 
+    const el = useRef(null);
     useEffect(() => {
         const typed = new Typed(el.current, {
             strings: ["An IT Student", "A Web-Developer", "3-⭐At Codechef "], // Strings to display
@@ -18,17 +19,19 @@ function About() {
     }, []);
 
     return (
-
-        <div id='about_section'>
-            Hello, I am Vivek Suthar<br />
-            <div className="my_tag">
-                I Am <span ref={el}></span>
+        <>
+            <div id='about_section'>
+                Hello, I am Vivek Suthar<br />
+                <div className="my_tag">
+                    I Am <span ref={el}></span>
+                </div>
+                <div className="btn">
+                    <button> Download Resume</button>
+                    <button> Let's Talk</button>
+                </div>
+            <Socials />
             </div>
-            <div className="btn">
-                <button> Download Resume</button>
-                <button> Let's Talk</button>
-            </div>
-        </div>
+        </>
     )
 }
 
