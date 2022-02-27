@@ -3,6 +3,11 @@ import "./About.css";
 import Typed from "typed.js";
 import Socials from './Socials';
 function About() {
+    useEffect(() => {
+        let about = document.getElementById('about_section');
+        about.classList.add("animate__rollIn");
+    
+    }, [])
     const el = useRef(null);
     useEffect(() => {
         const typed = new Typed(el.current, {
@@ -20,7 +25,7 @@ function About() {
 
     return (
         <>
-            <div id='about_section'>
+            <div id='about_section' className='animate__animated'>
                 Hello, I am Vivek Suthar<br />
                 <div className="my_tag">
                     I Am <span ref={el}></span>
@@ -29,7 +34,7 @@ function About() {
                     <button> Download Resume</button>
                     <button> Let's Talk</button>
                 </div>
-            <Socials />
+                <Socials />
             </div>
         </>
     )
