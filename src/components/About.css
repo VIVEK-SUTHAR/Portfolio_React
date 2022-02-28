@@ -9,7 +9,9 @@
     align-items: center;
     color: var(--color-primary);
 }
-
+body{
+    overflow-x: hidden;
+}
 .btn {
     width: 100%;
     height: max-content;
@@ -51,12 +53,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-size: 3rem;
+        font-size: 1rem;
         text-align: center;
         padding: 0 15px;
         font-size: 2rem;
     }
-
+    
     .btn {
         width: 100%;
         flex-direction: row;
@@ -71,7 +73,7 @@
         margin: 1px 10px;
     }
 }
-
+   
 @media screen and (max-width: 426px) {
     #about_section {
         height: 100vh;

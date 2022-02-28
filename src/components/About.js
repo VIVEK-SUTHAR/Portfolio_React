@@ -11,7 +11,7 @@ function About() {
     const el = useRef(null);
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ["An IT Student", "A Web-Developer", "3-⭐At Codechef "], // Strings to display
+            strings: ["An IT Student", "A Web-Developer", "3-⭐At Codechef ","Co-Head HackClub SVIT(Web)"], // Strings to display
             // Speed settings, try diffrent values untill you get good results
             startDelay: 300,
             typeSpeed: 100,

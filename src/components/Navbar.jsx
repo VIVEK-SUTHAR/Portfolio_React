@@ -11,7 +11,7 @@ function Navbar() {
         <nav  id="nav-bar" className='animate__animated'>
             <a href="#about_section" className='active'><AiOutlineHome /></a>
             <a href="#Me"><AiOutlineUser /></a>
-            <a href="#"><AiOutlineBook /></a>
+            <a href="#Resume"><AiOutlineBook /></a>
             <a href="#"><AiOutlineProject /></a>
             <a href="#"><AiOutlineContacts /></a>
         </nav>
