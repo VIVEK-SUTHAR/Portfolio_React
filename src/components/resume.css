@@ -105,3 +105,12 @@
     }
 
 }
+@media screen and (max-width: 281px) {
+    #Resume {
+        margin-top: 80%;
+    }
+    .achive,.edu_text{
+        font-size: 1rem;
+    }
+}
+    
