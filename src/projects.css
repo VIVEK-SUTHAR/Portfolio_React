@@ -1,0 +1,52 @@
+.projectContainer {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectHeading {
+    font-size: 3rem;
+    color: aqua;
+}
+
+.projectCards {
+    width: 100%;
+    height: 100%;
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectCard {
+    width: 100%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid blueviolet;
+    margin: 0 1%;
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 600px) {
+    .projectContainer {
+        font-size: 2rem;
+    }
+
+    .projectCards {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .projectCard {
+        width: 100%;
+        height: 100%;
+        margin: 5px;
+    }
+}
