@@ -1,6 +1,6 @@
 import React from 'react'
 import "./footer.css"
-import { AiOutlineHome, AiOutlineUser, AioutlineBook, AiOutlineBook, AiOutlineProject, AiOutlineContacts } from 'react-icons/ai';
+import { AiOutlineHome, AiOutlineContacts } from 'react-icons/ai';
 
 function Footer() {
     return (
@@ -8,10 +8,7 @@ function Footer() {
             <div className="heading">Made with ReactJS</div>
             <div className="txt">
                 <div className="my">Vivek Suthar</div>
-                <div className="connect">
-                    <AiOutlineBook/>
-                    <AiOutlineContacts/>
-                    <AiOutlineHome/>    
+                <div className="connect">d
                 </div>
             </div>
         </div>
