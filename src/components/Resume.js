@@ -12,6 +12,8 @@ import linux from "../Assets/linux.png";
 import mysql from "../Assets/mysql.svg";
 import vscode from "../Assets/vscode.svg";
 import windows from "../Assets/win10.svg";
+import next from "../Assets/next.svg"
+import bt from "../Assets/bootstrap.svg"
 export default function Resume() {
     return (
         <>
@@ -51,7 +53,7 @@ export default function Resume() {
                             <td>C++</td>
                         </tr>
                         <tr>
-                        <td><img src={java}></img></td>
+                            <td><img src={java}></img></td>
                             <td>Java</td>
                         </tr>
                         <tr>
@@ -59,7 +61,7 @@ export default function Resume() {
                             <td>Javascript</td>
                         </tr>
                         <tr>
-                        <td><img src={cpp}></img></td>
+                            <td><img src={cpp}></img></td>
                             <td>PHP</td>
                         </tr>
                     </table>
@@ -70,19 +72,19 @@ export default function Resume() {
                             <td>VS Code</td>
                         </tr>
                         <tr>
-                        <td><img src={git}></img></td>
+                            <td><img src={git}></img></td>
                             <td>Git</td>
                         </tr>
                         <tr>
-                        <td><img src={linux}></img></td>
+                            <td><img src={linux}></img></td>
                             <td>Linux(WSL)</td>
                         </tr>
                         <tr>
-                        <td><img src={windows}></img></td>
+                            <td><img src={windows}></img></td>
                             <td>Windows</td>
                         </tr>
                         <tr>
-                        <td><img src={mysql}></img></td>
+                            <td><img src={mysql}></img></td>
                             <td>MYSQL</td>
                         </tr>
                     </table>
@@ -93,13 +95,17 @@ export default function Resume() {
                             <td>ReactJS</td>
                         </tr>
                         <tr>
-                        <td><img src={jq}></img></td>
+                            <td><img src={jq}></img></td>
                             <td>jQuey</td>
                         </tr>
                         <tr>
-                            <td>NexrJS</td>
+                            <td><img src={next}></img></td>
+
+                            <td>NextJS</td>
                         </tr>
                         <tr>
+                            <td><img src={bt}></img></td>
+
                             <td>Bootstarp</td>
                         </tr>
                         <tr>

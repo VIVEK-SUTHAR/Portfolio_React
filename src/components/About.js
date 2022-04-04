@@ -15,8 +15,9 @@ function About() {
             // Speed settings, try diffrent values untill you get good results
             startDelay: 300,
             typeSpeed: 100,
-            backSpeed: 100,
-            backDelay: 100
+            backSpeed: 10,
+            backDelay: 100,
+            loop:true
         });
         return () => {
             typed.destroy();

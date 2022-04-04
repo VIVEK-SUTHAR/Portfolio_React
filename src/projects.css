@@ -1,69 +1,106 @@
-.projectContainer {
-    width: 100%;
-    height: 80vh;
+.project {
+    position: relative;
+    height: max-content;
+    padding: 50px;
+    text-align: center;
+    color: aqua;
+}
+
+.projectheader {
     display: flex;
-    flex-direction: column;
-    border: 1px solid red;
     justify-content: center;
     align-items: center;
 }
 
-.projectHeading {
-    font-size: 3rem;
-    color: aqua;
+.projectheader>button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    padding: 0px 10px;
+    margin: 0 25px;
+    font-size: 1.2rem;
+    transition: all 0.25s ease-in-out;
 }
 
-.projectCards {
-    width: 100%;
-    height: 100%;
-    border: 1px solid yellow;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    /* flex-wrap: wrap; */
+.projectheader>button:hover {
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
 }
 
-.projectCard {
-    width: 90%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.2);
-    border: 1px solid blueviolet;
-    margin: 0 1%;
-    border-radius: 12px;
-    text-align: center;
-    color: aqua;
-    transition: all 0.4s ease-in-out;
+.projectContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2%;
+    height: inherit;
+    padding: 20px 0;
 }
-.projectCard > img{
-    height:200px;
-    width: 250px;object-fit: contain;
+
+.card {
+    width: auto;
+    height: max-content;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: all 0.25s ease-in-out;
+    padding: 10px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card>button {
+    width: 30%;
+    font-size: 1rem;
+    padding: 2px;
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+}
+
+.card button a {
+    text-decoration: none;
+    color: #000;
+}
+
+.card img {
+    width: 80%;
+    height: 50%;
+    object-fit: cover;
     border-radius: 10px;
 }
-.projectCard:hover{
-    transform: scaley(1.1);
-    box-shadow: 0px 0px 10px 1px blueviolet;
+
+@media screen and (max-width: 768px) {
+    .projectContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
+
+    .projectheader h1 {
+        font-size: 1.3rem;
+    }
+
+    .projectheader button {
+        font-size: 0.9rem;
+        padding: 0.1rem 0.3rem;
+    }
+
     .projectContainer {
-        font-size: 2rem;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 7%;
     }
 
-    .projectCards {
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        padding: 20px;
+    .card>button {
+        width: 40%;
+        font-size: 1rem;
+        padding: 2px;
+        background-color: aqua;
+        border: none;
+        border-radius: 5px;
     }
 
-    .projectCard {
-        width: 100%;
-        height: 100%;
-        margin: 5px;font-size: 1rem;
-    }
 }
