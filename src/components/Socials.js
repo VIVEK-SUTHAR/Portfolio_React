@@ -6,9 +6,9 @@ export default function Socials() {
     return (
         <div className='container'>
             <ul>
-                <li><a href="#"><AiOutlineLinkedin /></a></li>
-                <li><a href="#"><AiOutlineGithub /></a></li>
-                <li><a href="#"><CgMail /></a></li>
+                <li><a href="https://www.linkedin.com/in/vivek-suthar-160152202/"><AiOutlineLinkedin /></a></li>
+                <li><a href="https://github.com/VIVEK-SUTHAR"><AiOutlineGithub /></a></li>
+                <li><a href="sutharvivek18@gmail.com"><CgMail /></a></li>
             </ul>
         </div>
     )
