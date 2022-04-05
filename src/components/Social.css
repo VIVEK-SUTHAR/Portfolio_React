@@ -14,7 +14,8 @@
     font-size: 3rem;
     transition: all 0.3s ease-in-out;
 }
-.container ul li a:hover{
+
+.container ul li a:hover {
     font-size: 3.5rem;
     color: aqua;
 }
@@ -42,7 +43,7 @@
 
     .container ul li a {
         font-size: 1.5rem;
-        margin:0.5rem 0.5rem;
+        margin: 0.5rem 0.5rem;
         padding: .5rem;
     }
 
