@@ -1,0 +1,59 @@
+#contactPage {
+    position: relative;
+    height: max-content;
+    padding:40px;
+    color: aqua;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    height: max-content;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 30vw;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+form label {
+    font-size: 1.5rem;
+}
+
+form input, textarea {
+    resize: none;
+    width: 60%;
+    border: none;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.65);
+    color: black;
+    border-radius: 8px;
+}
+
+form input:focus {
+    outline: none;
+}
+
+#sendMSg {
+    border: 1px solid snow;
+    border-radius: 8px;
+    padding: 5px;
+    width: 30%;
+    height: 10%;
+    background-color: transparent;
+    color: aqua;
+    transition: all 0.2s ease-in-out;
+}
+
+#sendMSg:hover {
+    background-color: aqua;
+    color: black;
+    border: none;
+}
+@media (max-width:500px) {
+    form {
+        width: 80vw;
+    }
+}

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Pic from "../Assets/Pic.jpg"
 import "./me.css"
 export default function Me() {
@@ -6,7 +6,7 @@ export default function Me() {
     // window.onscroll() > 20 ? me.classList.add("animate__rollIn") : me.classList.add("animate__rollIn")
     return (
         <div id='Me' className='animate__animated'>
-            <img src={Pic}></img>
+            <img src={Pic} alt=""></img>
             <div className="me-text">
                 Hi! 👋 I'm Vivek, a 19-year-old engineering sophomore pursuing BTech
                 in Information Technology. I am a passionate self-learner, CP

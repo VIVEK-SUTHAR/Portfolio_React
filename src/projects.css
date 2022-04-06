@@ -1,9 +1,10 @@
 .project {
     position: relative;
     height: max-content;
-    padding: 50px;
+    padding: 40px;
     text-align: center;
     color: aqua;
+    overflow:hidden;
 }
 
 .projectheader {
@@ -33,9 +34,9 @@
 .projectContainer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2%;
-    height: inherit;
+    gap: 3% 2%;
     padding: 20px 0;
+    height: max-content;
 }
 
 .card {
@@ -79,6 +80,9 @@
 }
 
 @media screen and (max-width: 500px) {
+    .project{
+        overflow: scroll;
+    }
 
     .projectheader h1 {
         font-size: 1.3rem;
@@ -91,7 +95,7 @@
 
     .projectContainer {
         grid-template-columns: repeat(1, 1fr);
-        gap: 7%;
+        gap: 4%;
     }
 
     .card>button {
