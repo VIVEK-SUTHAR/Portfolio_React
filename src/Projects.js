@@ -4,7 +4,7 @@ import msg from "./Assets/msg-clone.jpg"
 import data from "./projects.json"
 function Projects() {
     return (
-        <div className='project'>
+        <div className='project' id='Projects'>
             <div className="projectheader">
                 <h1>What I have Built?</h1><button>
                     See All

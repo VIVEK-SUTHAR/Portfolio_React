@@ -12,8 +12,8 @@ function Navbar() {
             <a href="#about_section" className='active'><AiOutlineHome /></a>
             <a href="#Me"><AiOutlineUser /></a>
             <a href="#Resume"><AiOutlineBook /></a>
-            <a href="#"><AiOutlineProject /></a>
-            <a href="#"><AiOutlineContacts /></a>
+            <a href="#Projects"><AiOutlineProject /></a>
+            <a href="#contactPage"><AiOutlineContacts /></a>
         </nav>
     )
 }
