@@ -32,79 +32,82 @@ export default function Resume() {
                         </div>
                     </div>
                     <div className="achive">
-                        My Achivements<br />
-                        👉3⭐At Codechef<br />
-                        👉4⭐At Hacker-Rank(C)<br />
-                        👉Qualified for Snackdown 2021<br />
-                        👉Global Rank 535 At Codechef Lunch-time(Nov-21)<br />
+                        <ol>
+                            My Achivements
+                            <li>👉3⭐At Codechef</li>
+                            <li>👉4⭐At Hacker-Rank(C)</li>
+                            <li>👉Qualified for Snackdown 2021</li>
+                            <li>Global Rank 535 At Codechef Lunch-time(Nov-21)</li>
+                        </ol>
                     </div>
                 </div>
             </div>
             <div id="skills">
+                Skills
                 <div className="skillContainer">
                     <table>
                         <th>Languages I Use</th>
                         <tr>
-                            <td><img src={c}></img></td>
+                            <td><img src={c} alt=""></img></td>
                             <td>C</td>
                         </tr>
                         <tr>
-                            <td><img src={cpp}></img></td>
+                            <td><img src={cpp} alt=""></img></td>
                             <td>C++</td>
                         </tr>
                         <tr>
-                            <td><img src={java}></img></td>
+                            <td><img src={java} alt=""></img></td>
                             <td>Java</td>
                         </tr>
                         <tr>
-                            <td><img src={js}></img></td>
+                            <td><img src={js} alt=""></img></td>
                             <td>Javascript</td>
                         </tr>
                         <tr>
-                            <td><img src={cpp}></img></td>
+                            <td><img src={cpp} alt=""></img></td>
                             <td>PHP</td>
                         </tr>
                     </table>
                     <table>
                         <th>Tools I use</th>
                         <tr>
-                            <td><img src={vscode}></img></td>
+                            <td><img src={vscode} alt=""></img></td>
                             <td>VS Code</td>
                         </tr>
                         <tr>
-                            <td><img src={git}></img></td>
+                            <td><img src={git} alt=""></img></td>
                             <td>Git</td>
                         </tr>
                         <tr>
-                            <td><img src={linux}></img></td>
+                            <td><img src={linux} alt=""></img></td>
                             <td>Linux(WSL)</td>
                         </tr>
                         <tr>
-                            <td><img src={windows}></img></td>
+                            <td><img src={windows} alt=""></img></td>
                             <td>Windows</td>
                         </tr>
                         <tr>
-                            <td><img src={mysql}></img></td>
+                            <td><img src={mysql} alt=""></img></td>
                             <td>MYSQL</td>
                         </tr>
                     </table>
                     <table>
                         <th>Libraries And FrameWorks I Use</th>
                         <tr>
-                            <td><img src={react}></img></td>
+                            <td><img src={react} alt=""></img></td>
                             <td>ReactJS</td>
                         </tr>
                         <tr>
-                            <td><img src={jq}></img></td>
+                            <td><img src={jq} alt=""></img></td>
                             <td>jQuey</td>
                         </tr>
                         <tr>
-                            <td><img src={next}></img></td>
+                            <td><img src={next} alt=""></img></td>
 
                             <td>NextJS</td>
                         </tr>
                         <tr>
-                            <td><img src={bt}></img></td>
+                            <td><img src={bt} alt=""></img></td>
 
                             <td>Bootstarp</td>
                         </tr>

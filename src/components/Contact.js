@@ -5,7 +5,7 @@ function Contact() {
         <div id='contactPage'>
             <h1>Contact Me</h1>
             <div className="contactForm">
-                <form>
+                <form name="contact" method="POST" data-netlify="true" action="/pages/success">
                     <label htmlFor="Name">Your Name</label><br />
                     <input type="text" name="Name" id="Name" placeholder='Your Name' /><br />
                     <label htmlFor="Name">Your E-Mail ID</label><br />

@@ -1,6 +1,5 @@
 import React from 'react'
 import './projects.css'
-import msg from "./Assets/msg-clone.jpg"
 import data from "./projects.json"
 function Projects() {
     return (
@@ -12,9 +11,9 @@ function Projects() {
             <div className="projectContainer">
                 {
                     data && data.map((el) => {
-                        return <div className="card">
+                        return <div className="card" key={el.id}>
                             <h2>{el.name}</h2>
-                            <img src={msg} alt="" />
+                            {/* <img src={el.project_picture} alt="" /> */}
                             <h3>Tech Stack Used</h3>
                             <p>{el.tech_stack}</p>
                             <button><a href={el.project_link}>Visit Now</a></button>

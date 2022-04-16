@@ -1,13 +1,13 @@
 #Resume {
     width: 100%;
-    height: 100vh;
+    height: max-content;
     overflow: hidden;
 }
 
 .resume_container {
     margin: 5% 5%;
     width: 90%;
-    height: 90%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,19 +20,21 @@
     margin: 1% 0;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .achive {
-    width: 100%;
-    height: 40%;
-    margin: 1% 0;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    font-size: 2rem;
+    background-color: rgba(255, 255, 255, 0.164);
+    border-radius: 10px;
     color: aqua;
-    text-align: center;
+    display: flex;
+    font-size: 2rem;
+    height: auto;
+    justify-content: center;
+    padding: 2rem;
+    text-align: justify;
+    width: max-content;
 }
 
 .education img {
@@ -41,8 +43,7 @@
 }
 
 .edu_text {
-    padding: 1%;
-    width: 80%;
+    width: max-content;
     height: 100%;
     font-size: 2rem;
     color: aqua;
@@ -50,7 +51,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0;
+    background-color: rgba(255, 255, 255, 0.164);
+    padding: 2%;
+    border-radius: 10px;
 }
 
 #skills {
@@ -58,6 +61,10 @@
     height: 70%;
     width: 100%;
     color: aqua;
+    text-align: center;
+    font-size: 3rem;
+    /* background-color: rgba(255, 255, 255, 0.164); */
+    padding: 5%;
 }
 
 .skillContainer {
@@ -111,30 +118,35 @@
         margin: 1% 0;
         font-size: 1.2rem;
     }
-    .skillContainer{
+
+    .skillContainer {
         flex-direction: row;
         height: max-content;
     }
-    .skillContainer table{
+
+    .skillContainer table {
         font-size: 1.4rem;
 
     }
 }
 
 @media screen and (max-width: 480px) {
-
     .education {
         width: 100%;
         height: max-content;
         margin: 0.5% 0;
         flex-direction: column;
-        background-color: rgba(255, 255, 255, 0.164);
         border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.164);
+        padding: 2%;
+
     }
 
     .edu_text {
-        font-size: 1.2rem;
+        background-color: transparent;
+        font-size: 1.1rem;
         flex-wrap: wrap;
+        text-align: left;
     }
 
     .achive {
@@ -142,28 +154,31 @@
         width: 100%;
         height: 40%;
         margin: 1% 0;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         border-radius: 10px;
-        backdrop-filter: blur(20px);
+        text-align: left;
     }
+
     #skills {
-        height:max-content;
+        height: max-content;
     }
-    .skillContainer{
+
+    .skillContainer {
         height: fit-content;
-        width: 90%;
+        width: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .skillContainer table{
+
+    .skillContainer table {
         width: 80%;
         color: aqua;
         background-color: rgba(255, 255, 255, 0.180);
         backdrop-filter: blur(20px);
-        margin: 5px 0;
+        margin: 1% 0;
         padding: 0 5px;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         border-radius: 12px;
     }
 }

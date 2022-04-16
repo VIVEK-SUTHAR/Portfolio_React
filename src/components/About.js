@@ -17,7 +17,7 @@ function About() {
             typeSpeed: 100,
             backSpeed: 10,
             backDelay: 100,
-            loop:true
+            loop: true
         });
         return () => {
             typed.destroy();

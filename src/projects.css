@@ -4,7 +4,6 @@
     padding: 40px;
     text-align: center;
     color: aqua;
-    overflow:hidden;
 }
 
 .projectheader {
@@ -33,19 +32,19 @@
 
 .projectContainer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 3% 2%;
     padding: 20px 0;
     height: max-content;
 }
 
 .card {
-    width: auto;
+    width: 100%;
     height: max-content;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     transition: all 0.25s ease-in-out;
-    padding: 10px;
+    padding: 25px;
 }
 
 .card:hover {
@@ -80,10 +79,6 @@
 }
 
 @media screen and (max-width: 500px) {
-    .project{
-        overflow: scroll;
-    }
-
     .projectheader h1 {
         font-size: 1.3rem;
     }

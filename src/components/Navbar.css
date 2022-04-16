@@ -1,5 +1,4 @@
 nav {
-    /* background-color: rgba(0, 0, 0, 0.3); */
     background-color: transparent;
     width: max-content;
     display: block;
@@ -8,7 +7,6 @@ nav {
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    /* bottom: 2rem; */
     display: flex;
     gap: 0.8rem;
     border-radius: 3rem;

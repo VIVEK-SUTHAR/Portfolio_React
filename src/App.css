@@ -18,13 +18,12 @@
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 1px;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  /* background: rgba(61, 61, 61, 0.637);
-   */
+
    background-color: transparent;
 }
 

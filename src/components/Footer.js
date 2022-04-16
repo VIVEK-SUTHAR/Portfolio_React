@@ -9,8 +9,8 @@ function Footer() {
             <div className="txt">
                 <div className="my">Vivek Suthar</div>
                 <div className="connect">
-                    <AiOutlineLinkedin/>
-                    <AiOutlineGithub/>
+                    <AiOutlineLinkedin />
+                    <AiOutlineGithub />
                 </div>
             </div>
         </div>
