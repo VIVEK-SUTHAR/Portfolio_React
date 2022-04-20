@@ -88,16 +88,20 @@ body{
     }
 
     .btn {
-        width: 100%;
-        flex-direction: row;
-        justify-content: center;
+        width: 50%;
+        height:max-content;
+        padding: 20px;
+        /* outline: 1px solid red; */
+        flex-direction:column;
+        justify-content: flex-start;
     }
-
+    
     .btn button {
-        width: max-content;
+        /* width: max-content; */
+        width:100% !important; 
         height: max-content;
-        font-size: 14px;
+        font-size: 16px;
         padding: 5px;
-        margin: 1px 10px;
+        margin:  10px;
     }
 }
