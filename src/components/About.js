@@ -23,9 +23,9 @@ function About() {
             typed.destroy();
         };
     }, []);
-
     return (
         <>
+        
             <div id='about_section' className='animate__animated'>
                 Hello, I am Vivek Suthar<br />
                 <div className="my_tag">
