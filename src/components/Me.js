@@ -6,7 +6,7 @@ export default function Me() {
     // window.onscroll() > 20 ? me.classList.add("animate__rollIn") : me.classList.add("animate__rollIn")
     return (
         <div id='Me' className='animate__animated'>
-            <div className="image">
+            {/* <div className="image">
                 <img src={Pic} alt=""></img>
             </div>
             <div className="me-text">
@@ -15,6 +15,18 @@ export default function Me() {
                 Enthusiast,exploring and building projects👨‍💻 using various
                 technologies. I am a frontend web developer well versed in HTML, CSS,
                 JavaScript and stand at a beginner-intermediate level of React.
+            </div> */}
+            <div class="cont">
+                <div class="img">
+                    <img src={Pic} alt="" />
+                </div>
+                <div class="text">
+                    Hi! 👋 I'm Vivek, a 19-year-old engineering sophomore pursuing BTech
+                    in Information Technology. I am a passionate self-learner, CP
+                    Enthusiast,exploring and building projects👨‍💻 using various
+                    technologies. I am a frontend web developer well versed in HTML, CSS,
+                    JavaScript and stand at a beginner-intermediate level of React.
+                </div>
             </div>
         </div>
     )
