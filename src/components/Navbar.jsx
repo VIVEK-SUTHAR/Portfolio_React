@@ -11,13 +11,13 @@ function Navbar() {
         if (!isOpen) {
             isOpen = true;
             l1.style.transform = "rotate(45deg)";
-            l2.style.opacity = 0;
+            l2.style.width = 0;
             l3.style.transform = "rotate(-45deg)";
             sidebar.style.left = 0;
         }
         else {
             l1.style.transform = "rotate(0deg)";
-            l2.style.opacity = 1;
+            l2.style.width = "52%";
             l3.style.transform = "rotate(0deg)";
             sidebar.style.left = "-100%";
             isOpen = false;
