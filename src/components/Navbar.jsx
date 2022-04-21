@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import "./Navbar.css"
 import { AiOutlineHome, AiOutlineUser, AiOutlineBook, AiOutlineProject, AiOutlineContacts } from 'react-icons/ai';
 function Navbar() {
