@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import "./About.css";
 import Typed from "typed.js";
-import Socials from './Socials';
 function About() {
     useEffect(() => {
         let about = document.getElementById('about_section');
@@ -35,7 +34,6 @@ function About() {
                     <button> Download Resume</button>
                     <button> Let's Talk</button>
                 </div>
-                <Socials />
             </div>
         </>
     )
