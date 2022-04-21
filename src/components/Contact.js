@@ -8,9 +8,6 @@ function Contact() {
     const [issent, setIssent] = useState(false);
     const sendMsg = (event) => {
         event.preventDefault();
-        setName('');
-        setEmail('');
-        setMessage('');
         db.collection('FORM_SUBMISSIONS').add({
             name: name,
             email: email,
@@ -19,6 +16,11 @@ function Contact() {
         setIssent(true);
         setTimeout(() => {
             setIssent(false);
+        }, 5000);
+        setTimeout(() => {
+            setName('');
+            setEmail('');
+            setMessage('');
         }, 5000);
     }
     return (
@@ -32,17 +34,23 @@ function Contact() {
             <div className="contactForm">
                 <form name="contact">
                     <label htmlFor="Name">Your Name</label><br />
-                    <input type="text" name="Name" id="Name" placeholder='Your Name' value={name} onChange={(e) => setName(e.target.value)} /><br />
+                    <input type="text" name="Name" id="Name" placeholder='Your Name' value={name} onChange={(e) => setName(e.target.value)}
+                        required
+                    /><br />
                     <label htmlFor="Name">Your E-Mail ID</label><br />
                     <input type="email" name="mail" id="mail" placeholder='Your E-Mail Address'
-
-                        value={email} onChange={(e) => setEmail(e.target.value)}
+                        value={email} onChange={(e) => setEmail(e.target.value)
+                        }
+                        required
                     /><br />
                     <label htmlFor="Name">Your Message</label><br />
                     <textarea
                         value={message} onChange={(e) => setMessage(e.target.value)}
                     ></textarea><br />
-                    <button type='submit' id='sendMSg' onClick={sendMsg}>Send Message</button>
+                    <button type='submit' id='sendMSg' onClick={sendMsg}
+                        disabled={name === "" || email === "" || message === ""}
+
+                    >Send Message</button>
                 </form>
             </div>
         </div>
