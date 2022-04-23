@@ -1,6 +1,6 @@
-import React from 'react'
-import "./footer.css"
-import { AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai';
+import React from 'react';
+import { AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/ai';
+import "./footer.css";
 
 function Footer() {
     return (

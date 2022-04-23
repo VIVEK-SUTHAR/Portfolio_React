@@ -32,6 +32,13 @@
 
 @media screen and (max-width: 500px) {
     .footer {
-        display: none;
+        position: absolute;
+        display: block;
+        text-align: center;
+        height: max-content;
+    }
+
+    .connect {
+        flex: 0.50;
     }
 }
