@@ -33,8 +33,8 @@ function Navbar() {
                     </div>
                     <div className="right mobile">
                         <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#home">About</a></li>
+                            <li><a href="#Me">Home</a></li>
+                            <li><a href="#about_section">About</a></li>
                             <li><a href="#home">Resume</a></li>
                             <li><a href="#home">Projects</a></li>
                             <li><a href="#home">Contact</a></li>

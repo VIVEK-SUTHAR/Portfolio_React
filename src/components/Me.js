@@ -1,7 +1,7 @@
+import { motion } from "framer-motion"
 import React from 'react'
 import Pic from "../Assets/Pic.jpg"
 import "./me.css"
-import { motion } from "framer-motion"
 
 export default function Me() {
     // let me = document.querySelector("#Me");

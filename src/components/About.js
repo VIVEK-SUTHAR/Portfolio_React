@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from 'react'
-import "./About.css";
+import React, { useEffect, useRef } from 'react';
 import Typed from "typed.js";
+import "./About.css";
 function About() {
     useEffect(() => {
         let about = document.getElementById('about_section');
