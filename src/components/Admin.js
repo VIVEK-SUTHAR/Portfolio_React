@@ -8,7 +8,10 @@ function Admin() {
     const [passworsd, setPassworsd] = useState("");
     const [isWrongCrenditials, setIsWrongCrenditials] = useState(false)
     useEffect(() => {
-        db.collection('FORM_SUBMISSIONS').onSnapshot((snapshot) => {
+        db
+        .collection('FORM_SUBMISSIONS')
+        .orderBy("timestamp","desc")
+        .onSnapshot((snapshot) => {
             setMessages(snapshot.docs.map(doc => ({ id: doc.id, data: doc.data() })))
         })
     }, []);
@@ -66,7 +69,7 @@ function Admin() {
                     <div className='AContainer'>
                         {
                             messages && messages.map((el) => (
-                                <div className='message-card'>
+                                <div key={el.id} className='message-card'>
                                     Name:{el.data.name}
                                     <br />
                                     email:{el.data.email}

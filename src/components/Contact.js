@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
-import "./Contact.css"
-import db from './firebase'
+import firebase from 'firebase/compat/app';
+import React, { useState } from 'react';
+import "./Contact.css";
+import db from './firebase';
 function Contact() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -11,7 +12,8 @@ function Contact() {
         db.collection('FORM_SUBMISSIONS').add({
             name: name,
             email: email,
-            message: message
+            message: message,
+            timestamp: firebase.firestore.FieldValue.serverTimestamp(),
         });
         setIssent(true);
         setTimeout(() => {
