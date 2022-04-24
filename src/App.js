@@ -1,22 +1,19 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import Admin from "./components/Admin";
+import Main from "./components/Main";
 import Navbar from "./components/Navbar";
-import "./App.css"
-import About from "./components/About";
-import Me from "./components/Me";
-import Resume from "./components/Resume";
-import Projects from "./Projects";
-import Footer from "./components/Footer";
-import Contact from "./components/Contact";
 function App() {
   return (
-    <div>
-      <Navbar />
-      <About />
-      <Me />
-      <Resume />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
+    <>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route exact path="/" element={<Main />} />
+          <Route path="/admin" element={<Admin />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

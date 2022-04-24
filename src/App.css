@@ -7,7 +7,10 @@
   font-family: 'Baloo Bhaijaan 2', cursive;
   scroll-behavior: smooth;
 }
-
+a{
+  text-decoration: none;
+  color: aqua;
+}
 :root {
   --color-bg: #1f1f38;
   --color-bg-varient: #2c2c6c;
@@ -24,7 +27,7 @@
 
 ::-webkit-scrollbar-track {
 
-   background-color: transparent;
+  background-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -44,4 +47,119 @@ body {
   background-color: #191627;
   overflow-x: hidden;
 
+}
+
+.AContainer {
+  max-width: 95%;
+  height: 100%;
+  padding: 30px;
+  margin-top: 13vh;
+  margin: 10vh auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 1rem;
+  place-items: center;
+}
+
+.message-card {
+  width: 100%;
+  height: 100%;
+  margin: 1rem;
+  border-radius: 5px;
+  padding: 20px;
+  color: aqua;
+  background-color: rgba(255, 255, 255, 0.322);
+  text-align: left;
+}
+
+.flex {
+  max-width: 95%;
+  height: 80vh;
+  padding: 30px;
+  margin-top: 10vh;
+  margin: 10vh auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.flex form button {
+  width: 20%;
+  height: max-content;
+  margin: 1rem;
+  background-color: transparent;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+.flex form button:hover {
+  background-color: aqua;
+}
+
+.logout {
+  position: fixed;
+  top: 9.5vh;
+  width: 15vw;
+  left: 40%;
+  z-index: 5;
+  background-color: aqua;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+
+@media (max-width:768px) {
+
+  .AContainer {
+    max-width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    padding: 0;
+    margin-top: 13vh;
+    margin-left: 0;
+  }
+
+  .message-card {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    margin: 1rem;
+    border-radius: 5px;
+    padding: 20px;
+    color: aqua;
+    background-color: rgba(255, 255, 255, 0.322);
+    margin-left: -25px;
+  }
+}
+
+@media (max-width:500px) {
+
+  .AContainer {
+    max-width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+    margin-top: 13vh;
+    margin: 13vh 0;
+    overflow-x: hidden;
+    padding: 10px;
+    place-content: unset;
+  }
+
+  .message-card {
+    position: relative;
+    /* max-width: 75%; */
+    height: 100%;
+    max-width: 75%;
+    border-radius: 5px;
+    padding: 20px;
+    color: aqua;
+    background-color: rgba(255, 255, 255, 0.322);
+    text-align: left;
+  }
 }

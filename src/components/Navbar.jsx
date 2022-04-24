@@ -1,6 +1,7 @@
-import React from 'react'
-import "./Navbar.css"
-import { AiOutlineHome, AiOutlineUser, AiOutlineBook, AiOutlineProject, AiOutlineContacts } from 'react-icons/ai';
+import React from 'react';
+import { AiOutlineBook, AiOutlineContacts, AiOutlineHome, AiOutlineProject, AiOutlineUser } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
+import "./Navbar.css";
 function Navbar() {
     let isOpen = false;
     const shownav = () => {
@@ -48,7 +49,8 @@ function Navbar() {
             </div>
             <div className="mobilenav">
                 <div className="item">
-                    <AiOutlineHome />Home
+                    <AiOutlineHome />
+                    <Link to="/" onClick={()=>isOpen(false)}>Home</Link>
                 </div>
                 <div className="item">
                     <AiOutlineUser /> About
