@@ -12,9 +12,10 @@
 
 form {
     height: max-content;
-    background-color: rgba(255, 255, 255, 0.3);
+    /* background-color: rgba(255, 255, 255, 0.086); */
+    border: 2px solid snow;
     width: 30vw;
-    padding: 25px;
+    padding:35px;
     border-radius: 12px;
 }
 
@@ -23,14 +24,15 @@ form label {
 }
 
 form input, textarea {
+    margin-block: 5%;
     resize: none;
     width: 100%;
     border: none;
     padding: 8px 15px;
     caret-color: aqua;
-    background-color: rgba(255, 255, 255, 0.65);
-    color: black;
-    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: snow;
+    border-radius: 20px;
 }
 
 form input,textarea:focus {
@@ -53,7 +55,11 @@ form input,textarea:focus {
     color: black;
     border: 1px solid transparent;
 }
-
+@media (max-width:768px) {
+    form{
+        width: 50vw;
+    }   
+}
 @media (max-width:500px) {
     form {
         width: 80vw;

@@ -10,7 +10,7 @@ export default function Me() {
         <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ duration:1 }}
+            transition={{ duration: 1 }}
         >
             <div id='Me' className='animate__animated'>
                 {/* <div className="image">
@@ -24,6 +24,7 @@ export default function Me() {
                 JavaScript and stand at a beginner-intermediate level of React.
             </div> */}
                 <div class="cont">
+
                     <div class="img">
                         <img src={Pic} alt="" />
                     </div>

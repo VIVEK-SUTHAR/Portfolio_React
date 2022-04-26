@@ -3,15 +3,16 @@ import Typed from "typed.js";
 import "./About.css";
 function About() {
     useEffect(() => {
-        let about = document.getElementById('about_section');
-        about.classList.add("animate__rollIn");
+        let about = document.getElementById('landing_text');
+        let btn = document.getElementsByClassName('btn')[0];
+        btn.classList.add('animate__fadeInUp');
+        about.classList.add("animate__backInUp");
 
     }, [])
     const el = useRef(null);
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ["An IT Student", "A Web-Developer", "3-⭐At Codechef ", "Co-Head HackClub SVIT(Web)"], // Strings to display
-            // Speed settings, try diffrent values untill you get good results
+            strings: ["An IT Student", "A Web-Developer", "Co Head HackClub SVIT"], // Strings to display
             startDelay: 300,
             typeSpeed: 100,
             backSpeed: 10,
@@ -24,17 +25,22 @@ function About() {
     }, []);
     return (
         <>
-        
-            <div id='about_section' className='animate__animated'>
-                Hello, I am Vivek Suthar<br />
-                <div className="my_tag">
-                    I Am <span ref={el}></span>
+
+            <div id='about_section'>
+                <div id='landing_text' className='animate__animated'>
+                    👋 Hello, I am Vivek Suthar
+                    <div className="my_tag" >
+                        <span className='my_tag' ref={el}></span>
+                    </div>
                 </div>
-                <div className="btn">
-                    <button> Download Resume</button>
-                    <button> Let's Talk</button>
+                <div className="animate__animated btn">
+                    <button> Resume</button>
+                </div>
+                <div id="mark">
+                    "The Only Way To Do Great Work is do what you love"-Some Legend
                 </div>
             </div>
+
         </>
     )
 }

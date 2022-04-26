@@ -28,9 +28,9 @@ function Navbar() {
         <>
             <div className="navbar">
                 <div className="wrapper">
-                    <div className="left">
+                    {/* <div className="left">
                         Vivek
-                    </div>
+                    </div> */}
                     <div className="right mobile">
                         <ul>
                             <li><a href="#Me">Home</a></li>
@@ -50,7 +50,7 @@ function Navbar() {
             <div className="mobilenav">
                 <div className="item">
                     <AiOutlineHome />
-                    <Link to="/" onClick={()=>isOpen(false)}>Home</Link>
+                    <Link to="/" onClick={() => isOpen(false)}>Home</Link>
                 </div>
                 <div className="item">
                     <AiOutlineUser /> About
