@@ -33,10 +33,10 @@ function Navbar() {
                     </div> */}
                     <div className="right mobile">
                         <ul>
-                            <li><a href="#Me">Home</a></li>
+                            <li><Link to="/">Home</Link></li>
                             <li><a href="#about_section">About</a></li>
                             <li><a href="#home">Resume</a></li>
-                            <li><a href="#home">Projects</a></li>
+                            <li><Link to="/projects">Projects</Link></li>
                             <li><a href="#home">Contact</a></li>
                         </ul>
                     </div>
@@ -59,7 +59,9 @@ function Navbar() {
                     <AiOutlineBook /> Resume
                 </div>
                 <div className="item">
-                    <AiOutlineProject /> Project
+                    <AiOutlineProject />
+                    <Link to="/projects" onClick={() => isOpen(false)}>Project</Link>
+
                 </div>
                 <div className="item">
                     <AiOutlineContacts /> Contact

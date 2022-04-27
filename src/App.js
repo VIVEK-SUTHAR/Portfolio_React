@@ -3,6 +3,7 @@ import "./App.css";
 import Admin from "./components/Admin";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
+import Projects from "./Projects";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Main />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/projects" element={<Projects/>} />
         </Routes>
       </BrowserRouter>
     </>

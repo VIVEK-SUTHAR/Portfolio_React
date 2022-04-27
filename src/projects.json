@@ -1,56 +1,167 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "name": "Messenger Clone",
-    "tech_stack": "ReactJS,Firebase,Material UI",
-    "project_link": "https://messenger-clone-byvivek.netlify.app/"
+    "img_link": "/img/msg-clone.jpg",
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/react.png"
+      },
+      {
+        "id": 1,
+        "img": "/img/css.svg"
+      },
+      {
+        "id": 2,
+        "img": "/img/firebase.svg"
+      },
+      {
+        "id": 3,
+        "img": "/img/mui.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "",
+        "github": ""
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Whats-App Web Clone",
+    "img_link": "/project/wp-web.jpg",
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/react.png"
+      },
+      {
+        "id": 1,
+        "img": "/img/css.svg"
+      },
+      {
+        "id": 2,
+        "img": "/img/firebase.svg"
+      },
+      {
+        "id": 3,
+        "img": "/img/mui.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "",
+        "github": ""
+      }
+    ]
   },
   {
     "id": 2,
-    "name": "WhatsApp-Web Clone",
-    "tech_stack": "ReactJS,Firebase,Material UI",
-    "project_link": "https://whatsapp-clone-6100c.web.app/"
+    "name": "Google Clone",
+    "img_link": "/project/gc.jpg",
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/react.png"
+      },
+      {
+        "id": 1,
+        "img": "/img/css.svg"
+      },
+      {
+        "id": 2,
+        "img": "/img/firebase.svg"
+      },
+      {
+        "id": 3,
+        "img": "/img/mui.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "",
+        "github": ""
+      }
+    ]
   },
   {
     "id": 3,
     "name": "macOS Clone",
-    "tech_stack": "HTML,CSS,JavaScript,jQuery",
-    "project_link": "https://vivek-suthar.github.io/macOS-Clone/"
+    "img_link": "/img/msg-clone.jpg",
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/html.svg"
+      },
+      {
+        "id": 1,
+        "img": "/img/css.svg"
+      },
+      {
+        "id": 2,
+        "img": "/img/js.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "",
+        "github": ""
+      }
+    ]
   },
   {
     "id": 4,
-    "name": "Google Clone",
-    "tech_stack": "ReactJS,Firebase,MaterialUI,CSS",
-    "project_link": "https://clone-6f1ac.web.app/"
+    "name": "HackClub SVIT Website",
+    "img_link": "/project/hcs.jpg",
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/next.svg"
+      },
+      {
+        "id": 1,
+        "img": "/img/theme.png"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "",
+        "github": ""
+      }
+    ]
   },
   {
     "id": 5,
-    "name": "HackClub SVIT WebSite",
-    "tech_stack": "NextJS,ThemeUI",
-    "project_link": "https://www.hackclubsvit.co/"
-  },
-  {
-    "id": 6,
-    "name": "SCC WebSite",
-    "tech_stack": "NextJS,ChakraUI",
-    "project_link": "https://scc2022.netlify.app/"
-  },
-  {
-    "id": 7,
-    "name": "Personal Portfolio",
-    "tech_stack": "ReactJS,CSS",
-    "project_link": "https://viveksuthar.me/"
-  },
-  {
-    "id": 8,
-    "name": "Crypto Price Tracker",
-    "tech_stack": "ReactJS,CSS",
-    "project_link": "https://cryptopricetrackerbyvivek.netlify.app/"
-  },
-  {
-    "id": 9,
-    "name": "Text Utils",
-    "tech_stack": "ReactJS,CSS",
-    "project_link": "https://textutilsbyvivek.netlify.app/"
+    "name": "Signal Clone",
+    "img_link": "/project/sigc.jpg",
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/rn.svg"
+      },
+      {
+        "id": 1,
+        "img": "/img/mui.svg"
+      },
+      {
+        "id": 1,
+        "img": "/img/firebase.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "",
+        "github": ""
+      }
+    ]
   }
+  
 ]
