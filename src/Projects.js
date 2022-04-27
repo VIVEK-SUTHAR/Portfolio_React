@@ -24,7 +24,7 @@ function Projects() {
                                     <div className="tech">
                                         {
                                             el["tech-stack"].map((tech) =>
-                                                <img src={tech.img} alt="msg" loading="lazy"></img>
+                                                <img src={tech.img} alt="msg" loading="lazy" key={tech.id}></img>
                                             )
                                         }
                                     </div>
