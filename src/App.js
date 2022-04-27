@@ -11,8 +11,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Main />} />
-          <Route exact path="/admin" element={<Admin />} />
-          <Route exact path="/projects" element={<Projects />} />
+          <Route path="/admin" element={<Admin />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
       </BrowserRouter>
     </>
