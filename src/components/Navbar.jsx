@@ -28,9 +28,6 @@ function Navbar() {
         <>
             <div className="navbar">
                 <div className="wrapper">
-                    {/* <div className="left">
-                        Vivek
-                    </div> */}
                     <div className="right mobile">
                         <ul>
                             <li><Link to="/">Home</Link></li>

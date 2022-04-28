@@ -15,7 +15,7 @@ form {
     /* background-color: rgba(255, 255, 255, 0.086); */
     border: 2px solid snow;
     width: 30vw;
-    padding:35px;
+    padding: 35px;
     border-radius: 12px;
 }
 
@@ -34,16 +34,16 @@ form input, textarea {
     border-radius: 20px;
 }
 
-form input,textarea:focus {
+form input, textarea:focus {
     outline: none;
 }
 
 #sendMSg {
     border: 1px solid snow;
     border-radius: 8px;
-    padding: 5px;
-    width: 30%;
-    height: 10%;
+    padding: 10px;
+    width:max-content;
+    height: auto;
     background-color: transparent;
     color: aqua;
     transition: all 0.2s ease-in-out;
@@ -54,16 +54,19 @@ form input,textarea:focus {
     color: black;
     border: 1px solid transparent;
 }
+
 @media (max-width:768px) {
-    form{
-        width: 50vw;
-    }   
+    form {
+        width:70vw;
+        height: auto;
+    }
 }
+
 @media (max-width:500px) {
     form {
         width: 90vw;
         padding: 15px;
-        height: max-content ;
+        height: max-content;
     }
 
     #sendMSg {
@@ -77,8 +80,10 @@ form input,textarea:focus {
         transition: all 0.2s ease-in-out;
         margin-bottom: 15px;
     }
-    form input,textarea{
-        padding: 10px;;
+
+    form input, textarea {
+        padding: 10px;
+        ;
     }
 
 }

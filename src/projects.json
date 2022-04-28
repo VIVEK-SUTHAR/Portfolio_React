@@ -122,7 +122,7 @@
     "tech-stack": [
       {
         "id": 0,
-        "img": "/img/next.svg"
+        "img": "/img/next_.png"
       },
       {
         "id": 1,
@@ -153,6 +153,50 @@
       {
         "id": 1,
         "img": "/img/firebase.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "",
+        "github": ""
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Prakarsh '22",
+    "img_link": "/project/prakarsh.jpg",
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/react.png"
+      },
+      {
+        "id": 1,
+        "img": "/img/chakra.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "",
+        "github": ""
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Track Crypto",
+    "img_link": "/project/crypto.jpg",
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/react.png"
+      },
+      {
+        "id": 1,
+        "img": "/img/css.svg"
       }
     ],
     "links": [

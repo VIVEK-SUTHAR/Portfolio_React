@@ -22,7 +22,7 @@
 .cards {
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255,0.5) ;
+    background-color: rgba(0, 0, 0, 0.06);
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -30,6 +30,7 @@
     padding-bottom: 20px;
     text-align: center;
     font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.086);
     font-weight: 600;
     transition: all 0.2s ease-in-out;
 }
@@ -72,7 +73,7 @@
 }
 
 .cards .btns button {
-    width: 40%;
+    width:max-content;
     padding: 3px 8px;
     font-size: medium;
     background-color: transparent;

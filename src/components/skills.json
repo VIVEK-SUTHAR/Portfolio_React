@@ -1,0 +1,124 @@
+{
+  "All": [
+    {
+      "id": 0,
+      "img": "/img/bootstrap.svg"
+    },
+    {
+      "id": 1,
+      "img": "/img/c.svg"
+    },
+    {
+      "id": 2,
+      "img": "/img/cpp.svg"
+    },
+    {
+      "id": 3,
+      "img": "/img/firebase.svg"
+    },
+    {
+      "id": 4,
+      "img": "/img/git.svg"
+    },
+    {
+      "id": 5,
+      "img": "/img/github.svg"
+    },
+    {
+      "id": 6,
+      "img": "/img/html.svg"
+    },
+    {
+      "id": 7,
+      "img": "/img/java.gif"
+    },
+    {
+      "id": 8,
+      "img": "/img/jQuery.png"
+    },
+    {
+      "id": 9,
+      "img": "/img/js.svg"
+    },
+    {
+      "id": 10,
+      "img": "/img/mui.svg"
+    },
+    {
+      "id": 11,
+      "img": "/img/mysql.svg"
+    },
+    {
+      "id": 12,
+      "img": "/img/react.png"
+    },
+    {
+      "id": 13,
+      "img": "/img/nodejs.svg"
+    },
+    {
+      "id": 14,
+      "img": "/img/next_.png"
+    },
+    {
+      "id": 15,
+      "img": "/img/rn.svg"
+    },
+    {
+      "id": 16,
+      "img": "/img/tailwind.svg"
+    },
+    {
+      "id": 17,
+      "img": "/img/css.svg"
+    }
+  ],
+  "dev": [
+    {
+      "id": 0,
+      "name": "HTML"
+    },
+    {
+      "id": 1,
+      "name": "CSS"
+    },
+    {
+      "id": 2,
+      "name": "Javascript"
+    },
+    {
+      "id": 3,
+      "name": "NodeJS"
+    },
+    {
+      "id": 4,
+      "name": "ReactJS"
+    },
+    {
+      "id": 5,
+      "name": "NextJS"
+    },
+    {
+      "id": 6,
+      "name": "Firebase"
+    },
+    {
+      "id": 7,
+      "name": "React Native"
+    }
+  ],
+  "design": [
+    {
+      "id": 0,
+      "name": "Canva"
+    },
+    {
+      "id": 1,
+      "name": "Figma"
+    },
+    {
+      "id": 2,
+      "name": "Adobe Xd"
+    }
+  ]
+}
