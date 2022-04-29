@@ -83,7 +83,7 @@
     width: 90%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     #skills {
         width: 90%;
         height: min-content;

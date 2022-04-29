@@ -87,14 +87,19 @@
     border: 2px solid aqua;
     color: aliceblue;
 }
-
-@media screen and (max-width: 768px) {
+@media (max-width: 1312px) {
     .grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 992px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 688px) {
     .grid {
         grid-template-columns: repeat(1, 1fr);
     }

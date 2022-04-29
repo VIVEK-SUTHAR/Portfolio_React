@@ -1,137 +1,146 @@
-#Resume {
-    width: 100%;
-    height: max-content;
-    overflow: hidden;
+@mixin tablet-and-up {
+    @media screen and (min-width: 769px) {
+        @content;
+    }
 }
 
-.resume_container {
-    margin: 5% 5%;
-    width: 90%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+@mixin mobile-and-up {
+    @media screen and (min-width: 601px) {
+        @content;
+    }
 }
 
-.education {
-    width: 100%;
-    height: 55%;
-    margin: 1% 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+@mixin tablet-and-down {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
 }
 
-.achive {
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.086);
-    border-radius: 10px;
+@mixin mobile-only {
+    @media screen and (max-width: 600px) {
+        @content;
+    }
+}
+
+
+ul, li {
+    list-style: none;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    /* display: flex;
+    flex-direction: c;
+    justify-content: space-between;
+    align-items: center; */
+    /* padding: 0 1rem; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem 0;
+}
+
+.edu {
+    position: absolute;
     color: aqua;
-    display: flex;
-    font-size: 2rem;
-    height: auto;
-    justify-content: center;
+    text-align: center;
+    font-size: 34px;
+    width: 100%;
+    /* margin: auto; */
+    /* outline: 1px solid red; */
+}
+
+h1 {
+    color: aqua;
+    text-align: center;
+    font-size: 34px;
+}
+
+.time-wrapper {
+    background-color: rgba(255, 255, 255, 0.086);
     padding: 2rem;
-    text-align: justify;
-    width: max-content;
+    width: 90%;
+    border-radius: 15px;
+    margin: 1rem;
 }
 
-.education img {
-    height: 100%;
-    width: 40%;
-    
+h1 {
+    font-size: 1.1rem;
+    font-family: sans-serif;
 }
 
-.edu_text {
-    /* width: max-content; */
-    height: 100%;
-    font-size: 2rem;
+.sessions {
+    margin-top: 2rem;
+    border-radius: 12px;
+    position: relative;
+}
+
+.sessions li {
+    padding-bottom: 1.5rem;
+    /* border-left: 1px solid #abaaed; */
+    border-left: 2px solid aqua;
+    position: relative;
+    padding-left: 20px;
+    margin-left: 10px;
+
+    &:last-child {
+        border: 0px;
+        padding-bottom: 0;
+    }
+
+    &:before {
+        content: '';
+        width: 15px;
+        height: 15px;
+        background: white;
+        border: 1px solid #4e5ed3;
+        box-shadow: 3px 3px 0px #bab5f8;
+        box-shadow: 3px 3px 0px #bab5f8;
+        border-radius: 50%;
+        position: absolute;
+        left: -10px;
+        top: 0px;
+    }
+}
+
+.time {
+    /* color: #2a2839; */
     color: aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align:justify;
-    background-color: rgba(255, 255, 255, 0.086);
-    padding: 1.6rem;
-    border-radius: 10px;
-}
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 
-
-@media (max-width: 768px) and (min-width: 481px) {
-    .resume_container {
-        flex-direction: column;
-        justify-content: space-evenly;
+    @include mobile-and-up {
+        font-size: .9rem;
     }
 
-    .education {
-        width: 100%;
-        height: 40%;
-        margin: 0.5% 0;
-    }
-
-    .edu_text {
-        font-size: 1rem;
-        flex-wrap: wrap;
-    }
-
-    .achive {
-        width: 100%;
-        height: 40%;
-        margin: 1% 0;
-        font-size: 1.2rem;
-    }
-
-    .skillContainer {
-        flex-direction: row;
-        height: max-content;
-    }
-
-    .skillContainer table {
-        font-size: 1.4rem;
-
+    @include mobile-only {
+        margin-bottom: .3rem;
+        font-size: 0.85rem;
     }
 }
 
-@media screen and (max-width: 480px) {
-    .education {
-        width: 100%;
-        height: max-content;
-        margin: 0.5% 0;
-        flex-direction: column;
-        border-radius: 10px;
-        background-color: rgba(255, 255, 255, 0.086);
-        padding: 2%;
-    }
-.education img{
-    display: none;
-}
+.sessions li p {
+    color: snow;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin-top: 0.4rem;
 
-    .edu_text {
-        background-color: transparent;
-        font-size: 1.1rem;
-        flex-wrap: wrap;
-        text-align:justify;
-        padding: rem;
-    }
-
-    .achive {
-        background-color: rgba(255, 255, 255, 0.086);
-        width: 100%;
-        height: 40%;
-        margin: 6% 0;
-        font-size: 1.1rem;
-        border-radius: 10px;
-        text-align: justify;
+    @include mobile-only {
+        font-size: .9rem;
     }
 }
 
-@media screen and (max-width: 281px) {
-    #Resume {
-        margin-top: 80%;
+@media (max-width:992px) {
+    .container {
+        width: 95%;
+        grid-template-columns: repeat(2, 1fr);
     }
+}
 
-    .achive, .edu_text {
-        font-size: 1rem;
+@media (max-width:688px) {
+    .container {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
     }
 }

@@ -47,6 +47,7 @@ function Contact() {
                     /><br />
                     <label htmlFor="Name">Your Message</label><br />
                     <textarea
+                    placeholder='Type Your message here...'
                         value={message} onChange={(e) => setMessage(e.target.value)}
                     ></textarea><br />
                     <button type='submit' id='sendMSg' onClick={sendMsg}

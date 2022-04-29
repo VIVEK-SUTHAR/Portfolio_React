@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import React from 'react';
-import edu from "../Assets/edu.svg";
 import "./resume.css";
 export default function Resume() {
     return (
@@ -11,29 +10,41 @@ export default function Resume() {
                 transition={{ duration: 1 }}
                 viewport={{ once: false }}
             >
-                <div id='Resume'>
-                    <div className="resume_container">
-                        <div className="education">
-                            <img src={edu} alt="" />
-                            <div className="edu_text">
-                                Education<br />
-                                Pursuing B.E I.T From SVIT,Vasad<br />
-                                Current Sem:4 CGPA:8.60<br />
-                                12th HSC,Science,Kalarav School,Halol<br />
-                                Grade:68.5%<br />
-                                10th SSC,N.T High School,Kanisa<br />
-                                Grade:87.5%
-                            </div>
-                        </div>
-                        <div className="achive">
-                            <ol>
-                                My Achivements
-                                <li>👉3⭐At Codechef</li>
-                                <li>👉4⭐At Hacker-Rank(C)</li>
-                                <li>👉Qualified for Snackdown 2021</li>
-                                <li>Global Rank 535 At Codechef Lunch-time(Nov-21)</li>
-                            </ol>
-                        </div>
+                <span className="edu">My Time line</span>
+                <div class="container">
+                    <div class="time-wrapper">
+                        <h1>Education</h1>
+                        <ul class="sessions">
+                            <li>
+                                <div class="time">From SVIT,Vasad</div>
+                                <p>B.E In Information Technology</p>
+                            </li>
+                            <li>
+                                <div class="time">From Kalarav School,Halol</div>
+                                <p>12<sup>th</sup> HSC</p>
+                            </li>
+                            <li>
+                                <div class="time">From N.T high School Kanisa</div>
+                                <p>10<sup>th</sup> SSC</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="time-wrapper">
+                        <h1> Experience</h1>
+                        <ul class="sessions">
+                            <li>
+                                <div class="time">November-'21 To Present</div>
+                                <p>Co Head(Web), Hack Club SVIT</p>
+                            </li>
+                            <li>
+                                <div class="time">2021-2022</div>
+                                <p>Jt Social And Web-Design Secreatary ,SCC SVIT Vasad</p>
+                            </li>
+                            <li>
+                                <div class="time">March-2022</div>
+                                <p>Volunteer,Prakarsh'17 Web Team</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </motion.div>
