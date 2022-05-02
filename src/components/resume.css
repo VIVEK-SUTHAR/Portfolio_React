@@ -9,7 +9,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 3rem 0;
-}
+    /* outline: 1px solid red; */
+    }
 
 .edu {
     position: absolute;
@@ -28,7 +29,8 @@ h1 {
 }
 
 .time-wrapper {
-    background-color: rgba(255, 255, 255, 0.086);
+    /* background-color: rgba(255, 255, 255, 0.086); */
+    background-color:dimgray;
     padding: 2rem;
     width: 90%;
     border-radius: 15px;
