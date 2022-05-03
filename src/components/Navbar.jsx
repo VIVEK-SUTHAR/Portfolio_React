@@ -31,10 +31,10 @@ function Navbar() {
                     <div className="right mobile">
                         <ul>
                             <li><Link to="/">Home</Link></li>
-                            <li><a href="#about_section">About</a></li>
-                            <li><a href="#home">Resume</a></li>
+                            <li><Link to="/about">About</Link></li>
+                            <li><Link to="/resume">Resume</Link></li>
                             <li><Link to="/projects">Projects</Link></li>
-                            <li><a href="#home">Contact</a></li>
+                            <li><Link to="/contact">Contact</Link></li>
                         </ul>
                     </div>
                     <div className="hamburger" onClick={shownav}>
@@ -50,7 +50,7 @@ function Navbar() {
                     <Link to="/" onClick={() => isOpen(false)}>Home</Link>
                 </div>
                 <div className="item">
-                    <AiOutlineUser /> About
+                    <AiOutlineUser /><a href='#about_section' onClick={() => isOpen = false}>About</a>
                 </div>
                 <div className="item">
                     <AiOutlineBook /> Resume

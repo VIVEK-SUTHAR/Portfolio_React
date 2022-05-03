@@ -34,7 +34,7 @@ function About() {
                     </div>
                 </div>
                 <div className="animate__animated btn">
-                    <button> Resume</button>
+                    <button > Resume</button>
                 </div>
                 <div id="mark">
                     "The Only Way To Do Great Work is do what you love"-Some Legend
