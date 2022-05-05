@@ -17,7 +17,6 @@
         font-weight: bold;
         margin-block: 1rem;
         z-index: 9;
-
     }
 
     form {
@@ -28,7 +27,6 @@
         padding: 35px;
         border-radius: 12px;
         z-index: 9;
-
     }
 
     form label {
