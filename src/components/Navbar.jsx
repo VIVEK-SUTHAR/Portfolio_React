@@ -61,7 +61,9 @@ function Navbar() {
 
                 </div>
                 <div className="item">
-                    <AiOutlineContacts /> Contact
+                    <AiOutlineContacts />
+                    <Link to="/contact" onClick={() => isOpen(false)}>Contact</Link>
+
                 </div>
             </div>
         </>
