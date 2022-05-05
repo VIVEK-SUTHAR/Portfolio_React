@@ -1,13 +1,13 @@
 #about_section {
+    align-items: center;
     background-color: rgba(0, 0, 0);
-    height: 100vh;
-    width: 100vw;
-    font-size: 5rem;
+    color: var(--color-primary);
     display: flex;
     flex-direction: column;
+    font-size: 5rem;
+    height: 100vh;
     justify-content: center;
-    align-items: center;
-    color: var(--color-primary);
+    width: 100vw;
 }
 
 body {
@@ -15,48 +15,48 @@ body {
 }
 
 #landing_text {
-    /* border: 1px solid red; */
-    min-width: 60vw;
-    min-height: 10vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    /* border: 1px solid red; */
+    display: flex;
     color: aqua;
+    flex-direction: column;
     font-size: 20px;
     font-family: cursive;
+    justify-content: center;
+    min-height: 10vh;
+    min-width: 60vw;
 }
 
 .btn {
-    width: 100%;
-    height: max-content;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
+    height: max-content;
+    justify-content: center;
+    width: 100%;
 }
 
 .my_tag {
-    font-size: 96px;
+    background-clip: text;
     background: linear-gradient(to right, #00c3ff, #ffff1c);
     background: linear-gradient(60deg, #ff00cc, #5d5dec);
+    font-size: 96px;
     -webkit-background-clip: text;
-    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .btn button {
+    background-color: transparent;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    color: aqua;
+    font-size: 1.2rem;
     width: max-content;
     height: auto;
     margin: 1rem 2rem;
     padding-block: 5;
     padding-inline: 10px;
-    background-color: transparent;
-    border: 1px solid aqua;
-    border-radius: 5px;
     outline-style: none;
-    font-size: 1.2rem;
     transition: all 0.3s ease-in-out;
-    color: aqua;
     text-align: center;
 }
 
@@ -65,12 +65,13 @@ body {
     transform: scale(1.1);
     background-color: aqua;
 }
-#mark{
-    position:absolute;
+
+#mark {
+    position: absolute;
     bottom: 5px;
-    min-height: 4vh ;
+    min-height: 4vh;
     min-width: 100vw;
-    background-color:transparent;
+    background-color: transparent;
     font-size: 24px;
     color: antiquewhite;
     text-align: center;
@@ -80,10 +81,11 @@ body {
     -webkit-text-fill-color: transparent;
     /* background: linear-gradient(to right, #fc5c7d, #6a82fb); */
 }
-#mark marquee{
-    min-height: 4vh ;
-  
-} 
+
+#mark marquee {
+    min-height: 4vh;
+
+}
 
 @media screen and (max-width: 1024px) {
     #about_section {
@@ -159,15 +161,16 @@ body {
         min-width: 100vw;
         max-width: 98vw;
         font-size: 16px;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         padding: 0;
     }
 
     .my_tag {
         font-size: 40px !important;
     }
-    #mark{
-        padding:10px;
+
+    #mark {
+        padding: 10px;
         /* text-align: j; */
     }
 }
