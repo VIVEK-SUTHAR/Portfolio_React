@@ -186,6 +186,36 @@
     ]
   },
   {
+    "id": 6,
+    "name": "Instagram-Clone",
+    "img_link": "/project/insta.jpg",
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/react.png"
+      },
+      {
+        "id": 1,
+        "img": "/img/css.svg"
+      },
+      {
+        "id": 2,
+        "img": "/img/mui.svg"
+      },
+      {
+        "id": 3,
+        "img": "/img/firebase.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "https://instagram-clone-14882.web.app/",
+        "github": "https://github.com/VIVEK-SUTHAR/instagram-clone"
+      }
+    ]
+  },
+  {
     "id": 5,
     "name": "Track Crypto",
     "img_link": "/project/crypto.jpg",

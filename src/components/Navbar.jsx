@@ -58,12 +58,10 @@ function Navbar() {
                 <div className="item">
                     <AiOutlineProject />
                     <Link to="/projects" onClick={() => isOpen(false)}>Projects</Link>
-
                 </div>
                 <div className="item">
                     <AiOutlineContacts />
                     <Link to="/contact" onClick={() => isOpen(false)}>Contact</Link>
-
                 </div>
             </div>
         </>
