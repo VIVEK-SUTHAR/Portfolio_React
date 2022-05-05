@@ -13,7 +13,7 @@ function Main() {
             <Me />
             <Resume />
             <Skills />
-            <Contact />
+            {/* <Contact /> */}
             <Footer />
         </>
     )
