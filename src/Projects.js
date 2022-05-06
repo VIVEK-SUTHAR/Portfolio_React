@@ -1,6 +1,5 @@
 import { motion } from "framer-motion"
 import React from 'react'
-import { Link } from "react-router-dom"
 import Footer from "./components/Footer"
 import './projects.css'
 import projects from "./projects.json"
@@ -32,8 +31,8 @@ function Projects() {
                                         {
                                             el.links.map((links) =>
                                                 <>
-                                                    <button ><Link to={links.live}>View live</Link></button>
-                                                    <button><Link to={links.github}>Github</Link></button>
+                                                    <button><a href={links.live}>View Live</a></button>
+                                                    <button><a href={links.github}>Github</a></button>
                                                 </>
                                             )
                                         }
