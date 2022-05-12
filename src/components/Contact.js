@@ -27,7 +27,7 @@ function Contact() {
     }
     return (
         <>
-        <div id="block"></div>
+            <div id="block"></div>
             <div id='contactPage'>
                 <h1>Contact Me</h1>
                 {
