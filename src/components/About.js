@@ -39,9 +39,9 @@ function About() {
                     <button > Resume</button>
                 </div>
                 <div id="socials">
-                    <a href=""></a><AiOutlineGithub />
-                    <AiOutlineLinkedin />
-                    <AiOutlineTwitter />
+                    <a href="https://github.com/VIVEK-SUTHAR"><AiOutlineGithub /></a>
+                    <a href="https://www.linkedin.com/in/vivek-suthar-160152202"><AiOutlineLinkedin /></a>
+                    <a href="https://twitter.com/theviveksuthar"><AiOutlineTwitter /></a>
                 </div>
                 <div id="mark">
                     "The Only Way To Do Great Work is do what you love"-Some Legend

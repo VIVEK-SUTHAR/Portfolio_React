@@ -84,7 +84,7 @@
         width: 52%;
         z-index: 5;
         transform-origin: left;
-        transition: all .5s ease;
+        transition: all .2s ease;
     }
 
     .hamburger .line2 {
@@ -106,7 +106,7 @@
         background-color: rgba(255, 255, 255, 0.2);
         background-color: transparent;
         backdrop-filter: blur(10px);
-        transition: all 0.5s ease;
+        transition: all 0.2s ease;
         z-index: 4;
         padding: 120px 10px;
     }
