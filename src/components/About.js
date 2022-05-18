@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from 'react';
+import { AiOutlineGithub, AiOutlineLinkedin, AiOutlineTwitter } from 'react-icons/ai';
 import Typed from "typed.js";
 import "./About.css";
+
 function About() {
     useEffect(() => {
         let about = document.getElementById('landing_text');
@@ -35,6 +37,11 @@ function About() {
                 </div>
                 <div className="animate__animated btn">
                     <button > Resume</button>
+                </div>
+                <div id="socials">
+                    <a href=""></a><AiOutlineGithub />
+                    <AiOutlineLinkedin />
+                    <AiOutlineTwitter />
                 </div>
                 <div id="mark">
                     "The Only Way To Do Great Work is do what you love"-Some Legend

@@ -28,7 +28,7 @@ function Navbar() {
         <>
             <div className="navbar">
                 <div className="wrapper">
-                    <div className="right mobile">
+                    <div className="right">
                         <ul>
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/about">About</Link></li>

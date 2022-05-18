@@ -2,8 +2,8 @@
     position: fixed;
     top: 0;
     width: 100%;
-    height: 8vh;
-    min-height: 8vh;
+    height: 5vh;
+    min-height: 5vh;
     /* background-color: rgba(255, 255, 255, 0.2); */
     z-index: 2;
     backdrop-filter: blur(10px);
@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12px;
+    padding: 4px;
 }
 
 .wrapper .left {
@@ -28,7 +28,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.6rem;
 }
 
 .wrapper .hamburger {
@@ -40,11 +39,11 @@
 }
 
 .wrapper .right ul li {
-    margin-right: 15px;
+    margin: 0px 8px;
 }
 
 .wrapper .right ul li a {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: aqua;
 }
 
@@ -100,7 +99,7 @@
         align-items: center;
         height: 100%;
         width: 100%;
-        top: 7.9vh;
+        top: 5vh;
         left: -100%;
         background-color: dimgray;
         background-color: rgb(50, 48, 48);
