@@ -10,7 +10,7 @@
     color: aliceblue;
     border-radius: 10px;
     padding: 30px 15px;
-    background-color: dimgray;
+    /* background-color: dimgray; */
     margin-block: 1rem;
 }
 
@@ -30,11 +30,13 @@
 .all {
     width: 95%;
     height: 50%;
-    outline: 2px solid snow;
+    outline: 2px solid azure;
     border-radius: 10px;
     column-span: 2;
     margin-top: 1rem;
     background-color: rgba(255, 255, 255, 0.03);
+    /* background-color: rgba(255, 255, 255, 0.01); */
+
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -53,7 +55,7 @@
     background-color: rgba(255, 255, 255, 0.03);
     border-radius: 10px;
     text-align: center;
-    outline: 2px solid aliceblue;
+    outline: 2px solid azure;
     padding: 15px;
     font-size: 15px;
 }
@@ -72,8 +74,8 @@
     background-color: rgba(255, 255, 255, 0.03);
     border-radius: 10px;
     text-align: center;
-    outline: 2px solid aliceblue;
     padding: 15px;
+    outline: 2px solid azure;
     font-size: 15px;
 }
 
@@ -82,7 +84,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 90%;
+    /* width: 90%; */
 }
 
 @media (max-width: 992px) {

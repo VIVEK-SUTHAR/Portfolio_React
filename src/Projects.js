@@ -13,7 +13,7 @@ function Projects() {
                 viewport={{ once: false }}
             >
                 <section className="projectsContainer">
-                    <h1>Stuff I built</h1>
+                    <h1 className="title">Stuff I built</h1>
                     <div className="grid">
                         {
                             projects && projects.map((el) =>

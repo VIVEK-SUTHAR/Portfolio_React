@@ -17,7 +17,7 @@ function About() {
             strings: ["An IT Student", "A Web-Developer", "Co Head HackClub SVIT"], // Strings to display
             startDelay: 300,
             typeSpeed: 100,
-            backSpeed: 10,
+            backSpeed: 100,
             backDelay: 100,
             loop: true
         });
@@ -27,7 +27,6 @@ function About() {
     }, []);
     return (
         <>
-
             <div id='about_section'>
                 <div id='landing_text' className='animate__animated'>
                     👋 Hello, I am Vivek Suthar
@@ -36,7 +35,10 @@ function About() {
                     </div>
                 </div>
                 <div className="animate__animated btn">
-                    <button > Resume</button>
+
+                    <button>
+                        <a href="https://ipfs.filebase.io/ipfs/bafkreieuf5tirk4zjbpk53womdno5rttkqn5e5rjv2xfjdpcdsfs25itde" download="true"> Resume</a>
+                    </button>
                 </div>
                 <div id="socials">
                     <a href="https://github.com/VIVEK-SUTHAR"><AiOutlineGithub /></a>

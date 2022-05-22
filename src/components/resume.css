@@ -10,7 +10,7 @@
     grid-template-columns: repeat(2, 1fr);
     padding: 3rem 0;
     /* outline: 1px solid red; */
-    }
+}
 
 .edu {
     position: absolute;
@@ -26,11 +26,23 @@ h1 {
     color: aqua;
     text-align: center;
     font-size: 34px;
+
+}
+
+.title {
+    background: linear-gradient(-55deg, #E21143, #FFB03A);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 40px;
 }
 
 .time-wrapper {
     /* background-color: rgba(255, 255, 255, 0.086); */
-    background-color:dimgray;
+    background-color: dimgray;
+    background-color: rgba(255, 255, 255, 0.05);
+
     padding: 2rem;
     width: 90%;
     border-radius: 15px;
@@ -67,9 +79,7 @@ h1 {
     width: 15px;
     height: 15px;
     background: white;
-    border: 1px solid #4e5ed3;
-    /* box-shadow: 3px 3px 0px #bab5f8; */
-    /* box-shadow: 3px 3px 0px #bab5f8; */
+    border: 2px solid coral;
     border-radius: 50%;
     position: absolute;
     left: -10px;

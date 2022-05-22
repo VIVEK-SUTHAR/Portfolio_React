@@ -29,7 +29,7 @@ function Contact() {
         <>
             <div id="block"></div>
             <div id='contactPage'>
-                <h1>Contact Me</h1>
+                <h1 className='title'>Contact Me</h1>
                 {
                     issent && (
                         <h3>Thank you {name} for your Message.</h3>

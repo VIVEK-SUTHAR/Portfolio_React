@@ -4,7 +4,7 @@ import data from "./components/skills.json";
 function Skills() {
     return (
         <div id="skills">
-            <h1>Skills</h1>
+            <h1 className='title'>Skills</h1>
             <div className="all">
                 {
                     data.All && data.All.map((skill) =>

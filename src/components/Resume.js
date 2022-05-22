@@ -10,7 +10,7 @@ export default function Resume() {
                 transition={{ duration: 1 }}
                 viewport={{ once: false }}
             >
-                <span className="edu">My Time line</span>
+                <span className="edu title">My Time line</span>
                 <div class="container">
                     <div class="time-wrapper">
                         <h1>Education</h1>
