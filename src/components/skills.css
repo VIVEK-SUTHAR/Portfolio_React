@@ -6,10 +6,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.086);
+    background-color: rgba(255, 255, 255, 0.05);
     color: aliceblue;
     border-radius: 10px;
-    padding: 30px 15px;
+    padding: 20px 15px;
     /* background-color: dimgray; */
     margin-block: 1rem;
 }
@@ -34,7 +34,7 @@
     border-radius: 10px;
     column-span: 2;
     margin-top: 1rem;
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: rgba(255, 255, 255, 0.01);
     /* background-color: rgba(255, 255, 255, 0.01); */
 
     display: flex;
@@ -52,7 +52,7 @@
 .dev {
     width: 90%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: rgba(255, 255, 255, 0.01);
     border-radius: 10px;
     text-align: center;
     outline: 2px solid azure;
@@ -71,7 +71,7 @@
 .design {
     width: 90%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: rgba(255, 255, 255, 0.01);
     border-radius: 10px;
     text-align: center;
     padding: 15px;

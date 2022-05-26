@@ -7,6 +7,7 @@
     /* background-color: rgba(255, 255, 255, 0.2); */
     z-index: 2;
     backdrop-filter: blur(10px);
+    border-bottom: 1px solid aliceblue;
     /* border-bottom: 1px solid lightgray; */
 }
 
@@ -88,7 +89,7 @@
     }
 
     .hamburger .line2 {
-        transition: all 0.15s ease-in-out
+        transition: all 0.15s ease-in-out;
     }
 
     .mobilenav {
@@ -100,24 +101,24 @@
         height: 100%;
         width: 100%;
         top: 5vh;
-        left: -100%;
-        background-color: dimgray;
-        background-color: rgb(50, 48, 48);
-        background-color: rgba(255, 255, 255, 0.2);
+        left: 0;
+        transform-origin: bottom;
         background-color: transparent;
         backdrop-filter: blur(10px);
-        transition: all 0.2s ease;
+        transition: all 0.4s ease-in-out;
         z-index: 4;
         padding: 120px 10px;
+        transform: scale(0);
     }
 
     .mobilenav .item {
-        width: 50%;
+        width: 60%;
         font-size: 1.8rem;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         color: aqua;
+        /* outline: 2px solid red; */
         border-radius: 10px;
     }
 }

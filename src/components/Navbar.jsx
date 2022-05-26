@@ -14,13 +14,15 @@ function Navbar() {
             l1.style.transform = "rotate(45deg)";
             l2.style.width = 0;
             l3.style.transform = "rotate(-45deg)";
-            sidebar.style.left = 0;
+            sidebar.style.transform = "rotate(0deg)";
+            sidebar.style.transform = "scale(1)";
         }
         else {
             l1.style.transform = "rotate(0deg)";
             l2.style.width = "52%";
             l3.style.transform = "rotate(0deg)";
-            sidebar.style.left = "-100%";
+            sidebar.style.transform = "rotate(180deg)";
+            sidebar.style.transform = "scale(0)";
             isOpen = false;
         }
     }
@@ -50,7 +52,8 @@ function Navbar() {
                     <Link to="/" onClick={() => isOpen(false)}>Home</Link>
                 </div>
                 <div className="item">
-                    <AiOutlineUser /><a href='#about_section' onClick={() => isOpen = false}>About</a>
+                    <AiOutlineUser />
+                    <Link to="/#Me" onClick={() => isOpen(false)}>About</Link>
                 </div>
                 <div className="item">
                     <AiOutlineBook /> Resume

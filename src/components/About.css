@@ -11,8 +11,9 @@
     width: 100vw;
     /* outline:1px solid red; */
     /* background-image: url("../Assets/bg.png") ; */
-    background-image: linear-gradient(0deg, #1B1B1B, rgba(0, 0, 0, 0.8)), url("../Assets/Mataura.png");
+    background-image: linear-gradient(0deg, #1B1B1B, rgba(0, 0, 0, 0.8)), url("../Assets/Mataura.webp");
     /* object-fit: contain; */
+    background-repeat: repeat-y;
     background-size: cover;
     /* backface-visibility: hidden; */
 }
@@ -31,6 +32,7 @@ body {
     font-family: cursive;
     justify-content: center;
     min-height: 10vh;
+    /* outline: 1px solid yellow; */
     min-width: 60vw;
 }
 
@@ -179,7 +181,7 @@ body {
     }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 688px) {
     #about_section {
         height: 100vh;
         width: 100vw;
@@ -204,7 +206,7 @@ body {
 
     .btn button {
         /* width: max-content; */
-        width: 100% !important;
+        width: 100%;
         height: max-content;
         font-size: 16px;
         padding: 5px;
@@ -213,14 +215,14 @@ body {
 
     #landing_text {
         min-width: 100vw;
-        max-width: 98vw;
+        min-height: 20vh;
         font-size: 16px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         padding: 0;
     }
 
     .my_tag {
-        font-size: 40px !important;
+        font-size: 35px;
     }
 
     #mark {
