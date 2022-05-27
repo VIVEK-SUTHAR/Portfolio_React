@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiOutlineBook, AiOutlineContacts, AiOutlineHome, AiOutlineProject, AiOutlineUser } from 'react-icons/ai';
+import { AiOutlineContacts, AiOutlineHome, AiOutlineProject } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import "./Navbar.css";
 function Navbar() {
@@ -50,13 +50,6 @@ function Navbar() {
                 <div className="item">
                     <AiOutlineHome />
                     <Link to="/" onClick={() => isOpen(false)}>Home</Link>
-                </div>
-                <div className="item">
-                    <AiOutlineUser />
-                    <Link to="/#Me" onClick={() => isOpen(false)}>About</Link>
-                </div>
-                <div className="item">
-                    <AiOutlineBook /> Resume
                 </div>
                 <div className="item">
                     <AiOutlineProject />

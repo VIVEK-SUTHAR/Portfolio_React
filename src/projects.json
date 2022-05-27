@@ -164,7 +164,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Prakarsh '22",
     "img_link": "/project/prakarsh.jpg",
     "tech-stack": [
@@ -186,7 +186,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Instagram-Clone",
     "img_link": "/project/insta.jpg",
     "tech-stack": [
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 8,
     "name": "Track Crypto",
     "img_link": "/project/crypto.jpg",
     "tech-stack": [
@@ -234,6 +234,32 @@
         "id": 0,
         "live": "https://cryptopricetrackerbyvivek.netlify.app/",
         "github": "https://github.com/VIVEK-SUTHAR/CryptoPriceTracker"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Buy Me A Coffee",
+    "img_link": "/project/coffee.jpg",
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/solid.svg"
+      },
+      {
+        "id": 1,
+        "img": "/img/next_.png"
+      },
+      {
+        "id": 2,
+        "img": "/img/css.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "https://buyvivekacoffee.netlify.app/",
+        "github": "https://github.com/VIVEK-SUTHAR/FrontEnd-Buy-Me-Cofee"
       }
     ]
   }
