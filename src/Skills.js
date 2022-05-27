@@ -30,7 +30,7 @@ function Skills() {
                     <div className="skillsCard">
                         <motion.div
                             className='dev'
-                            initial={{ y: "-100%" }}
+                            initial={{ y: "100%" }}
                             whileInView={{ y: 0 }}
                             transition={{ type: 'spring', duration: 0.9 }}
                             viewport={{ once: false }}
@@ -46,7 +46,7 @@ function Skills() {
                         </motion.div>
                         <motion.div
                             className='design'
-                            initial={{ y: "-100%" }}
+                            initial={{ y: "100%" }}
                             whileInView={{ y: 0 }}
                             transition={{ type: 'spring', duration: 0.9 }}
                             viewport={{ once: false }}

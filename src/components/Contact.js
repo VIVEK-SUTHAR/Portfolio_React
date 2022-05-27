@@ -27,6 +27,7 @@ function Contact() {
     }
     return (
         <>
+        
             <div id="block"></div>
             <div id='contactPage'>
                 <h1 className='title'>Contact Me</h1>
@@ -50,6 +51,7 @@ function Contact() {
                         <label htmlFor="Name">Your Message</label><br />
                         <textarea
                             placeholder='Type Your message here...'
+                            draggable="true"
                             value={message} onChange={(e) => setMessage(e.target.value)}
                         ></textarea><br />
                         <button type='submit' id='sendMSg' onClick={sendMsg}
