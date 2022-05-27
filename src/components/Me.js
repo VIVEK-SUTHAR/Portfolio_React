@@ -17,14 +17,13 @@ export default function Me() {
                 <center><h2 className="title">About Me</h2></center>
                 <div class="cont">
                     <motion.span
+                        className="img"
                         initial={{ scale: 0 }}
                         whileInView={{ scale: 1 }}
-                        transition={{ duration: 0.7 }}
+                        transition={{ type: 'spring', duration: 1 }}
                         viewport={{ once: false }}
                     >
-                        <div class="img">
-                            <img src={Pic} alt="" />
-                        </div>
+                        <img src={Pic} alt="" />
                     </motion.span>
                     <motion.span className="text"
                         initial={{ x: -300 }}
