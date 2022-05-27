@@ -6,22 +6,35 @@ function Skills() {
     return (
         <>
             <motion.div
-                initial={{ scale: 0 }}
-                whileInView={{ scale: 1 }}
-                transition={{ type: 'spring', duration: 2 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ type: 'spring', duration: 0.5 }}
+                viewport={{ once: false }}
             >
                 <div id="skills">
                     <h1 className='title'>Skills</h1>
-                    <div className="all">
+                    <motion.div
+                        className='all'
+                        initial={{ scale: 0 }}
+                        whileInView={{ scale: 1 }}
+                        transition={{ type: 'spring', duration: 0.9 }}
+                        viewport={{ once: false }}
+                    >
                         {
                             data.All && data.All.map((skill) =>
 
                                 <img src={skill.img} alt="" key={skill.id} />
                             )
                         }
-                    </div>
+                    </motion.div>
                     <div className="skillsCard">
-                        <div className="dev">
+                        <motion.div
+                            className='dev'
+                            initial={{ y: "-100%" }}
+                            whileInView={{ y: 0 }}
+                            transition={{ type: 'spring', duration: 0.9 }}
+                            viewport={{ once: false }}
+                        >
                             <h2>Development</h2>
                             <div className="content">
                                 {
@@ -30,9 +43,14 @@ function Skills() {
                                     )
                                 }
                             </div>
-                        </div>
-
-                        <div className="design">
+                        </motion.div>
+                        <motion.div
+                            className='design'
+                            initial={{ y: "-100%" }}
+                            whileInView={{ y: 0 }}
+                            transition={{ type: 'spring', duration: 0.9 }}
+                            viewport={{ once: false }}
+                        >
                             <h2>Design</h2>
                             <div className="content">
                                 {
@@ -41,7 +59,7 @@ function Skills() {
                                     )
                                 }
                             </div>
-                        </div>
+                        </motion.div>
                     </div>
                 </div>
             </motion.div>
