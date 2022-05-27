@@ -17,29 +17,16 @@ export default function Me() {
                 <center><h2 className="title">About Me</h2></center>
                 <div class="cont">
                     <div class="img">
-                        <motion.div
-                            initial={{ scale: 0, }}
-                            whileInView={{ scale: 1 }}
-                            transition={{ type: 'spring', duration: 1 }}
-                            viewport={{ once: false }}
-                        >
-                            <img src={Pic} alt="" />
-                        </motion.div>
+
+                        <img src={Pic} alt="" />
                     </div>
-                    <motion.div
-                        initial={{ y:200 }}
-                        whileInView={{ y:0 }}
-                        transition={{ type: 'spring', duration: 1 }}
-                        viewport={{ once: false }}
-                    >
-                        <div class="text">
-                            Hi! 👋 I'm Vivek, a 19-year-old engineering sophomore pursuing BTech
-                            in Information Technology. I am a passionate self-learner, CP
-                            Enthusiast,exploring and building projects👨‍💻 using various
-                            technologies. I am a frontend web developer well versed in HTML, CSS,
-                            JavaScript and stand at a beginner-intermediate level of React.
-                        </div>
-                    </motion.div>
+                    <div class="text">
+                        Hi! 👋 I'm Vivek, a 19-year-old engineering sophomore pursuing BTech
+                        in Information Technology. I am a passionate self-learner, CP
+                        Enthusiast,exploring and building projects👨‍💻 using various
+                        technologies. I am a frontend web developer well versed in HTML, CSS,
+                        JavaScript and stand at a beginner-intermediate level of React.
+                    </div>
                 </div>
             </div>
         </motion.div>
