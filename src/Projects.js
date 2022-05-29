@@ -10,7 +10,7 @@ function Projects() {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 1 }}
-                viewport={{ once: false }}
+                viewport={{ once: true }}
             >
                 <section className="projectsContainer">
                     <h1 className="title">Stuff I built</h1>
@@ -24,7 +24,7 @@ function Projects() {
                                     }}
                                     whileInView={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 1 }}
-                                    viewport={{ once: false }}
+                                    viewport={{ once: true }}
                                 >
                                     <div className="cards" key={el.id}>
                                         <img src={el.img_link} alt="msg" loading="lazy"></img>

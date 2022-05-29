@@ -12,7 +12,7 @@ export default function Resume() {
                     initial={{ x: "-100%" }}
                     whileInView={{ scale: 1, x: 0 }}
                     transition={{ type: 'spring', duration: 1 }}
-                    viewport={{ once: false }}
+                    viewport={{ once: true }}
 
                 >
                     <h1>Education</h1>
@@ -36,7 +36,7 @@ export default function Resume() {
                     initial={{ x: "-100%" }}
                     whileInView={{ x: 0 }}
                     transition={{ type: 'spring', duration: 1 }}
-                    viewport={{ once: false }}
+                    viewport={{ once: true }}
 
                 >
                     <h1> Experience</h1>

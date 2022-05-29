@@ -9,7 +9,7 @@ function Skills() {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ type: 'spring', duration: 0.5 }}
-                viewport={{ once: false }}
+                viewport={{ once: true }}
             >
                 <div id="skills">
                     <h1 className='title'>Skills</h1>
@@ -18,7 +18,7 @@ function Skills() {
                         initial={{ scale: 0 }}
                         whileInView={{ scale: 1 }}
                         transition={{ type: 'spring', duration: 0.9 }}
-                        viewport={{ once: false }}
+                        viewport={{ once: true }}
                     >
                         {
                             data.All && data.All.map((skill) =>
@@ -33,7 +33,7 @@ function Skills() {
                             initial={{ y: "100%" }}
                             whileInView={{ y: 0 }}
                             transition={{ type: 'spring', duration: 0.9 }}
-                            viewport={{ once: false }}
+                            viewport={{ once: true }}
                         >
                             <h2>Development</h2>
                             <div className="content">
@@ -49,7 +49,7 @@ function Skills() {
                             initial={{ y: "100%" }}
                             whileInView={{ y: 0 }}
                             transition={{ type: 'spring', duration: 0.9 }}
-                            viewport={{ once: false }}
+                            viewport={{ once: true }}
                         >
                             <h2>Design</h2>
                             <div className="content">

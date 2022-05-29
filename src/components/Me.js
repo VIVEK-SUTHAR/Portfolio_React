@@ -11,7 +11,7 @@ export default function Me() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1, }}
             transition={{ duration: 1 }}
-            viewport={{ once: false }}
+            viewport={{ once: true }}
         >
             <div id='Me' className='animate__animated'>
                 <center><h2 className="title">About Me</h2></center>
@@ -21,7 +21,7 @@ export default function Me() {
                         initial={{ scale: 0 }}
                         whileInView={{ scale: 1 }}
                         transition={{ type: 'spring', duration: 1 }}
-                        viewport={{ once: false }}
+                        viewport={{ once: true }}
                     >
                         <img src={Pic} alt="" />
                     </motion.span>
@@ -29,7 +29,7 @@ export default function Me() {
                         initial={{ x: -300 }}
                         whileInView={{ x: 0 }}
                         transition={{ duration: 0.7 }}
-                        viewport={{ once: false }}
+                        viewport={{ once: true }}
                     >
                         Hi! 👋 I'm Vivek, a 19-year-old engineering sophomore pursuing BTech
                         in Information Technology. I am a passionate self-learner, CP
