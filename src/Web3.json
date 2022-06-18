@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "name": "Buy Me A Coffee",
+    "img_link": "/project/coffee.jpg",
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/solid.svg"
+      },
+      {
+        "id": 1,
+        "img": "/img/next_.png"
+      },
+      {
+        "id": 2,
+        "img": "/img/css.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "https://buyvivekacoffee.netlify.app/",
+        "github": "https://github.com/VIVEK-SUTHAR/FrontEnd-Buy-Me-Cofee"
+      }
+    ]
+  }
+]

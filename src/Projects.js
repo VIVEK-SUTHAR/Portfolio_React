@@ -1,9 +1,12 @@
 import { motion } from "framer-motion"
-import React from 'react'
+import { useState } from 'react'
 import Footer from "./components/Footer"
 import './projects.css'
 import projects from "./projects.json"
+import Web3 from "./Web3.json"
 function Projects() {
+    const [whatProjects, setWhatProjects] = useState(projects);
+    const projectData = whatProjects;
     return (
         <>
             <motion.div
@@ -14,15 +17,16 @@ function Projects() {
             >
                 <section className="projectsContainer">
                     <h1 className="title">Stuff I built</h1>
+                    <center ><button className="PROJECTS_TYPE" onClick={() => setWhatProjects(projects)}> Web 2</button><button className="PROJECTS_TYPE" onClick={() => setWhatProjects(Web3)}>Web 3</button></center>
                     <div className="grid">
                         {
-                            projects && projects.map((el) =>
+                            projectData && projectData.map((el) =>
                                 <motion.div
                                     initial={{
                                         opacity: 0,
                                         y: 200
                                     }}
-                                    whileInView={{ opacity: 1, y: 0 }}
+                                    whileInView={{ opacity: 1, y: 0 }} F
                                     transition={{ duration: 1 }}
                                     viewport={{ once: true }}
                                 >

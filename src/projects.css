@@ -6,6 +6,7 @@
     text-align: center;
     font-size: 30px;
     font-weight: 700;
+    min-height: 100vh;
 }
 
 .grid {
@@ -90,6 +91,24 @@
 .cards .btns button:hover {
     border: 2px solid aqua;
     color: aliceblue;
+}
+
+.PROJECTS_TYPE {
+    background-color: transparent;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: 1px solid cyan;
+    color: cyan;
+    outline: none;
+    margin: 0 0.5em;
+    transition: all 0.2s ease-in-out;
+}
+
+.PROJECTS_TYPE:hover {
+    background-color: aqua;
+    color: black;
+    transform: scale(0.9);
 }
 
 @media (max-width: 1312px) {
