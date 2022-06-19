@@ -24,5 +24,31 @@
         "github": "https://github.com/VIVEK-SUTHAR/FrontEnd-Buy-Me-Cofee"
       }
     ]
+  },
+  {
+    "id": 2,
+    "name": "NFT Gallery",
+    "img_link": "https://ipfs.filebase.io/ipfs/QmeL1y38cyFgVPmMmqucP6a368BGWXzCFiWoK3WZmp9zDs",
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/tailwind.svg"
+      },
+      {
+        "id": 1,
+        "img": "/img/next_.png"
+      },
+      {
+        "id": 2,
+        "img": "/img/css.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "https://buyvivekacoffee.netlify.app/",
+        "github": "https://github.com/VIVEK-SUTHAR/FrontEnd-Buy-Me-Cofee"
+      }
+    ]
   }
 ]
