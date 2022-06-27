@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { AiOutlineGithub, AiOutlineLinkedin, AiOutlineTwitter } from 'react-icons/ai';
 import Typed from "typed.js";
 import "./About.css";
@@ -14,10 +14,10 @@ function About() {
     const el = useRef(null);
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ["An IT Student", "A Web-Developer", "Co Head HackClub SVIT"], // Strings to display
+            strings: ["MERN Dev", "Passionate Developer", "Web 3.0 Enthusist"],
             startDelay: 300,
             typeSpeed: 100,
-            backSpeed: 100,
+            backSpeed: 20,
             backDelay: 100,
             loop: true
         });
@@ -29,7 +29,8 @@ function About() {
         <>
             <div id='about_section'>
                 <div id='landing_text' className='animate__animated'>
-                    👋 Hello, I am Vivek Suthar
+                    👋 Hello,
+                    I am Vivek Suthar
                     <div className="my_tag" >
                         <span className='my_tag' ref={el}></span>
                     </div>
@@ -46,7 +47,7 @@ function About() {
                     <a href="https://twitter.com/theviveksuthar"><AiOutlineTwitter /></a>
                 </div>
                 <div id="mark">
-                    "The Only Way To Do Great Work is do what you love"-Some Legend
+                    <blockquote>"The Only Way To Do Great Work is do what you love"-Some Legend</blockquote>
                 </div>
             </div>
 

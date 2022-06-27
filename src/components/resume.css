@@ -1,15 +1,9 @@
 .container {
     width: 60%;
     margin: auto;
-    /* display: flex;
-    flex-direction: c;
-    justify-content: space-between;
-    align-items: center; */
-    /* padding: 0 1rem; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 3rem 0;
-    /* outline: 1px solid red; */
 }
 
 .edu {
@@ -18,8 +12,6 @@
     text-align: center;
     font-size: 34px;
     width: 100%;
-    /* margin: auto; */
-    /* outline: 1px solid red; */
 }
 
 h1 {

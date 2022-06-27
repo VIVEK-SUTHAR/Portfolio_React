@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import React from 'react';
 import "./components/skills.css";
 import data from "./components/skills.json";
 function Skills() {
@@ -23,7 +22,7 @@ function Skills() {
                         {
                             data.All && data.All.map((skill) =>
 
-                                <img src={skill.img} alt="" key={skill.id} />
+                                <img title={skill?.name} src={skill.img} alt="" key={skill.id} />
                             )
                         }
                     </motion.div>

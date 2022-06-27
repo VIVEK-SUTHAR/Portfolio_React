@@ -30,9 +30,9 @@ function Projects() {
                                     transition={{ duration: 1 }}
                                     viewport={{ once: true }}
                                 >
-                                    <div className="cards" key={el.id}>
+                                    <article className="cards" key={el.id}>
                                         <img src={el.img_link} alt="msg" loading="lazy"></img>
-                                        {el.name}
+                                        <span className="Project_Name">{el.name}</span>
                                         <div className="tech">
                                             {
                                                 el["tech-stack"].map((tech) =>
@@ -50,7 +50,7 @@ function Projects() {
                                                 )
                                             }
                                         </div>
-                                    </div>
+                                    </article>
                                 </motion.div>
                             )
                         }

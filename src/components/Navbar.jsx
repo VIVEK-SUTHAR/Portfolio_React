@@ -1,4 +1,3 @@
-import React from 'react';
 import { AiOutlineContacts, AiOutlineHome, AiOutlineProject } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import "./Navbar.css";

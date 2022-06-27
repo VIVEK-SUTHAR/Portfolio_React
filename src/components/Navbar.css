@@ -127,3 +127,13 @@
         border-radius: 10px;
     }
 }
+.ToggleMode{
+    position: fixed;
+    top: 1%;
+    right: 0;
+    background-color: aliceblue;
+    z-index: 20;
+    min-width: 15px;
+    min-height: 15px;
+    border-radius: 20px;
+}

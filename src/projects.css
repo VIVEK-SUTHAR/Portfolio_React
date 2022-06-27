@@ -48,6 +48,10 @@
     border-top-right-radius: 10px;
 }
 
+.Project_Name {
+    margin-block: 1vh;
+}
+
 .cards .tech {
     display: flex;
     flex-direction: row;
