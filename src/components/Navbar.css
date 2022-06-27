@@ -105,7 +105,7 @@
         width: 100%;
         top: 7vh;
         left: 0;
-        transform-origin: bottom;
+        transform-origin:top;
         /* transform-origin: right; */
         background-color: transparent;
         backdrop-filter: blur(10px);
