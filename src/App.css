@@ -16,7 +16,7 @@ a {
 }
 
 
-::-webkit-scrollbar {
+html::-webkit-scrollbar {
   width: 5px;
   border-radius: 10px;
 }
@@ -37,7 +37,6 @@ a {
 ::-webkit-scrollbar-track:horizontal {
   height: 10px;
 }
-
 
 /* html {
   background-color: #000;

@@ -4,13 +4,6 @@ import Typed from "typed.js";
 import "./About.css";
 
 function About() {
-    useEffect(() => {
-        let about = document.getElementById('landing_text');
-        let btn = document.getElementsByClassName('btn')[0];
-        btn.classList.add('animate__fadeInUp');
-        about.classList.add("animate__backInUp");
-
-    }, [])
     const el = useRef(null);
     useEffect(() => {
         const typed = new Typed(el.current, {
@@ -28,7 +21,7 @@ function About() {
     return (
         <>
             <div id='about_section'>
-                <div id='landing_text' className='animate__animated'>
+                <div id='landing_text' >
                     👋 Hello,
                     I am Vivek Suthar
                     <div className="my_tag" >

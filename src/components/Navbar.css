@@ -7,7 +7,7 @@
     /* background-color: rgba(255, 255, 255, 0.2); */
     z-index: 2;
     backdrop-filter: blur(10px);
-    border-bottom: 1px solid aliceblue;
+    padding: 0 5px;
     /* border-bottom: 1px solid lightgray; */
 }
 
@@ -44,7 +44,7 @@
 }
 
 .wrapper .right ul li a {
-    font-size: 1rem;
+    font-size: 2rem;
     color: aqua;
 }
 
@@ -105,7 +105,7 @@
         width: 100%;
         top: 7vh;
         left: 0;
-        transform-origin:top;
+        transform-origin: top;
         /* transform-origin: right; */
         background-color: transparent;
         backdrop-filter: blur(10px);
@@ -122,12 +122,13 @@
         justify-content: space-evenly;
         align-items: center;
         color: aqua;
-        margin:2rem 0;
+        margin: 2rem 0;
         /* outline: 2px solid red; */
         border-radius: 10px;
     }
 }
-.ToggleMode{
+
+.ToggleMode {
     position: fixed;
     top: 1%;
     right: 0;

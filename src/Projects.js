@@ -16,7 +16,7 @@ function Projects() {
                 viewport={{ once: true }}
             >
                 <section className="projectsContainer">
-                    <h1 className="title">Stuff I built</h1>
+                    <h1 className="Projecttitle">Stuff I built</h1>
                     <center ><button className="PROJECTS_TYPE" onClick={() => setWhatProjects(projects)}> Web 2</button><button className="PROJECTS_TYPE" onClick={() => setWhatProjects(Web3)}>Web 3</button></center>
                     <div className="grid">
                         {
@@ -24,9 +24,9 @@ function Projects() {
                                 <motion.div
                                     initial={{
                                         opacity: 0,
-                                        y: 200
+                                        scale: 0.2,
                                     }}
-                                    whileInView={{ opacity: 1, y: 0 }} F
+                                    whileInView={{ opacity: 1, scale: 1 }}
                                     transition={{ duration: 1 }}
                                     viewport={{ once: true }}
                                 >

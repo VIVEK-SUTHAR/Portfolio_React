@@ -8,23 +8,26 @@ function Navbar() {
         const l2 = document.querySelector(".line2");
         const l3 = document.querySelector(".line3");
         const sidebar = document.getElementsByClassName('mobilenav')[0];
+        let body = document.querySelector("body");
         if (!isOpen) {
             isOpen = true;
             l1.style.transform = "rotate(45deg)";
-            l2.style.transform="translateX(10px)"
+            l2.style.transform = "translateX(10px)"
             l2.style.width = 0;
             l3.style.transform = "rotate(-45deg)";
             sidebar.style.transform = "rotate(0deg)";
             sidebar.style.transform = "scale(1)";
+            body.style.overflowY = "hidden"
         }
         else {
             l1.style.transform = "rotate(0deg)";
             l2.style.width = "52%";
-            l2.style.transform="translateY(0px)"
+            l2.style.transform = "translateY(0px)"
             l3.style.transform = "rotate(0deg)";
             sidebar.style.transform = "rotate(180deg)";
             sidebar.style.transform = "scale(0)";
             isOpen = false;
+            body.style.overflowY = "auto"
         }
     }
     return (
