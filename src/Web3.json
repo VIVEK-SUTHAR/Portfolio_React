@@ -1,6 +1,36 @@
 [
   {
     "id": 1,
+    "name": "DeBlog",
+    "img_link": "https://ipfs.filebase.io/ipfs/QmVrvkLehb5YB4FWgoWfbfqCRUfgT3uGq82wM7aSF9RmxU",
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/solid.svg"
+      },
+      {
+        "id": 1,
+        "img": "/img/react.png"
+      },
+      {
+        "id": 2,
+        "img": "/img/hardhat.svg"
+      },
+      {
+        "id": 3,
+        "img": "/img/tailwind.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "https://deblog.netlify.app/",
+        "github": "https://github.com/VIVEK-SUTHAR/DeBlog"
+      }
+    ]
+  },
+  {
+    "id": 2,
     "name": "Buy Me A Coffee",
     "img_link": "/project/coffee.jpg",
     "tech-stack": [
