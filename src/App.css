@@ -38,17 +38,17 @@ html::-webkit-scrollbar {
   height: 10px;
 }
 
-/* html {
-  background-color: #000;
-  filter: invert(1) hue-rotate(180deg);
-  transition: all 0.2s ease-in-out;
-}
+  /* html {
+    background-color: #000;
+    filter: invert(1) hue-rotate(180deg);
+    transition: all 0.2s ease-in-out;
+  }
 
-img {
-  filter: invert(1) hue-rotate(180deg);
-  transition: all 0.2s ease-in-out;
+  img {
+    filter: invert(1) hue-rotate(180deg);
+    transition: all 0.2s ease-in-out;
 
-}
+  }
 
 svg {
   filter: invert(1) hue-rotate(180deg);

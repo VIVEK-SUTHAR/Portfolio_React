@@ -1,6 +1,40 @@
 [
   {
     "id": 1,
+    "name": "MetaMusic",
+    "img_link": "https://ipfs.filebase.io/ipfs/QmVa4n4TUcA3XQRSnaA6kUSKfBL3hxHNP1nmbYGULwBe1J",
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/solid.svg"
+      },
+      {
+        "id": 1,
+        "img": "/img/react.png"
+      },
+      {
+        "id": 2,
+        "img": "/img/filecoin.svg"
+      },
+      {
+        "id": 3,
+        "img": "/img/tailwind.svg"
+      },
+       {
+         "id": 4,
+         "img": "/img/polygon.svg"
+       }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "https://metamusicweb3.netlify.app/",
+        "github": "https://github.com/VIVEK-SUTHAR/metamusic.git"
+      }
+    ]
+  },
+  {
+    "id": 2,
     "name": "DeBlog",
     "img_link": "https://ipfs.filebase.io/ipfs/QmVrvkLehb5YB4FWgoWfbfqCRUfgT3uGq82wM7aSF9RmxU",
     "tech-stack": [
@@ -14,7 +48,7 @@
       },
       {
         "id": 2,
-        "img": "/img/hardhat.svg"
+        "img": "/img/polygon.svg"
       },
       {
         "id": 3,
