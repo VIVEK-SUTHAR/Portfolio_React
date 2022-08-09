@@ -2,55 +2,68 @@
   "All": [
     {
       "id": 0,
-      "img": "/img/html.svg"
+      "img": "/img/html.svg",
+      "name":"HTML"
     },
     {
       "id": 1,
-      "img": "/img/css.svg"
+      "img": "/img/css.svg",
+      "name":"CSS"
     },
     {
       "id": 2,
-      "img": "/img/js.svg"
+      "img": "/img/js.svg",
+      "name":"Javascript"
     },
     {
       "id": 3,
-      "img": "/img/firebase.svg"
+      "img": "/img/firebase.svg",
+      "name":"Firebase"
     },
     {
       "id": 4,
-      "img": "/img/mongo.svg"
+      "img": "/img/mongo.svg",
+      "name": "MongoDB"
     },
     {
       "id": 5,
-      "img": "/img/express.png"
+      "img": "/img/express.png",
+      "name":"ExpressJS"
     },
     {
       "id": 6,
-      "img": "/img/react.png"
+      "img": "/img/react.png",
+      "name":"ReactJS"
     },
     {
       "id": 7,
-      "img": "/img/next_.png"
+      "img": "/img/next_.png",
+      "name":"NextJS"
     },
     {
       "id": 8,
-      "img": "/img/nodejs.svg"
+      "img": "/img/nodejs.svg",
+      "name":"NodeJS"
     },
     {
       "id": 9,
-      "img": "/img/rn.svg"
+      "img": "/img/rn.svg",
+      "name":"React Native"
     },
     {
       "id": 10,
-      "img": "/img/tailwind.svg"
+      "img": "/img/tailwind.svg",
+      "name":"Tailwind CSS"
     },
     {
       "id": 11,
-      "img": "/img/mui.svg"
+      "img": "/img/mui.svg",
+      "name":"Material UI"
     },
     {
       "id": 12,
-      "img": "/img/solid.svg"
+      "img": "/img/solid.svg",
+      "name":"Solidity"
     }
   ],
   "dev": [

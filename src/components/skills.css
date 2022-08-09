@@ -85,7 +85,44 @@ width: 50px;
   flex-wrap: wrap;
   /* width: 90%; */
 }
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
 
+/* Tooltip text */
+.tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  border-radius: 15px;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.tooltip:hover .tooltiptext {
+  opacity: 1;
+}
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 @media (max-width: 992px) {
   #skills {
     width: 90%;

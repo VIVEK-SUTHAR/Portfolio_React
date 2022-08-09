@@ -18,11 +18,15 @@ function Skills() {
                         whileInView={{ scale: 1 }}
                         transition={{ type: 'spring', duration: 0.9 }}
                         viewport={{ once: true }}
+
                     >
                         {
                             data.All && data.All.map((skill) =>
-
-                                <img title={skill?.name} src={skill.img} alt="" key={skill.id} />
+                                <>
+                                    <div class="tooltip"><img src={skill.img} alt="" key={skill.id} />
+                                        <span class="tooltiptext">{skill?.name}</span>
+                                    </div>
+                                </>
                             )
                         }
                     </motion.div>
