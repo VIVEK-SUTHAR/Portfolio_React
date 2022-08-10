@@ -1,6 +1,7 @@
 import "../App.css";
 import Skills from '../Skills';
 import About from "./About";
+import Achivements from "./Achivements";
 import Footer from "./Footer";
 import Me from "./Me";
 import Resume from "./Resume";
@@ -10,6 +11,7 @@ function Main() {
             <About />
             <Me />
             <Resume />
+            <Achivements/>
             <Skills />
             <Footer />
         </>
