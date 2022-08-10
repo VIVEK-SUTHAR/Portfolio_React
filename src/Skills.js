@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import "./components/skills.css";
 import data from "./components/skills.json";
 function Skills() {
@@ -23,9 +24,11 @@ function Skills() {
                         {
                             data.All && data.All.map((skill) =>
                                 <>
-                                    <div class="tooltip"><img src={skill.img} alt="" key={skill.id} />
-                                        <span class="tooltiptext">{skill?.name}</span>
-                                    </div>
+                                    <Link to={`${skill.name}`}>
+                                        <div class="tooltip"><img src={skill.img} alt="" key={skill.id} />
+                                            <span class="tooltiptext">{skill?.name}</span>
+                                        </div>
+                                    </Link>
                                 </>
                             )
                         }
