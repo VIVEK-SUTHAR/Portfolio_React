@@ -5,7 +5,11 @@ export default function Achivements() {
         // <section className="achivements_container">AC</section>
         <>
             <center className="title">Achivements</center>
-            <div class="achivements_container">
+            <motion.div class="achivements_container"
+                initial={{ x: "-100%" }}
+                whileInView={{ scale: 1, x: 0 }}
+                transition={{ type: 'spring', duration: 1 }}
+                viewport={{ once: true }}>
                 <motion.span
                     className='achivemets'
                     initial={{ x: "-100%" }}
@@ -22,10 +26,10 @@ export default function Achivements() {
                             <div class="time">Won DUHacks,A Hackathon By GDSC</div>
                             <p>Built DeBlog</p>
                         </li>
-                        
+
                     </ul>
                 </motion.span>
-            </div>
+            </motion.div>
         </>
     )
 }
