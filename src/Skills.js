@@ -22,9 +22,9 @@ function Skills() {
 
                     >
                         {
-                            data.All && data.All.map((skill) =>
+                            data.All && data.All.map((skill, index) =>
                                 <>
-                                    <Link to={`/${skill.name}`}>
+                                    <Link to={`/work/${skill.name}`} key={index}>
                                         <div class="tooltip"><img src={skill.img} alt="" key={skill.id} />
                                             <span class="tooltiptext">{skill?.name}</span>
                                         </div>

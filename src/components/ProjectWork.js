@@ -2,8 +2,6 @@ import { motion } from "framer-motion"
 import { useState } from 'react'
 import Footer from "./Footer"
 import '../projects.css'
-import projects from "../projects.json"
-import Web3 from "../Web3.json"
 import { useParams } from "react-router-dom"
 function ProjectWork() {
     const { catagory } = useParams();
@@ -19,7 +17,7 @@ function ProjectWork() {
                 <section className="projectsContainer">
                     <h1 className="Projecttitle">Built with {catagory} </h1>
                     <div className="grid">
-
+                    HAl
                     </div>
                 </section>
             </motion.div>
