@@ -2,6 +2,7 @@ import { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Loader from "./components/Loader";
+import ProjectWork from "./components/ProjectWork";
 const Admin = lazy(() => import('./components/Admin'));
 const Contact = lazy(() => import('./components/Contact'));
 const Main = lazy(() => import('./components/Main'));
@@ -19,7 +20,7 @@ function App() {
           <Route path="/about" element={<Me />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/:catagory" element={<Projects/>}/>
+          <Route path="/:catagory" element={<ProjectWork/>}/>
         </Routes>
       </Router>
     </Suspense>
