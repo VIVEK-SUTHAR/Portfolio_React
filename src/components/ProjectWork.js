@@ -1,5 +1,4 @@
 import { motion } from "framer-motion"
-import { useState } from 'react'
 import Footer from "./Footer"
 import '../projects.css'
 import { useParams } from "react-router-dom"
