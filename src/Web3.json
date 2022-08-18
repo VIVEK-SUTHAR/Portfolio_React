@@ -1,6 +1,36 @@
 [
   {
     "id": 1,
+    "name": "Dynamic NFT",
+    "img_link": "https://ipfs.filebase.io/ipfs/QmPqTnFqR1wmk8fhh1cWph1wPA9cZDJKkTKpVDzooLW3SW",
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/solid.svg"
+      },
+      {
+        "id": 1,
+        "img": "/img/next_.png"
+      },
+      {
+        "id": 2,
+        "img": "/img/chakra.svg"
+      },
+      {
+        "id": 3,
+        "img": "/img/chainlink.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "https://dynamic-nft-chainlink.vercel.app/",
+        "github": "https://github.com/VIVEK-SUTHAR/dynamic-nft-chainlink"
+      }
+    ]
+  },
+  {
+    "id": 1,
     "name": "MetaMusic",
     "img_link": "https://ipfs.filebase.io/ipfs/QmVa4n4TUcA3XQRSnaA6kUSKfBL3hxHNP1nmbYGULwBe1J",
     "tech-stack": [
