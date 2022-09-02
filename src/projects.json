@@ -92,7 +92,7 @@
   {
     "id": 3,
     "name": "macOS Clone",
-    "img_link": "/img/msg-clone.jpg",
+    "img_link": "https://ipfs.io/ipfs/QmeyQvsoc6gMHyqYb77g9vTPZFXqSWMr8yoJFQcs2yGrF3",
     "tech-stack": [
       {
         "id": 0,
