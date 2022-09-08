@@ -1,0 +1,43 @@
+.tweets_container {
+  width: 50%;
+  height: max-content;
+  padding: 20px 15px;
+  margin: auto;
+  border-radius: 10px;
+  margin-block: 2.5rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: aliceblue;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  place-items: center;
+  place-content: center;
+}
+.tweets_container iframe {
+  transition: all 0.2s ease-in-out;
+  border-radius: 15px;
+}
+.v {
+  display: none;
+}
+iframe:hover {
+  transform: scale(1.02) rotateZ(4deg);
+}
+@media (max-width: 688px) {
+  .tweets_container {
+    width: 90%;
+    padding: 5px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .achivemets {
+    background-color: transparent;
+    padding: 1rem;
+  }
+  .sessions .li .time {
+    font-size: 1rem;
+  }
+  .sessions .li p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+}
