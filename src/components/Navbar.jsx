@@ -47,9 +47,9 @@ function Navbar() {
                 <Link to="/about">About</Link>
               </li>
               <li>
-                <a href="https://blogbyvivek.hashnode.dev/" target={"_blank"}>
+                <Link to="https://blogbyvivek.hashnode.dev/" target={"_blank"}>
                   Blogs
-                </a>
+                </Link>
               </li>
               <li>
                 <Link to="/projects">Projects</Link>
@@ -75,9 +75,7 @@ function Navbar() {
         </div>
         <div className="item">
           <SiHashnode />
-          <a href="https://blogbyvivek.hashnode.dev/" target={"_blank"}>
-            Blogs
-          </a>
+          <Link to="https://blogbyvivek.hashnode.dev/">Blogs</Link>
         </div>
         <div className="item">
           <AiOutlineProject />
