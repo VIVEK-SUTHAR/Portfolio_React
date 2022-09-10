@@ -3,22 +3,22 @@
     {
       "id": 0,
       "img": "/img/html.svg",
-      "name":"HTML"
+      "name": "HTML"
     },
     {
       "id": 1,
       "img": "/img/css.svg",
-      "name":"CSS"
+      "name": "CSS"
     },
     {
       "id": 2,
       "img": "/img/js.svg",
-      "name":"Javascript"
+      "name": "Javascript"
     },
     {
       "id": 3,
       "img": "/img/firebase.svg",
-      "name":"Firebase"
+      "name": "Firebase"
     },
     {
       "id": 4,
@@ -28,42 +28,47 @@
     {
       "id": 5,
       "img": "/img/express.png",
-      "name":"ExpressJS"
+      "name": "ExpressJS"
     },
     {
       "id": 6,
       "img": "/img/react.png",
-      "name":"ReactJS"
+      "name": "ReactJS"
     },
     {
       "id": 7,
       "img": "/img/next_.png",
-      "name":"NextJS"
+      "name": "NextJS"
     },
     {
       "id": 8,
       "img": "/img/nodejs.svg",
-      "name":"NodeJS"
+      "name": "NodeJS"
     },
     {
       "id": 9,
       "img": "/img/rn.svg",
-      "name":"React-Native"
+      "name": "React-Native"
     },
     {
       "id": 10,
       "img": "/img/tailwind.svg",
-      "name":"Tailwind-CSS"
+      "name": "Tailwind-CSS"
     },
     {
       "id": 11,
       "img": "/img/mui.svg",
-      "name":"MaterialUI"
+      "name": "MaterialUI"
+    },
+    {
+      "id": 12,
+      "img": "/img/chakra.svg",
+      "name": "ChakraUI"
     },
     {
       "id": 12,
       "img": "/img/solid.svg",
-      "name":"Solidity"
+      "name": "Solidity"
     }
   ],
   "dev": [
