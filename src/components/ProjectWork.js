@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 import data from "../projects.json";
 import { useEffect } from "react";
 function ProjectWork() {
+  
   const { catagory } = useParams();
   let projectList = [];
   data.map((project) => {
