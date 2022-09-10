@@ -48,17 +48,17 @@
     {
       "id": 9,
       "img": "/img/rn.svg",
-      "name":"React Native"
+      "name":"React-Native"
     },
     {
       "id": 10,
       "img": "/img/tailwind.svg",
-      "name":"Tailwind CSS"
+      "name":"Tailwind-CSS"
     },
     {
       "id": 11,
       "img": "/img/mui.svg",
-      "name":"Material UI"
+      "name":"MaterialUI"
     },
     {
       "id": 12,

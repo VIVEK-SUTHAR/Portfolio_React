@@ -141,4 +141,7 @@
     .grid {
         grid-template-columns: repeat(1, 1fr);
     }
+    .Projecttitle{
+        font-size: 28px;
+    }
 }

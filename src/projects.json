@@ -3,6 +3,7 @@
     "id": 0,
     "name": "Messenger Clone",
     "img_link": "/img/msg-clone.jpg",
+    "catagory": ["ReactJS", "CSS", "Firebase", "MaterialUI"],
     "tech-stack": [
       {
         "id": 0,
@@ -33,6 +34,7 @@
     "id": 1,
     "name": "Whats-App Web Clone",
     "img_link": "/project/wp-web.jpg",
+    "catagory": ["ReactJS", "CSS", "Firebase", "MaterialUI"],
     "tech-stack": [
       {
         "id": 0,
@@ -63,6 +65,7 @@
     "id": 2,
     "name": "Google Clone",
     "img_link": "/project/gc.jpg",
+    "catagory": ["ReactJS", "CSS", "Firebase", "MaterialUI"],
     "tech-stack": [
       {
         "id": 0,
@@ -93,6 +96,7 @@
     "id": 3,
     "name": "macOS Clone",
     "img_link": "https://ipfs.io/ipfs/QmeyQvsoc6gMHyqYb77g9vTPZFXqSWMr8yoJFQcs2yGrF3",
+    "catagory": ["HTML", "CSS", "Javascript"],
     "tech-stack": [
       {
         "id": 0,
@@ -119,6 +123,7 @@
     "id": 4,
     "name": "HackClub SVIT Website",
     "img_link": "/project/hcs.jpg",
+    "catagory": ["NextJS", "Tailwind-CSS"],
     "tech-stack": [
       {
         "id": 0,
@@ -141,6 +146,7 @@
     "id": 5,
     "name": "Signal Clone",
     "img_link": "/project/sigc.jpg",
+    "catagory": ["React-Native", "MaterialUI", "Firebase"],
     "tech-stack": [
       {
         "id": 0,
@@ -167,6 +173,7 @@
     "id": 6,
     "name": "Prakarsh '22",
     "img_link": "/project/prakarsh.jpg",
+    "catagory": ["ReactJS", "Tailwind-CSS"],
     "tech-stack": [
       {
         "id": 0,
@@ -189,6 +196,7 @@
     "id": 7,
     "name": "Instagram-Clone",
     "img_link": "/project/insta.jpg",
+    "catagory": ["CSS", "ReactJS", "Firebase", "MaterialUI"],
     "tech-stack": [
       {
         "id": 0,
@@ -219,6 +227,7 @@
     "id": 8,
     "name": "Track Crypto",
     "img_link": "/project/crypto.jpg",
+    "catagory": ["ReactJS", "CSS"],
     "tech-stack": [
       {
         "id": 0,
@@ -240,6 +249,7 @@
   {
     "id": 9,
     "name": "Buy Me A Coffee",
+    "catagory": ["NextJS", "Solidity", "CSS"],
     "img_link": "/project/coffee.jpg",
     "tech-stack": [
       {
@@ -267,6 +277,7 @@
     "id": 10,
     "name": "Filemaker-CLI Tool",
     "img_link": "/project/CLI.jpg",
+    "catagory": ["NodeJS","ExpressJS"],
     "tech-stack": [
       {
         "id": 0,
