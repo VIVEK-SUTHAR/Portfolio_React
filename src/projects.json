@@ -123,7 +123,7 @@
     "id": 4,
     "name": "HackClub SVIT Website",
     "img_link": "/project/hcs.jpg",
-    "catagory": ["NextJS", "ChakraUI"],
+    "catagory": ["NextJS", "ChakraUIkw"],
     "tech-stack": [
       {
         "id": 0,
