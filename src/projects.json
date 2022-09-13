@@ -62,7 +62,38 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
+    "name": "Twitter Full Stack Clone",
+    "img_link": "https://ipfs.io/ipfs/QmWuiUgJo2bgJxLdFPnLAJVBmny5FThYxv6bnxUQXzebqx",
+    "catagory": ["ReactJS", "NodeJS", "MongoDB", "ExpressJS"],
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/react.png"
+      },
+      {
+        "id": 1,
+        "img": "/img/nodejs.svg"
+      },
+      {
+        "id": 2,
+        "img": "/img/mongo.svg"
+      },
+      {
+        "id": 3,
+        "img": "/img/express.png"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "https://clone-6f1ac.web.app/",
+        "github": "https://github.com/VIVEK-SUTHAR/Google_Clone"
+      }
+    ]
+  },
+  {
+    "id": 15,
     "name": "Google Clone",
     "img_link": "/project/gc.jpg",
     "catagory": ["ReactJS", "CSS", "Firebase", "MaterialUI"],
@@ -277,7 +308,7 @@
     "id": 10,
     "name": "Filemaker-CLI Tool",
     "img_link": "/project/CLI.jpg",
-    "catagory": ["NodeJS","ExpressJS"],
+    "catagory": ["NodeJS", "ExpressJS"],
     "tech-stack": [
       {
         "id": 0,
