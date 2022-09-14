@@ -3,6 +3,7 @@
     "id": 0,
     "name": "Messenger Clone",
     "img_link": "/img/msg-clone.jpg",
+    "type": "web2",
     "catagory": ["ReactJS", "CSS", "Firebase", "MaterialUI"],
     "tech-stack": [
       {
@@ -34,6 +35,7 @@
     "id": 1,
     "name": "Whats-App Web Clone",
     "img_link": "/project/wp-web.jpg",
+    "type": "web2",
     "catagory": ["ReactJS", "CSS", "Firebase", "MaterialUI"],
     "tech-stack": [
       {
@@ -62,9 +64,10 @@
     ]
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "Twitter Full Stack Clone",
     "img_link": "https://ipfs.io/ipfs/QmWuiUgJo2bgJxLdFPnLAJVBmny5FThYxv6bnxUQXzebqx",
+    "type": "web2",
     "catagory": ["ReactJS", "NodeJS", "MongoDB", "ExpressJS"],
     "tech-stack": [
       {
@@ -93,9 +96,10 @@
     ]
   },
   {
-    "id": 15,
+    "id": 3,
     "name": "Google Clone",
     "img_link": "/project/gc.jpg",
+    "type": "web2",
     "catagory": ["ReactJS", "CSS", "Firebase", "MaterialUI"],
     "tech-stack": [
       {
@@ -124,9 +128,10 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "macOS Clone",
     "img_link": "https://ipfs.io/ipfs/QmeyQvsoc6gMHyqYb77g9vTPZFXqSWMr8yoJFQcs2yGrF3",
+    "type": "web2",
     "catagory": ["HTML", "CSS", "Javascript"],
     "tech-stack": [
       {
@@ -151,9 +156,10 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "HackClub SVIT Website",
     "img_link": "/project/hcs.jpg",
+    "type": "web2",
     "catagory": ["NextJS", "ChakraUIkw"],
     "tech-stack": [
       {
@@ -174,9 +180,10 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Signal Clone",
     "img_link": "/project/sigc.jpg",
+    "type": "web2",
     "catagory": ["React-Native", "MaterialUI", "Firebase"],
     "tech-stack": [
       {
@@ -201,9 +208,10 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Prakarsh '22",
     "img_link": "/project/prakarsh.jpg",
+    "type": "web2",
     "catagory": ["ReactJS", "ChakraUI"],
     "tech-stack": [
       {
@@ -224,9 +232,10 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Instagram-Clone",
     "img_link": "/project/insta.jpg",
+    "type": "web2",
     "catagory": ["CSS", "ReactJS", "Firebase", "MaterialUI"],
     "tech-stack": [
       {
@@ -255,9 +264,10 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Track Crypto",
     "img_link": "/project/crypto.jpg",
+    "type": "web2",
     "catagory": ["ReactJS", "CSS"],
     "tech-stack": [
       {
@@ -278,10 +288,135 @@
     ]
   },
   {
-    "id": 9,
+    "id": 11,
+    "name": "Filemaker-CLI Tool",
+    "img_link": "/project/CLI.jpg",
+    "type": "web2",
+    "catagory": ["NodeJS", "ExpressJS"],
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/nodejs.svg"
+      },
+      {
+        "id": 1,
+        "img": "/img/express.png"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "https://buyvivekacoffee.netlify.app/",
+        "github": "https://github.com/VIVEK-SUTHAR/FrontEnd-Buy-Me-Cofee"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Dynamic NFT",
+    "img_link": "https://ipfs.io/ipfs/QmbqBoLL6qhaQDzWuxmJTrEne5PmfhuzPeY1Ahc6i6NkEC",
+    "catagory": ["ChakraUI", "Solidity", "NextJS"],
+    "type": "web3",
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/solid.svg"
+      },
+      {
+        "id": 1,
+        "img": "/img/next_.png"
+      },
+      {
+        "id": 2,
+        "img": "/img/chakra.svg"
+      },
+      {
+        "id": 3,
+        "img": "/img/chainlink.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "https://dynamic-nft-chainlink.vercel.app/",
+        "github": "https://github.com/VIVEK-SUTHAR/dynamic-nft-chainlink"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "MetaMusic",
+    "catagory": ["TailwindCSS", "ReactJS", "Solidity"],
+    "img_link": "https://ipfs.filebase.io/ipfs/QmVa4n4TUcA3XQRSnaA6kUSKfBL3hxHNP1nmbYGULwBe1J",
+    "type": "web3",
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/solid.svg"
+      },
+      {
+        "id": 1,
+        "img": "/img/react.png"
+      },
+      {
+        "id": 2,
+        "img": "/img/filecoin.svg"
+      },
+      {
+        "id": 3,
+        "img": "/img/tailwind.svg"
+      },
+      {
+        "id": 4,
+        "img": "/img/polygon.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "https://metamusicweb3.netlify.app/",
+        "github": "https://github.com/VIVEK-SUTHAR/metamusic.git"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "DeBlog",
+    "catagory": ["ReactJS", "Solidity", "TailwindCSS"],
+    "img_link": "https://ipfs.filebase.io/ipfs/QmVrvkLehb5YB4FWgoWfbfqCRUfgT3uGq82wM7aSF9RmxU",
+    "type": "web3",
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/solid.svg"
+      },
+      {
+        "id": 1,
+        "img": "/img/react.png"
+      },
+      {
+        "id": 2,
+        "img": "/img/polygon.svg"
+      },
+      {
+        "id": 3,
+        "img": "/img/tailwind.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "https://deblog.netlify.app/",
+        "github": "https://github.com/VIVEK-SUTHAR/DeBlog"
+      }
+    ]
+  },
+  {
+    "id": 15,
     "name": "Buy Me A Coffee",
-    "catagory": ["NextJS", "Solidity", "CSS"],
     "img_link": "/project/coffee.jpg",
+    "catagory": ["ReactJS", "TailwindCSS", "Solidity"],
+    "type": "web3",
     "tech-stack": [
       {
         "id": 0,
@@ -294,6 +429,10 @@
       {
         "id": 2,
         "img": "/img/css.svg"
+      },
+      {
+        "id": 3,
+        "img": "/img/hardhat.svg"
       }
     ],
     "links": [
@@ -305,18 +444,19 @@
     ]
   },
   {
-    "id": 10,
-    "name": "Filemaker-CLI Tool",
-    "img_link": "/project/CLI.jpg",
-    "catagory": ["NodeJS", "ExpressJS"],
+    "id": 16,
+    "name": "NFT Gallery",
+    "catagory": ["NextJS", "TailwindCSS"],
+    "img_link": "https://ipfs.filebase.io/ipfs/QmeL1y38cyFgVPmMmqucP6a368BGWXzCFiWoK3WZmp9zDs",
+    "type": "web3",
     "tech-stack": [
       {
         "id": 0,
-        "img": "/img/nodejs.svg"
+        "img": "/img/tailwind.svg"
       },
       {
         "id": 1,
-        "img": "/img/express.png"
+        "img": "/img/next_.png"
       }
     ],
     "links": [

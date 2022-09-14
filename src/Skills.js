@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import "./components/skills.css";
 import data from "./components/skills.json";
 function Skills() {
+
+
+
     return (
         <>
             <motion.div
