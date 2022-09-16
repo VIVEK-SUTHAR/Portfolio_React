@@ -498,5 +498,33 @@
         "github": "https://github.com/VIVEK-SUTHAR/FrontEnd-Buy-Me-Cofee"
       }
     ]
+  },
+  {
+    "id": 19,
+    "name": "Lens Feed",
+    "catagory": ["NextJS", "TailwindCSS"],
+    "img_link": "https://ipfs.filebase.io/ipfs/QmUohae5YN2QreKUDERZ34TozrXT2q84opPaNYUKVjk5qh",
+    "type": "web3",
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/tailwind.svg"
+      },
+      {
+        "id": 1,
+        "img": "/img/next_.png"
+      },
+      {
+        "id":2,
+        "img":"/img/lens.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "https://road-to-lens-ashy.vercel.app/",
+        "github": "https://github.com/VIVEK-SUTHAR/Road-To-Lens"
+      }
+    ]
   }
 ]
