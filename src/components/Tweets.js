@@ -12,6 +12,38 @@ function Tweets() {
         transition={{ type: "spring", duration: 1 }}
         viewport={{ once: true }}
       >
+      <blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Do you want to begin your Web 3.0 journey? 👾<br/>What could be done better than constructing a project? 💻<br/><br/>This article by <a href="https://twitter.com/theviveksuthar?ref_src=twsrc%5Etfw">@theviveksuthar</a> explains how to create the Chain-Journey dApp. Check it out!<a href="https://t.co/geJSjmwyAD">https://t.co/geJSjmwyAD</a></p>&mdash; Hashnode (@hashnode) <a href="https://twitter.com/hashnode/status/1570790364054708225?ref_src=twsrc%5Etfw">September 16, 2022</a></blockquote> 
+      <blockquote
+          class="twitter-tweet"
+          data-theme="dark"
+          data-conversation="none"
+        >
+          <p lang="en" dir="ltr">
+            <a href="https://twitter.com/theviveksuthar?ref_src=twsrc%5Etfw">
+              @theviveksuthar
+            </a>{" "}
+            created:
+            <br />
+            <br />
+            1. highlight animation for profiles
+            <br />
+            2. publication feed
+            <br />
+            3. custom styling
+            <br />
+            <br />
+            Great work 👏🏼
+            <br />
+            <br />
+            Check it out:{" "}
+            <a href="https://t.co/s9W8YqQHNk">https://t.co/s9W8YqQHNk</a>{" "}
+            <a href="https://t.co/jtki1tSvfL">pic.twitter.com/jtki1tSvfL</a>
+          </p>
+          &mdash; Road to Web3 (@TheRoadToWeb3){" "}
+          <a href="https://twitter.com/TheRoadToWeb3/status/1550331065927090179?ref_src=twsrc%5Etfw">
+            July 22, 2022
+          </a>
+        </blockquote>{" "}
         <blockquote class="twitter-tweet v" data-theme="dark">
           <p lang="en" dir="ltr">
             He won the Hackathon! 🎉
@@ -65,48 +97,12 @@ function Tweets() {
             July 28, 2022
           </a>
         </blockquote>{" "}
-        <blockquote
-          class="twitter-tweet"
-          data-theme="dark"
-          data-conversation="none"
-        >
-          <p lang="en" dir="ltr">
-            <a href="https://twitter.com/theviveksuthar?ref_src=twsrc%5Etfw">
-              @theviveksuthar
-            </a>{" "}
-            created:
-            <br />
-            <br />
-            1. highlight animation for profiles
-            <br />
-            2. publication feed
-            <br />
-            3. custom styling
-            <br />
-            <br />
-            Great work 👏🏼
-            <br />
-            <br />
-            Check it out:{" "}
-            <a href="https://t.co/s9W8YqQHNk">https://t.co/s9W8YqQHNk</a>{" "}
-            <a href="https://t.co/jtki1tSvfL">pic.twitter.com/jtki1tSvfL</a>
-          </p>
-          &mdash; Road to Web3 (@TheRoadToWeb3){" "}
-          <a href="https://twitter.com/TheRoadToWeb3/status/1550331065927090179?ref_src=twsrc%5Etfw">
-            July 22, 2022
-          </a>
-        </blockquote>{" "}
+       
         <script
           async
           src="https://platform.twitter.com/widgets.js"
           charset="utf-8"
         ></script>
-        <script
-          async
-          src="https://platform.twitter.com/widgets.js"
-          charset="utf-8"
-        ></script>
-        {/* <TweetEmbed tweetId={"1550331065927090179"} /> */}
       </motion.div>
     </>
   );

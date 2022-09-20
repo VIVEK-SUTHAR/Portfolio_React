@@ -105,18 +105,26 @@
       "name": "React Native"
     }
   ],
-  "design": [
-    {
-      "id": 0,
-      "name": "Canva"
-    },
-    {
-      "id": 1,
-      "name": "Figma"
-    },
+  "BlockChain": [
     {
       "id": 2,
-      "name": "Adobe Xd"
+      "name": "Solidity"
+    },
+    {
+      "id": 3,
+      "name": "IPFS"
+    },
+    {
+      "id": 5,
+      "name": "HardHat"
+    },
+    {
+      "id": 6,
+      "name": "The Graph"
+    },
+    {
+      "id":7,
+      "name":""
     }
   ]
 }

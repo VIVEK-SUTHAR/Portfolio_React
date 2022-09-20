@@ -21,7 +21,7 @@
   display: none;
 }
 iframe:hover {
-  transform: scale(1.02) rotateZ(4deg);
+  transform: scale(1.02);
 }
 @media (max-width: 688px) {
   .tweets_container {

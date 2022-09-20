@@ -63,7 +63,7 @@ function Skills() {
                             <h2>Design</h2>
                             <div className="content">
                                 {
-                                    data.design && data.design.map((tech) =>
+                                    data.BlockChain && data.BlockChain.map((tech) =>
                                         <span>{tech.name}</span>
                                     )
                                 }
