@@ -60,7 +60,7 @@ function Skills() {
                             transition={{ type: 'spring', duration: 0.9 }}
                             viewport={{ once: true }}
                         >
-                            <h2>Design</h2>
+                            <h2>BlockChain</h2>
                             <div className="content">
                                 {
                                     data.BlockChain && data.BlockChain.map((tech) =>
