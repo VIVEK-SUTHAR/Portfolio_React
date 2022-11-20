@@ -526,5 +526,37 @@
         "github": "https://github.com/VIVEK-SUTHAR/Road-To-Lens"
       }
     ]
+  },
+  {
+    "id": 19,
+    "name": "ChainMail",
+    "catagory": ["NextJS", "TailwindCSS"],
+    "img_link": "https://ipfs.filebase.io/ipfs/QmVcX7hbQzzR1vYWjkeGt2pqgLUQwFVMwVuACbtKGDRJEb",
+    "type": "web3",
+    "tech-stack": [
+      {
+        "id": 1,
+        "img": "/img/next_.png"
+      },
+      {
+        "id":3,
+        "img":"/img/solid.svg"
+      },
+      {
+        "id": 0,
+        "img": "/img/tailwind.svg"
+      },
+      {
+        "id": 2,
+        "img": "/img/polygon.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "https://road-to-lens-ashy.vercel.app/",
+        "github": "https://github.com/VIVEK-SUTHAR/Road-To-Lens"
+      }
+    ]
   }
 ]
