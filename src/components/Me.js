@@ -1,5 +1,4 @@
 import { motion } from "framer-motion"
-import Pic from "../Assets/Pic.webp"
 import "./me.css"
 
 export default function Me() {
@@ -22,7 +21,7 @@ export default function Me() {
                         transition={{ type: 'spring', duration: 1 }}
                         viewport={{ once: true }}
                     >
-                        <img src={Pic} alt="" />
+                        <img src={"/img/Pic.png"} alt="" />
                     </motion.span>
                     <motion.span className="text"
                         initial={{ x: -300 }}

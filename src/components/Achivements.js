@@ -21,6 +21,10 @@ export default function Achivements() {
           >
             <ul class="sessions">
               <li className="li">
+                <div class="time">Won Hack-On-Chin,A MLH Hackathon</div>
+                <p>Built VideoGram</p>
+              </li>
+              <li className="li">
                 <div class="time">Won Wild Hacks-II, A MLH Hackathon </div>
                 <p>Built MetaMusic</p>
               </li>

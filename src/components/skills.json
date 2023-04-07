@@ -51,6 +51,16 @@
       "name": "React-Native"
     },
     {
+      "id": 13,
+      "img": "/img/expo.svg",
+      "name": "Expo"
+    },
+    {
+      "id": 14,
+      "img": "/img/graphql.svg",
+      "name": "GraphQL"
+    },
+    {
       "id": 10,
       "img": "/img/tailwind.svg",
       "name": "TailwindCSS"
@@ -73,14 +83,6 @@
   ],
   "dev": [
     {
-      "id": 0,
-      "name": "HTML"
-    },
-    {
-      "id": 1,
-      "name": "CSS"
-    },
-    {
       "id": 2,
       "name": "Javascript"
     },
@@ -90,19 +92,19 @@
     },
     {
       "id": 4,
-      "name": "ReactJS"
+      "name": "React/NextJS"
     },
     {
       "id": 5,
-      "name": "NextJS"
+      "name": "React Native"
     },
     {
       "id": 6,
-      "name": "Firebase"
+      "name": "Expo"
     },
     {
       "id": 7,
-      "name": "React Native"
+      "name": "GraphQL"
     }
   ],
   "BlockChain": [
@@ -123,8 +125,20 @@
       "name": "The Graph"
     },
     {
-      "id":7,
-      "name":""
+      "id": 7,
+      "name": "Wagmi"
+    },
+    {
+      "id": 10,
+      "name": "ThirdWeb"
+    },
+    {
+      "id": 8,
+      "name": "WallectConnect"
+    },
+    {
+      "id": 3,
+      "name": "Arweave"
     }
   ]
 }

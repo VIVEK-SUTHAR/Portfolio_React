@@ -11,7 +11,12 @@ function About() {
   const el = useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["MERN Dev", "Passionate Developer", "Web 3.0 Enthusist"],
+      strings: [
+        "Building LensPlay",
+        "MERN Dev",
+        "Passionate Developer",
+        "Web3.0 Enthusiast",
+      ],
       startDelay: 300,
       typeSpeed: 100,
       backSpeed: 20,
