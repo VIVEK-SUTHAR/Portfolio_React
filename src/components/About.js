@@ -14,7 +14,7 @@ function About() {
       strings: [
         "Building LensPlay",
         "MERN Dev",
-        "Passionate Developer",
+        "Building With RN",
         "Web3.0 Enthusiast",
       ],
       startDelay: 300,

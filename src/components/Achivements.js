@@ -21,6 +21,10 @@ export default function Achivements() {
           >
             <ul class="sessions">
               <li className="li">
+                <div class="time">Launched LensPlay</div>
+                <p>Crossed 550+ Downloades in 36 hours</p>
+              </li>
+              <li className="li">
                 <div class="time">Won Hack-On-Chin,A MLH Hackathon</div>
                 <p>Built VideoGram</p>
               </li>

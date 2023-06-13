@@ -1,5 +1,57 @@
 [
   {
+    "id": 20,
+    "name": "Evently",
+    "img_link": "https://ik.imagekit.io/4uh8nmwsx/Screenshot_from_2023-06-13_18-49-09.png?updatedAt=1686662442454",
+    "type": "web2",
+    "catagory": ["NextJS", "ChakraUI"],
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/next_.png"
+      },
+      {
+        "id": 3,
+        "img": "/img/chakra.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "https://evently.club",
+        "github": "https://github.com/web-3devs/evently-app"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Evently-App",
+    "img_link": "https://ik.imagekit.io/4uh8nmwsx/tete?tr=h-280",
+    "type": "web2",
+    "catagory": ["React-Native", "Expo","TypeScript"],
+    "tech-stack": [
+      {
+        "id": 0,
+        "img": "/img/rn.svg"
+      },
+      {
+        "id": 3,
+        "img": "/img/expo.svg"
+      },
+      {
+        "id": 4,
+        "img": "/img/ts.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "https://evently.club",
+        "github": "https://github.com/web-3devs/evently-app"
+      }
+    ]
+  },
+  {
     "id": 0,
     "name": "Messenger Clone",
     "img_link": "/img/msg-clone.jpg",
@@ -184,7 +236,7 @@
     "name": "Signal Clone",
     "img_link": "/project/sigc.jpg",
     "type": "web2",
-    "catagory": ["React-Native", "MaterialUI", "Firebase"],
+    "catagory": ["React-Native", "MaterialUI", "Firebase","Expo"],
     "tech-stack": [
       {
         "id": 0,
@@ -312,9 +364,45 @@
     ]
   },
   {
+    "id": 78,
+    "name": "LensPlay",
+    "catagory": ["React-Native", "GraphQL", "Expo", "ExpressJS","TypeScript"],
+    "img_link": "https://ik.imagekit.io/4uh8nmwsx/Screenshot_from_2023-06-13_19-11-31.png?updatedAt=1686663712600",
+    "type": "web3",
+    "tech-stack": [
+      {
+        "id": 1,
+        "img": "/img/rn.svg"
+      },
+      {
+        "id": 4,
+        "img": "/img/expo.svg"
+      },
+      {
+        "id": 4,
+        "img": "/img/ts.svg"
+      },
+      {
+        "id": 3,
+        "img": "/img/lens.svg"
+      },
+      {
+        "id": 2,
+        "img": "/img/filecoin.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "https://LensPlay",
+        "github": "https://github.com/VIVEK-SUTHAR"
+      }
+    ]
+  },
+  {
     "id": 13,
     "name": "VideoGram",
-    "catagory": ["NextJS", "TailwindCSS", "Solidity"],
+    "catagory": ["NextJS", "TailwindCSS", "Solidity","GraphQL"],
     "img_link": "https://ipfs.io/ipfs/QmQJ7zLfPLcoxQtb85PsTRF3utAPeq3pm8hsvUiMfnCbWe",
     "type": "web3",
     "tech-stack": [
@@ -414,7 +502,7 @@
   {
     "id": 16,
     "name": "DeBlog",
-    "catagory": ["ReactJS", "Solidity", "TailwindCSS"],
+    "catagory": ["ReactJS", "Solidity", "TailwindCSS","TypeScript"],
     "img_link": "https://ipfs.filebase.io/ipfs/QmVrvkLehb5YB4FWgoWfbfqCRUfgT3uGq82wM7aSF9RmxU",
     "type": "web3",
     "tech-stack": [
@@ -433,6 +521,10 @@
       {
         "id": 3,
         "img": "/img/tailwind.svg"
+      },
+      {
+        "id": 8,
+        "img": "/img/ts.svg"
       }
     ],
     "links": [
@@ -502,7 +594,7 @@
   {
     "id": 19,
     "name": "Lens Feed",
-    "catagory": ["NextJS", "TailwindCSS"],
+    "catagory": ["NextJS", "TailwindCSS","GraphQL"],
     "img_link": "https://ipfs.filebase.io/ipfs/QmUohae5YN2QreKUDERZ34TozrXT2q84opPaNYUKVjk5qh",
     "type": "web3",
     "tech-stack": [
@@ -539,8 +631,8 @@
         "img": "/img/next_.png"
       },
       {
-        "id":3,
-        "img":"/img/solid.svg"
+        "id": 3,
+        "img": "/img/solid.svg"
       },
       {
         "id": 0,

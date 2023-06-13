@@ -17,6 +17,11 @@
     },
     {
       "id": 3,
+      "img": "/img/ts.svg",
+      "name": "TypeScript"
+    },
+    {
+      "id": 3,
       "img": "/img/firebase.svg",
       "name": "Firebase"
     },

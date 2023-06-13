@@ -1,34 +1,10 @@
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Footer from "./components/Footer";
 import "./projects.css";
 import projects from "./projects.json";
 function Projects() {
-  const [whatProject, setwhatProject] = useState(undefined);
-
-  useEffect(() => {
-    getWeb2Projects();
-  }, []);
-
-  function getWeb2Projects() {
-    let web2Projects = [];
-    for (const project of projects) {
-      if (project.type === "web2") {
-        web2Projects.push(project);
-      }
-    }
-    setwhatProject(web2Projects);
-  }
-  function getWeb3Projects() {
-    let web3Projects = [];
-    for (const project of projects) {
-      if (project.type === "web3") {
-        web3Projects.push(project);
-      }
-    }
-    setwhatProject(web3Projects);
-  }
-
+  const [isWeb3, setIsWeb3] = useState(false);
   return (
     <>
       <motion.div
@@ -40,55 +16,26 @@ function Projects() {
         <section className="projectsContainer">
           <h1 className="Projecttitle">Stuff I built</h1>
           <center>
-            <button className="PROJECTS_TYPE" onClick={getWeb2Projects}>
+            <button
+              className="PROJECTS_TYPE"
+              onClick={() => {
+                setIsWeb3(false);
+              }}
+            >
               {" "}
               Web 2
             </button>
-            <button className="PROJECTS_TYPE" onClick={getWeb3Projects}>
+            <button
+              className="PROJECTS_TYPE"
+              onClick={() => {
+                setIsWeb3(true);
+              }}
+            >
               Web 3
             </button>
           </center>
           <div className="grid">
-            {whatProject &&
-              whatProject.map((el, index) => (
-                <motion.div
-                  initial={{
-                    opacity: 0,
-                    scale: 0.2,
-                  }}
-                  key={el.id}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 1 }}
-                  viewport={{ once: true }}
-                >
-                  <article className="cards" key={el.id}>
-                    <img src={el.img_link} alt="msg" loading="lazy"></img>
-                    <span className="Project_Name">{el.name}</span>
-                    <div className="tech">
-                      {el["tech-stack"].map((tech) => (
-                        <img
-                          src={tech.img}
-                          alt="msg"
-                          loading="lazy"
-                          key={tech.id}
-                        ></img>
-                      ))}
-                    </div>
-                    <div className="btns">
-                      {el.links.map((links) => (
-                        <>
-                          <button>
-                            <a href={links.live}>View Live</a>
-                          </button>
-                          <button>
-                            <a href={links.github}>Github</a>
-                          </button>
-                        </>
-                      ))}
-                    </div>
-                  </article>
-                </motion.div>
-              ))}
+            {!isWeb3 ? <Web2Projects /> : <Web3Projects />}
           </div>
         </section>
       </motion.div>
@@ -98,3 +45,84 @@ function Projects() {
 }
 
 export default Projects;
+
+const Web2Projects = () => {
+  let web2Projects = projects.filter((project) => project.type === "web2");
+
+  return web2Projects.map((el,index) => {
+    return (
+      <motion.div
+        initial={{
+          opacity: 0,
+          scale: 0.2,
+        }}
+        key={`${el.id}-${index}`}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
+      >
+        <article className="cards" key={el.id}>
+          <img src={el.img_link} alt="msg" loading="lazy"></img>
+          <span className="Project_Name">{el.name}</span>
+          <div className="tech">
+            {el["tech-stack"].map((tech) => (
+              <img src={tech.img} alt="msg" loading="lazy" key={tech.id}></img>
+            ))}
+          </div>
+          <div className="btns">
+            {el.links.map((links) => (
+              <>
+                <button>
+                  <a href={links.live}>View Live</a>
+                </button>
+                <button>
+                  <a href={links.github}>Github</a>
+                </button>
+              </>
+            ))}
+          </div>
+        </article>
+      </motion.div>
+    );
+  });
+};
+const Web3Projects = () => {
+  let web3Projects = projects.filter((project) => project.type === "web3");
+
+  return web3Projects.map((el,index) => {
+    return (
+      <motion.div
+        initial={{
+          opacity: 0,
+          scale: 0.2,
+        }}
+        key={`${el.id}-${index}`}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
+      >
+        <article className="cards" key={el.id}>
+          <img src={el.img_link} alt="msg" loading="lazy"></img>
+          <span className="Project_Name">{el.name}</span>
+          <div className="tech">
+            {el["tech-stack"].map((tech) => (
+              <img src={tech.img} alt="msg" loading="lazy" key={tech.id}></img>
+            ))}
+          </div>
+          <div className="btns">
+            {el.links.map((links) => (
+              <>
+                <button>
+                  <a href={links.live}>View Live</a>
+                </button>
+                <button>
+                  <a href={links.github}>Github</a>
+                </button>
+              </>
+            ))}
+          </div>
+        </article>
+      </motion.div>
+    );
+  });
+};
