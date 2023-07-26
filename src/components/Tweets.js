@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import "./Tweets.css";
+import "../styles/Tweets.css";
 function Tweets() {
   return (
     <>

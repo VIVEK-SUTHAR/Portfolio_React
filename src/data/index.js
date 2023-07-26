@@ -2,6 +2,8 @@ export const SocialLinks = {
   GitHub: "https://github.com/VIVEK-SUTHAR",
   LinkedIn: "https://www.linkedin.com/in/vivek-suthar-160152202",
   Twitter: "https://twitter.com/theviveksuthar",
+  Lens: "https://lensfrens.xyz/iamvivek.lens",
+  Blog: "https://blog.devvivek.tech/",
 };
 
 export const AboutText =

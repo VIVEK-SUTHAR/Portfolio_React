@@ -1,4 +1,4 @@
-import "./Achivements.css";
+import "../styles/Achivements.css";
 import { motion } from "framer-motion";
 import React from "react";
 

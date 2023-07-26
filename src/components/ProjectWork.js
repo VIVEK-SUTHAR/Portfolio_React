@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useParams } from "react-router-dom";
-import "./projects.css";
+import "../styles/projects.css";
+
 import data from "../data/projects.json";
 import Footer from "./Footer";
 function ProjectWork() {

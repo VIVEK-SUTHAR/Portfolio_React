@@ -6,7 +6,7 @@ import {
 } from "react-icons/ai";
 import Typed from "typed.js";
 import { SocialLinks } from "../data";
-import "./About.css";
+import "../styles/About.css";
 
 const strings = [
   "Building LensPlay",

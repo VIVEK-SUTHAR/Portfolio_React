@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 import Footer from "./Footer";
-import "./projects.css";
+import "../styles/projects.css";
 import projects from "../data/projects.json";
 function Projects() {
   const [isWeb3, setIsWeb3] = useState(false);

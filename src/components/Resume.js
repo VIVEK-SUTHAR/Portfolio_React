@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import "./resume.css";
+import "../styles/resume.css";
 export default function Resume() {
   return (
     <>

@@ -7,7 +7,7 @@ import {
 import { Link } from "react-router-dom";
 import react from "../Assets/react.png";
 import { SocialLinks } from "../data";
-import "./footer.css";
+import "../styles/footer.css";
 function Footer() {
   return (
     <div className="footer">

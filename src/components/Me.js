@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { AboutText } from "../data";
-import "./me.css";
+import "../styles/me.css";
 
 function Me() {
   return (

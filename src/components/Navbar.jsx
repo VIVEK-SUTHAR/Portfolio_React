@@ -5,7 +5,8 @@ import {
 } from "react-icons/ai";
 import { SiHashnode } from "react-icons/si";
 import { Link } from "react-router-dom";
-import "./Navbar.css";
+import "../styles/Navbar.css";
+import { SocialLinks } from "../data";
 function Navbar() {
   let isOpen = false;
   const shownav = () => {
@@ -47,7 +48,7 @@ function Navbar() {
                 <Link to="/about">About</Link>
               </li>
               <li>
-                <a href="https://blogbyvivek.hashnode.dev/">Blogs</a>
+                <a href={SocialLinks.Blog}>Blogs</a>
               </li>
               <li>
                 <Link to="/projects">Projects</Link>
@@ -73,7 +74,7 @@ function Navbar() {
         </div>
         <div className="item">
           <SiHashnode />
-          <a href="https://blogbyvivek.hashnode.dev/">Blogs</a>
+          <a href={SocialLinks.Blog}>Blogs</a>
         </div>
         <div className="item">
           <AiOutlineProject />
