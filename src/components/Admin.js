@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import "../App.css";
+import "../styles/App.css";
 import db, { auth } from "./firebase";
 function Admin() {
     const [messages, setMessages] = useState([]);

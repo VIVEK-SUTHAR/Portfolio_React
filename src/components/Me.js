@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
+import React from "react";
+import { AboutText } from "../data";
 import "./me.css";
 
-export default function Me() {
+function Me() {
   return (
     <motion.span
       initial={{ opacity: 0 }}
@@ -30,15 +32,11 @@ export default function Me() {
             transition={{ duration: 0.7 }}
             viewport={{ once: true }}
           >
-            Hi! I'm Vivek, a 20-year-old engineering student pursuing a BTech in
-            Information Technology. I'm passionate about self-learning and enjoy
-            creating projects using different technologies. I'm highly skilled
-            in frontend web development, focusing on HTML, CSS, and JavaScript.
-            I'm also experienced in developing high-performance mobile apps
-            using React Native, Expo, and TypeScript.
+            {AboutText}
           </motion.span>
         </div>
       </div>
     </motion.span>
   );
 }
+export default React.memo(Me);

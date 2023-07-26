@@ -1,22 +1,21 @@
 import { motion } from "framer-motion";
-import Footer from "./Footer";
-import "../projects.css";
 import { useParams } from "react-router-dom";
-import data from "../projects.json";
-import { useEffect } from "react";
+import "./projects.css";
+import data from "../data/projects.json";
+import Footer from "./Footer";
 function ProjectWork() {
-  
   const { catagory } = useParams();
   let projectList = [];
+  // eslint-disable-next-line array-callback-return
   data.map((project) => {
     let temp_project = project;
+    // eslint-disable-next-line array-callback-return
     project.catagory.map((tech_name) => {
       if (tech_name === catagory) {
         projectList.push(temp_project);
       }
     });
   });
-  console.log(projectList);
   return (
     <>
       <motion.div

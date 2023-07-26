@@ -1,6 +1,6 @@
 import { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import "./App.css";
+import "./styles/App.css";
 import Loader from "./components/Loader";
 import ProjectWork from "./components/ProjectWork";
 const Admin = lazy(() => import('./components/Admin'));
@@ -8,7 +8,7 @@ const Contact = lazy(() => import('./components/Contact'));
 const Main = lazy(() => import('./components/Main'));
 const Me = lazy(() => import('./components/Me'));
 const Navbar = lazy(() => import('./components/Navbar.jsx'));
-const Projects = lazy(() => import('./Projects'));
+const Projects = lazy(() => import('./components/Projects'));
 function App() {
   return (
     <Suspense fallback={<Loader />}>

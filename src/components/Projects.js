@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import { useState } from "react";
-import Footer from "./components/Footer";
+import React, { useState } from "react";
+import Footer from "./Footer";
 import "./projects.css";
-import projects from "./projects.json";
+import projects from "../data/projects.json";
 function Projects() {
   const [isWeb3, setIsWeb3] = useState(false);
   return (
@@ -46,10 +46,9 @@ function Projects() {
 
 export default Projects;
 
-const Web2Projects = () => {
+const Web2Projects = React.memo(() => {
   let web2Projects = projects.filter((project) => project.type === "web2");
-
-  return web2Projects.map((el,index) => {
+  return web2Projects.map((el, index) => {
     return (
       <motion.div
         initial={{
@@ -85,11 +84,10 @@ const Web2Projects = () => {
       </motion.div>
     );
   });
-};
+});
 const Web3Projects = () => {
   let web3Projects = projects.filter((project) => project.type === "web3");
-
-  return web3Projects.map((el,index) => {
+  return web3Projects.map((el, index) => {
     return (
       <motion.div
         initial={{

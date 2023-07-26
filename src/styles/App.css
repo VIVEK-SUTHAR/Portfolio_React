@@ -58,7 +58,7 @@ body {
   /* background-image: url("./Assets/bg.png"); */
   /* opacity: 0.3; */
   background-image: linear-gradient(56deg, #1b1b1b, rgba(0, 0, 0, 0.8)),
-    url("./Assets/bg.webp");
+    url("../Assets/bg.webp");
   background-size: contain;
   background-repeat: repeat;
 }

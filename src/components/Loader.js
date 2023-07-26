@@ -1,11 +1,12 @@
-import "./Loader.css"
+import React from "react";
+import "./Loader.css";
 function Loader() {
-    return (
-        <div className="loaderContainer">
-            <div className="loader"></div>
-            <div className="text">Good things take Time</div>
-        </div>
-    )
+  return (
+    <div className="loaderContainer">
+      <div className="loader" />
+      <div className="text">Good things take Time</div>
+    </div>
+  );
 }
 
-export default Loader
+export default React.memo(Loader);
