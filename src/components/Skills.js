@@ -21,10 +21,22 @@ function Skills() {
         >
           {data.All &&
             data.All.map((skill, index) => (
-              <Link to={`/work/${skill.name}`}>
-                <div class="tooltip">
-                  <img src={skill.img} alt="" key={index} />
-                  <span class="tooltiptext">{skill.name}</span>
+              <Link
+                to={`/work/${skill.name}`}
+                key={`${skill.name}-${skill.id}`}
+              >
+                <div className="tooltip">
+                  <img
+                    src={skill.img}
+                    alt=""
+                    key={`${skill.img}-${skill.id}`}
+                  />
+                  <span
+                    className="tooltiptext"
+                    key={`${skill.name}-${skill.id}-${index}`}
+                  >
+                    {skill.name}
+                  </span>
                 </div>
               </Link>
             ))}
@@ -39,7 +51,10 @@ function Skills() {
           >
             <h2>Development</h2>
             <div className="content">
-              {data.dev && data.dev.map((tech) => <span>{tech.name}</span>)}
+              {data.dev &&
+                data.dev.map((tech) => (
+                  <span key={`${tech.id}-${tech.name}`}>{tech.name}</span>
+                ))}
             </div>
           </motion.div>
           <motion.div
@@ -52,7 +67,9 @@ function Skills() {
             <h2>BlockChain</h2>
             <div className="content">
               {data.BlockChain &&
-                data.BlockChain.map((tech) => <span>{tech.name}</span>)}
+                data.BlockChain.map((tech) => (
+                  <span key={`${tech.id}-${tech.name}`}>{tech.name}</span>
+                ))}
             </div>
           </motion.div>
         </div>

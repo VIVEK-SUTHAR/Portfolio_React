@@ -15,7 +15,7 @@ function Me() {
         <center>
           <h2 className="title">About Me</h2>
         </center>
-        <div class="cont">
+        <div className="cont">
           <motion.span
             className="img"
             initial={{ scale: 0 }}

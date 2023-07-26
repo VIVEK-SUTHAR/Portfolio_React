@@ -4,7 +4,7 @@ export default function Resume() {
   return (
     <>
       <span className="edu title">My Time line</span>
-      <div class="container">
+      <div className="container">
         <motion.span
           className="time-wrapper"
           initial={{ x: "-100%" }}
@@ -13,19 +13,19 @@ export default function Resume() {
           viewport={{ once: true }}
         >
           <h1>Education</h1>
-          <ul class="sessions">
+          <ul className="sessions">
             <li>
-              <div class="time">From SVIT,Vasad</div>
+              <div className="time">From SVIT,Vasad</div>
               <p>B.E In Information Technology</p>
             </li>
             <li>
-              <div class="time">From Kalarav School,Halol</div>
+              <div className="time">From Kalarav School,Halol</div>
               <p>
                 12<sup>th</sup> HSC
               </p>
             </li>
             <li>
-              <div class="time">From N.T high School Kanisa</div>
+              <div className="time">From N.T high School Kanisa</div>
               <p>
                 10<sup>th</sup> SSC
               </p>
@@ -40,18 +40,18 @@ export default function Resume() {
           viewport={{ once: true }}
         >
           <h1> Experience</h1>
-          <ul class="sessions">
+          <ul className="sessions">
             <li>
-              <div class="time">December-'22-Present</div>
+              <div className="time">December-'22-Present</div>
               <p>Building LensPlay</p>
             </li>
             <li>
-              <div class="time">November-'21</div>
+              <div className="time">November-'21</div>
               <p>Co Head(Web), Hack Club SVIT</p>
             </li>
 
             <li>
-              <div class="time">March-2022</div>
+              <div className="time">March-2022</div>
               <p>Volunteer,Prakarsh'17 Web Team</p>
             </li>
           </ul>

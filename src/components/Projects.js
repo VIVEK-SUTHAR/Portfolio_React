@@ -21,6 +21,10 @@ function Projects() {
               onClick={() => {
                 setIsWeb3(false);
               }}
+              style={{
+                backgroundColor: !isWeb3 ? "aqua" : "transparent",
+                color: !isWeb3 ? "black" : "aqua",
+              }}
             >
               {" "}
               Web 2
@@ -29,6 +33,10 @@ function Projects() {
               className="PROJECTS_TYPE"
               onClick={() => {
                 setIsWeb3(true);
+              }}
+              style={{
+                backgroundColor: isWeb3 ? "aqua" : "transparent",
+                color: isWeb3 ? "black" : "aqua",
               }}
             >
               Web 3
@@ -60,24 +68,29 @@ const Web2Projects = React.memo(() => {
         transition={{ duration: 1 }}
         viewport={{ once: true }}
       >
-        <article className="cards" key={el.id}>
+        <article className="cards">
           <img src={el.img_link} alt="msg" loading="lazy"></img>
           <span className="Project_Name">{el.name}</span>
           <div className="tech">
             {el["tech-stack"].map((tech) => (
-              <img src={tech.img} alt="msg" loading="lazy" key={tech.id}></img>
+              <img
+                src={tech.img}
+                alt="msg"
+                loading="lazy"
+                key={`${tech.img}_${tech.id}`}
+              ></img>
             ))}
           </div>
           <div className="btns">
-            {el.links.map((links) => (
-              <>
+            {el.links.map((links, index) => (
+              <div key={`${links.id}_${index}`}>
                 <button>
                   <a href={links.live}>View Live</a>
                 </button>
                 <button>
                   <a href={links.github}>Github</a>
                 </button>
-              </>
+              </div>
             ))}
           </div>
         </article>
@@ -85,7 +98,7 @@ const Web2Projects = React.memo(() => {
     );
   });
 });
-const Web3Projects = () => {
+const Web3Projects = React.memo(() => {
   let web3Projects = projects.filter((project) => project.type === "web3");
   return web3Projects.map((el, index) => {
     return (
@@ -99,28 +112,33 @@ const Web3Projects = () => {
         transition={{ duration: 1 }}
         viewport={{ once: true }}
       >
-        <article className="cards" key={el.id}>
+        <article className="cards">
           <img src={el.img_link} alt="msg" loading="lazy"></img>
           <span className="Project_Name">{el.name}</span>
           <div className="tech">
             {el["tech-stack"].map((tech) => (
-              <img src={tech.img} alt="msg" loading="lazy" key={tech.id}></img>
+              <img
+                src={tech.img}
+                alt="msg"
+                loading="lazy"
+                key={`${tech.img}_${tech.id}`}
+              />
             ))}
           </div>
           <div className="btns">
-            {el.links.map((links) => (
-              <>
+            {el.links.map((links, index) => (
+              <div key={`${links.id}_${index}`}>
                 <button>
                   <a href={links.live}>View Live</a>
                 </button>
                 <button>
                   <a href={links.github}>Github</a>
                 </button>
-              </>
+              </div>
             ))}
           </div>
         </article>
       </motion.div>
     );
   });
-};
+});

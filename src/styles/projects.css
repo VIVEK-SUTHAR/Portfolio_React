@@ -122,7 +122,7 @@
 .PROJECTS_TYPE:hover {
     background-color: aqua;
     color: black;
-    transform: scale(0.9);
+    transform: scale(0.99);
 }
 
 @media (max-width: 1312px) {

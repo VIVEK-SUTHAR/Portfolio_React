@@ -30,7 +30,7 @@ function Achivements() {
     <React.Fragment>
       <center className="title">Achievements</center>
       <motion.div
-        class="achivements_container"
+        className="achivements_container"
         initial={{ x: "-100%" }}
         whileInView={{ scale: 1, x: 0 }}
         transition={{ type: "spring", duration: 1 }}
@@ -43,11 +43,11 @@ function Achivements() {
           transition={{ type: "spring", duration: 1 }}
           viewport={{ once: true }}
         >
-          <ul class="sessions">
+          <ul className="sessions">
             {achievementsData.map((item, index) => {
               return (
                 <li className="li" key={index}>
-                  <div class="time">{item.title}</div>
+                  <div className="time">{item.title}</div>
                   <p>{item.description}</p>
                 </li>
               );
