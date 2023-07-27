@@ -2,10 +2,10 @@
   {
     "id": 20,
     "name": "Evently",
-    "img_link": "https://ik.imagekit.io/4uh8nmwsx/Screenshot_from_2023-06-13_18-49-09.png?updatedAt=1686662442454",
+    "imgLink": "https://ik.imagekit.io/4uh8nmwsx/Screenshot_from_2023-06-13_18-49-09.png?updatedAt=1686662442454",
     "type": "web2",
     "catagory": ["NextJS", "ChakraUI"],
-    "tech-stack": [
+    "techStack": [
       {
         "id": 0,
         "img": "/img/next_.png"
@@ -26,10 +26,10 @@
   {
     "id": 20,
     "name": "Evently-App",
-    "img_link": "https://ik.imagekit.io/4uh8nmwsx/tete?tr=h-280",
+    "imgLink": "https://ik.imagekit.io/4uh8nmwsx/tete?tr=h-280",
     "type": "web2",
     "catagory": ["React-Native", "Expo","TypeScript"],
-    "tech-stack": [
+    "techStack": [
       {
         "id": 0,
         "img": "/img/rn.svg"
@@ -54,10 +54,10 @@
   {
     "id": 0,
     "name": "Messenger Clone",
-    "img_link": "/img/msg-clone.jpg",
+    "imgLink": "/img/msg-clone.jpg",
     "type": "web2",
     "catagory": ["ReactJS", "CSS", "Firebase", "MaterialUI"],
-    "tech-stack": [
+    "techStack": [
       {
         "id": 0,
         "img": "/img/react.png"
@@ -86,10 +86,10 @@
   {
     "id": 1,
     "name": "Whats-App Web Clone",
-    "img_link": "/project/wp-web.jpg",
+    "imgLink": "/project/wp-web.jpg",
     "type": "web2",
     "catagory": ["ReactJS", "CSS", "Firebase", "MaterialUI"],
-    "tech-stack": [
+    "techStack": [
       {
         "id": 0,
         "img": "/img/react.png"
@@ -118,10 +118,10 @@
   {
     "id": 2,
     "name": "Twitter Full Stack Clone",
-    "img_link": "https://ipfs.io/ipfs/QmWuiUgJo2bgJxLdFPnLAJVBmny5FThYxv6bnxUQXzebqx",
+    "imgLink": "https://ipfs.io/ipfs/QmWuiUgJo2bgJxLdFPnLAJVBmny5FThYxv6bnxUQXzebqx",
     "type": "web2",
     "catagory": ["ReactJS", "NodeJS", "MongoDB", "ExpressJS"],
-    "tech-stack": [
+    "techStack": [
       {
         "id": 0,
         "img": "/img/react.png"
@@ -150,10 +150,10 @@
   {
     "id": 3,
     "name": "Google Clone",
-    "img_link": "/project/gc.jpg",
+    "imgLink": "/project/gc.jpg",
     "type": "web2",
     "catagory": ["ReactJS", "CSS", "Firebase", "MaterialUI"],
-    "tech-stack": [
+    "techStack": [
       {
         "id": 0,
         "img": "/img/react.png"
@@ -182,10 +182,10 @@
   {
     "id": 4,
     "name": "macOS Clone",
-    "img_link": "https://ipfs.io/ipfs/QmeyQvsoc6gMHyqYb77g9vTPZFXqSWMr8yoJFQcs2yGrF3",
+    "imgLink": "https://ipfs.io/ipfs/QmeyQvsoc6gMHyqYb77g9vTPZFXqSWMr8yoJFQcs2yGrF3",
     "type": "web2",
     "catagory": ["HTML", "CSS", "Javascript"],
-    "tech-stack": [
+    "techStack": [
       {
         "id": 0,
         "img": "/img/html.svg"
@@ -210,10 +210,10 @@
   {
     "id": 5,
     "name": "HackClub SVIT Website",
-    "img_link": "/project/hcs.jpg",
+    "imgLink": "/project/hcs.jpg",
     "type": "web2",
     "catagory": ["NextJS", "ChakraUIkw"],
-    "tech-stack": [
+    "techStack": [
       {
         "id": 0,
         "img": "/img/next_.png"
@@ -234,10 +234,10 @@
   {
     "id": 6,
     "name": "Signal Clone",
-    "img_link": "/project/sigc.jpg",
+    "imgLink": "/project/sigc.jpg",
     "type": "web2",
     "catagory": ["React-Native", "MaterialUI", "Firebase","Expo"],
-    "tech-stack": [
+    "techStack": [
       {
         "id": 0,
         "img": "/img/rn.svg"
@@ -262,10 +262,10 @@
   {
     "id": 7,
     "name": "Prakarsh '22",
-    "img_link": "/project/prakarsh.jpg",
+    "imgLink": "/project/prakarsh.jpg",
     "type": "web2",
     "catagory": ["ReactJS", "ChakraUI"],
-    "tech-stack": [
+    "techStack": [
       {
         "id": 0,
         "img": "/img/react.png"
@@ -286,10 +286,10 @@
   {
     "id": 8,
     "name": "Instagram-Clone",
-    "img_link": "/project/insta.jpg",
+    "imgLink": "/project/insta.jpg",
     "type": "web2",
     "catagory": ["CSS", "ReactJS", "Firebase", "MaterialUI"],
-    "tech-stack": [
+    "techStack": [
       {
         "id": 0,
         "img": "/img/react.png"
@@ -318,10 +318,10 @@
   {
     "id": 9,
     "name": "Track Crypto",
-    "img_link": "/project/crypto.jpg",
+    "imgLink": "/project/crypto.jpg",
     "type": "web2",
     "catagory": ["ReactJS", "CSS"],
-    "tech-stack": [
+    "techStack": [
       {
         "id": 0,
         "img": "/img/react.png"
@@ -342,10 +342,10 @@
   {
     "id": 11,
     "name": "Filemaker-CLI Tool",
-    "img_link": "/project/CLI.jpg",
+    "imgLink": "/project/CLI.jpg",
     "type": "web2",
     "catagory": ["NodeJS", "ExpressJS"],
-    "tech-stack": [
+    "techStack": [
       {
         "id": 0,
         "img": "/img/nodejs.svg"
@@ -367,9 +367,9 @@
     "id": 78,
     "name": "LensPlay",
     "catagory": ["React-Native", "GraphQL", "Expo", "ExpressJS","TypeScript"],
-    "img_link": "https://ik.imagekit.io/4uh8nmwsx/Screenshot_from_2023-06-13_19-11-31.png?updatedAt=1686663712600",
+    "imgLink": "https://ik.imagekit.io/4uh8nmwsx/Screenshot_from_2023-06-13_19-11-31.png?updatedAt=1686663712600",
     "type": "web3",
-    "tech-stack": [
+    "techStack": [
       {
         "id": 1,
         "img": "/img/rn.svg"
@@ -403,9 +403,9 @@
     "id": 13,
     "name": "VideoGram",
     "catagory": ["NextJS", "TailwindCSS", "Solidity","GraphQL"],
-    "img_link": "https://ipfs.io/ipfs/QmQJ7zLfPLcoxQtb85PsTRF3utAPeq3pm8hsvUiMfnCbWe",
+    "imgLink": "https://ipfs.io/ipfs/QmQJ7zLfPLcoxQtb85PsTRF3utAPeq3pm8hsvUiMfnCbWe",
     "type": "web3",
-    "tech-stack": [
+    "techStack": [
       {
         "id": 1,
         "img": "/img/next_.png"
@@ -434,10 +434,10 @@
   {
     "id": 14,
     "name": "Dynamic NFT",
-    "img_link": "https://ipfs.io/ipfs/QmbqBoLL6qhaQDzWuxmJTrEne5PmfhuzPeY1Ahc6i6NkEC",
+    "imgLink": "https://ipfs.io/ipfs/QmbqBoLL6qhaQDzWuxmJTrEne5PmfhuzPeY1Ahc6i6NkEC",
     "catagory": ["ChakraUI", "Solidity", "NextJS"],
     "type": "web3",
-    "tech-stack": [
+    "techStack": [
       {
         "id": 0,
         "img": "/img/solid.svg"
@@ -467,9 +467,9 @@
     "id": 15,
     "name": "MetaMusic",
     "catagory": ["TailwindCSS", "ReactJS", "Solidity"],
-    "img_link": "https://ipfs.filebase.io/ipfs/QmVa4n4TUcA3XQRSnaA6kUSKfBL3hxHNP1nmbYGULwBe1J",
+    "imgLink": "https://ipfs.filebase.io/ipfs/QmVa4n4TUcA3XQRSnaA6kUSKfBL3hxHNP1nmbYGULwBe1J",
     "type": "web3",
-    "tech-stack": [
+    "techStack": [
       {
         "id": 0,
         "img": "/img/solid.svg"
@@ -503,9 +503,9 @@
     "id": 16,
     "name": "DeBlog",
     "catagory": ["ReactJS", "Solidity", "TailwindCSS","TypeScript"],
-    "img_link": "https://ipfs.filebase.io/ipfs/QmVrvkLehb5YB4FWgoWfbfqCRUfgT3uGq82wM7aSF9RmxU",
+    "imgLink": "https://ipfs.filebase.io/ipfs/QmVrvkLehb5YB4FWgoWfbfqCRUfgT3uGq82wM7aSF9RmxU",
     "type": "web3",
-    "tech-stack": [
+    "techStack": [
       {
         "id": 0,
         "img": "/img/solid.svg"
@@ -538,10 +538,10 @@
   {
     "id": 17,
     "name": "Buy Me A Coffee",
-    "img_link": "/project/coffee.jpg",
+    "imgLink": "/project/coffee.jpg",
     "catagory": ["ReactJS", "TailwindCSS", "Solidity"],
     "type": "web3",
-    "tech-stack": [
+    "techStack": [
       {
         "id": 0,
         "img": "/img/solid.svg"
@@ -571,9 +571,9 @@
     "id": 18,
     "name": "NFT Gallery",
     "catagory": ["NextJS", "TailwindCSS"],
-    "img_link": "https://ipfs.filebase.io/ipfs/QmeL1y38cyFgVPmMmqucP6a368BGWXzCFiWoK3WZmp9zDs",
+    "imgLink": "https://ipfs.filebase.io/ipfs/QmeL1y38cyFgVPmMmqucP6a368BGWXzCFiWoK3WZmp9zDs",
     "type": "web3",
-    "tech-stack": [
+    "techStack": [
       {
         "id": 0,
         "img": "/img/tailwind.svg"
@@ -595,9 +595,9 @@
     "id": 19,
     "name": "Lens Feed",
     "catagory": ["NextJS", "TailwindCSS","GraphQL"],
-    "img_link": "https://ipfs.filebase.io/ipfs/QmUohae5YN2QreKUDERZ34TozrXT2q84opPaNYUKVjk5qh",
+    "imgLink": "https://ipfs.filebase.io/ipfs/QmUohae5YN2QreKUDERZ34TozrXT2q84opPaNYUKVjk5qh",
     "type": "web3",
-    "tech-stack": [
+    "techStack": [
       {
         "id": 0,
         "img": "/img/tailwind.svg"
@@ -623,9 +623,9 @@
     "id": 19,
     "name": "ChainMail",
     "catagory": ["NextJS", "TailwindCSS"],
-    "img_link": "https://ipfs.filebase.io/ipfs/QmVcX7hbQzzR1vYWjkeGt2pqgLUQwFVMwVuACbtKGDRJEb",
+    "imgLink": "https://ipfs.filebase.io/ipfs/QmVcX7hbQzzR1vYWjkeGt2pqgLUQwFVMwVuACbtKGDRJEb",
     "type": "web3",
-    "tech-stack": [
+    "techStack": [
       {
         "id": 1,
         "img": "/img/next_.png"

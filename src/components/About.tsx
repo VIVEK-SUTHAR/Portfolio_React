@@ -16,7 +16,7 @@ const strings = [
 ];
 
 function About() {
-  const el = useRef(null);
+  const el = useRef<string | Element>("");
   const typedConfig = {
     strings: strings,
     startDelay: 300,
@@ -37,7 +37,10 @@ function About() {
       <div id="landing_text">
         👋 Hello, I am Vivek Suthar
         <div className="my_tag">
-          <span className="my_tag" ref={el} />
+          <span
+            className="my_tag"
+            ref={el as React.RefObject<HTMLSpanElement>}
+          />
         </div>
       </div>
       <div id="socials">

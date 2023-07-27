@@ -2,8 +2,12 @@ import "../styles/Achivements.css";
 import { motion } from "framer-motion";
 import React from "react";
 import Heading from "./UI/Title";
+type AchievementsData = {
+  title: string;
+  description: string;
+};
 
-const achievementsData = [
+const achievementsData: Array<AchievementsData> = [
   {
     title: "Won SuperFluid WavePool,A Hackathon By SFxLens",
     description: "Created SuperRaise",

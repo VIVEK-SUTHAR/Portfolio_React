@@ -1,6 +1,9 @@
 import React from "react";
 
-function Container({ children }) {
+type Props = {
+  children: React.ReactNode;
+};
+function Container({ children }: Props) {
   return <div style={style}>{children}</div>;
 }
 

@@ -15,7 +15,6 @@ function Me() {
       <div id="Me" className="animate__animated">
         <center>
           <Heading title={"About Me"} />
-          {/* <h2 className="title">About Me</h2> */}
         </center>
         <div className="cont">
           <motion.span
@@ -25,7 +24,7 @@ function Me() {
             transition={{ type: "spring", duration: 1 }}
             viewport={{ once: true }}
           >
-            <img src={"/img/Pic.png"} alt="" />
+            <img src={"/img/Pic.png"} alt="my_pic" />
           </motion.span>
           <motion.span
             className="text"
