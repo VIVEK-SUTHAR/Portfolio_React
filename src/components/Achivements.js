@@ -1,6 +1,7 @@
 import "../styles/Achivements.css";
 import { motion } from "framer-motion";
 import React from "react";
+import Heading from "./UI/Title";
 
 const achievementsData = [
   {
@@ -28,7 +29,7 @@ const achievementsData = [
 function Achivements() {
   return (
     <React.Fragment>
-      <center className="title">Achievements</center>
+      <Heading title={"Achievements"} />
       <motion.div
         className="achivements_container"
         initial={{ x: "-100%" }}

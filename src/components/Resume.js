@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
 import "../styles/resume.css";
+import Heading from "./UI/Title";
 export default function Resume() {
   return (
     <>
-      <span className="edu title">My Time line</span>
+      <Heading title={"My Timeline"} />
       <div className="container">
         <motion.span
           className="time-wrapper"

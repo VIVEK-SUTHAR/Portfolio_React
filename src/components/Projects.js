@@ -75,15 +75,15 @@ const Web2Projects = React.memo(() => {
             {el["tech-stack"].map((tech) => (
               <img
                 src={tech.img}
-                alt="msg"
+                alt={`${tech.img}`}
                 loading="lazy"
                 key={`${tech.img}_${tech.id}`}
-              ></img>
+              />
             ))}
           </div>
           <div className="btns">
             {el.links.map((links, index) => (
-              <div key={`${links.id}_${index}`}>
+              <div key={`${links.id}_${index}`} className="gap">
                 <button>
                   <a href={links.live}>View Live</a>
                 </button>

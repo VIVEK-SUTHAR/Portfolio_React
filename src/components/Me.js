@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { AboutText } from "../data";
 import "../styles/me.css";
+import Heading from "./UI/Title";
 
 function Me() {
   return (
@@ -13,7 +14,8 @@ function Me() {
     >
       <div id="Me" className="animate__animated">
         <center>
-          <h2 className="title">About Me</h2>
+          <Heading title={"About Me"} />
+          {/* <h2 className="title">About Me</h2> */}
         </center>
         <div className="cont">
           <motion.span

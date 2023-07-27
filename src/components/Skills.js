@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import "../styles/skills.css";
 import data from "../data/skills.json";
+import Heading from "./UI/Title";
 function Skills() {
   return (
     <motion.div
@@ -11,7 +12,7 @@ function Skills() {
       viewport={{ once: true }}
     >
       <div id="skills">
-        <h1 className="title">Skills</h1>
+        <Heading title={"Skills"} />
         <motion.div
           className="all"
           initial={{ scale: 0 }}
