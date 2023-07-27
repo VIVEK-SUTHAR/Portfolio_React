@@ -18,10 +18,7 @@ function Footer() {
         </span>
       </div>
       <div className="txt">
-        <div className="my">
-          Vivek Suth
-          <Link to="/admin">a</Link>r
-        </div>
+        <div className="my">Vivek Suthar</div>
         <div className="connect">
           <a href={SocialLinks.GitHub}>
             <AiOutlineGithub />

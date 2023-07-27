@@ -2,17 +2,17 @@ import React from "react";
 import { motion } from "framer-motion";
 
 export interface Props {
-  item: {
-    id: number;
-    name: string;
-    imgLink: string;
-    type: string;
-    catagory: string[];
-    techStack: TechStack[];
-    links: Link[];
-  };
+  item: ProjectItem;
 }
-
+export interface ProjectItem {
+  id: number;
+  name: string;
+  imgLink: string;
+  type: string;
+  catagory: string[];
+  techStack: TechStack[];
+  links: Link[];
+}
 export interface Link {
   id: number;
   live: string;

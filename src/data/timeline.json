@@ -1,0 +1,34 @@
+[
+  {
+    "educational": [
+      {
+        "title": "From SVIT,Vasad",
+        "desc": "B.E In Information Technology"
+      },
+      {
+        "title": "From Kalarav School,Halol",
+        "desc": "12th HSC"
+      },
+      {
+        "title": "From N.T High School,Kanisa",
+        "desc": "10th SSC"
+      }
+    ]
+  },
+  {
+    "experience": [
+      {
+        "title": "December-'22-Present",
+        "desc": "Building LensPlay"
+      },
+      {
+        "title": "November-'21",
+        "desc": "Co Head(Web), Hack Club SVIT"
+      },
+      {
+        "title": "March-2022",
+        "desc": "Volunteer,Prakarsh'17 Web Team"
+      }
+    ]
+  }
+]
