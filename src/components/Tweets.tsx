@@ -6,15 +6,15 @@ function Tweets() {
     <>
       <center className="title">Tweets</center>
       <motion.div
-        class="tweets_container "
+        className="tweets_container "
         initial={{ x: "-100%" }}
         whileInView={{ scale: 1, x: 0 }}
         transition={{ type: "spring", duration: 1 }}
         viewport={{ once: true }}
       >
-      <blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Do you want to begin your Web 3.0 journey? 👾<br/>What could be done better than constructing a project? 💻<br/><br/>This article by <a href="https://twitter.com/theviveksuthar?ref_src=twsrc%5Etfw">@theviveksuthar</a> explains how to create the Chain-Journey dApp. Check it out!<a href="https://t.co/geJSjmwyAD">https://t.co/geJSjmwyAD</a></p>&mdash; Hashnode (@hashnode) <a href="https://twitter.com/hashnode/status/1570790364054708225?ref_src=twsrc%5Etfw">September 16, 2022</a></blockquote> 
+      <blockquote className="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Do you want to begin your Web 3.0 journey? 👾<br/>What could be done better than constructing a project? 💻<br/><br/>This article by <a href="https://twitter.com/theviveksuthar?ref_src=twsrc%5Etfw">@theviveksuthar</a> explains how to create the Chain-Journey dApp. Check it out!<a href="https://t.co/geJSjmwyAD">https://t.co/geJSjmwyAD</a></p>&mdash; Hashnode (@hashnode) <a href="https://twitter.com/hashnode/status/1570790364054708225?ref_src=twsrc%5Etfw">September 16, 2022</a></blockquote> 
       <blockquote
-          class="twitter-tweet"
+          className="twitter-tweet"
           data-theme="dark"
           data-conversation="none"
         >
@@ -44,7 +44,7 @@ function Tweets() {
             July 22, 2022
           </a>
         </blockquote>{" "}
-        <blockquote class="twitter-tweet v" data-theme="dark">
+        <blockquote className="twitter-tweet v" data-theme="dark">
           <p lang="en" dir="ltr">
             He won the Hackathon! 🎉
             <br />
@@ -74,7 +74,7 @@ function Tweets() {
             July 28, 2022
           </a>
         </blockquote>{" "}
-        <blockquote class="twitter-tweet" data-dnt="true" data-theme="dark">
+        <blockquote className="twitter-tweet" data-dnt="true" data-theme="dark">
           <p lang="en" dir="ltr">
             Vivek won his first Hackathon! 🎉
             <a href="https://twitter.com/TheRoadToWeb3?ref_src=twsrc%5Etfw">
@@ -101,7 +101,7 @@ function Tweets() {
         <script
           async
           src="https://platform.twitter.com/widgets.js"
-          charset="utf-8"
+          charSet="utf-8"
         ></script>
       </motion.div>
     </>

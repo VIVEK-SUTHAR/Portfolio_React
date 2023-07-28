@@ -4,7 +4,6 @@ import {
   AiOutlineLinkedin,
   AiOutlineTwitter
 } from "react-icons/ai";
-import react from "../Assets/react.png";
 import { SocialLinks } from "../data";
 import "../styles/footer.css";
 function Footer() {
@@ -13,7 +12,7 @@ function Footer() {
       <div className="heading">
         Made with ReactJS{" "}
         <span>
-          <img src={react} alt="made_with_reactjs" />
+          <img src={"/img/react.png"} alt="made_with_reactjs" />
         </span>
       </div>
       <div className="txt">
