@@ -1,7 +1,5 @@
-import firebase from "firebase/compat/app";
 import React, { useState } from "react";
 import "../styles/Contact.css";
-import db from "./firebase";
 function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -11,12 +9,7 @@ function Contact() {
   const [issent, setIssent] = useState(false);
   const sendMsg = (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     event.preventDefault();
-    db.collection("FORM_SUBMISSIONS").add({
-      name: formData.name,
-      email: formData.email,
-      message: formData.message,
-      timestamp: firebase.firestore.FieldValue.serverTimestamp(),
-    });
+    //Logic for saving to db
     setIssent(true);
     setTimeout(() => {
       setIssent(false);

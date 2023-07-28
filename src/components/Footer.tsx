@@ -2,9 +2,8 @@ import React from "react";
 import {
   AiOutlineGithub,
   AiOutlineLinkedin,
-  AiOutlineTwitter,
+  AiOutlineTwitter
 } from "react-icons/ai";
-import { Link } from "react-router-dom";
 import react from "../Assets/react.png";
 import { SocialLinks } from "../data";
 import "../styles/footer.css";

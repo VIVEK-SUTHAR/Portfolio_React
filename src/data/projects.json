@@ -28,7 +28,7 @@
     "name": "Evently-App",
     "imgLink": "https://ik.imagekit.io/4uh8nmwsx/tete?tr=h-280",
     "type": "web2",
-    "catagory": ["React-Native", "Expo","TypeScript"],
+    "catagory": ["React-Native", "Expo", "TypeScript"],
     "techStack": [
       {
         "id": 0,
@@ -236,7 +236,7 @@
     "name": "Signal Clone",
     "imgLink": "/project/sigc.jpg",
     "type": "web2",
-    "catagory": ["React-Native", "MaterialUI", "Firebase","Expo"],
+    "catagory": ["React-Native", "MaterialUI", "Firebase", "Expo"],
     "techStack": [
       {
         "id": 0,
@@ -364,9 +364,41 @@
     ]
   },
   {
+    "id": 34,
+    "name": "SuperRaise",
+    "catagory": ["NextJS", "GraphQL", "TypeScript", "TailwindCSS"],
+    "imgLink": "https://ik.imagekit.io/4uh8nmwsx/Screenshot%20from%202023-07-28%2011-36-19.png?updatedAt=1690524464714?f-webp",
+    "type": "web3",
+    "techStack": [
+      {
+        "id": 1,
+        "img": "/img/next_.png"
+      },
+      {
+        "id": 4,
+        "img": "/img/tailwind.svg"
+      },
+      {
+        "id": 4,
+        "img": "/img/ts.svg"
+      },
+      {
+        "id": 3,
+        "img": "/img/lens.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "https://superraise.vercel.app/",
+        "github": "https://github.com/Harsh2220/superRaise/tree/main"
+      }
+    ]
+  },
+  {
     "id": 78,
     "name": "LensPlay",
-    "catagory": ["React-Native", "GraphQL", "Expo", "ExpressJS","TypeScript"],
+    "catagory": ["React-Native", "GraphQL", "Expo", "ExpressJS", "TypeScript"],
     "imgLink": "https://ik.imagekit.io/4uh8nmwsx/Screenshot_from_2023-06-13_19-11-31.png?updatedAt=1686663712600",
     "type": "web3",
     "techStack": [
@@ -402,7 +434,7 @@
   {
     "id": 13,
     "name": "VideoGram",
-    "catagory": ["NextJS", "TailwindCSS", "Solidity","GraphQL"],
+    "catagory": ["NextJS", "TailwindCSS", "Solidity", "GraphQL"],
     "imgLink": "https://ipfs.io/ipfs/QmQJ7zLfPLcoxQtb85PsTRF3utAPeq3pm8hsvUiMfnCbWe",
     "type": "web3",
     "techStack": [
@@ -502,7 +534,7 @@
   {
     "id": 16,
     "name": "DeBlog",
-    "catagory": ["ReactJS", "Solidity", "TailwindCSS","TypeScript"],
+    "catagory": ["ReactJS", "Solidity", "TailwindCSS", "TypeScript"],
     "imgLink": "https://ipfs.filebase.io/ipfs/QmVrvkLehb5YB4FWgoWfbfqCRUfgT3uGq82wM7aSF9RmxU",
     "type": "web3",
     "techStack": [
@@ -594,7 +626,7 @@
   {
     "id": 19,
     "name": "Lens Feed",
-    "catagory": ["NextJS", "TailwindCSS","GraphQL"],
+    "catagory": ["NextJS", "TailwindCSS", "GraphQL"],
     "imgLink": "https://ipfs.filebase.io/ipfs/QmUohae5YN2QreKUDERZ34TozrXT2q84opPaNYUKVjk5qh",
     "type": "web3",
     "techStack": [
