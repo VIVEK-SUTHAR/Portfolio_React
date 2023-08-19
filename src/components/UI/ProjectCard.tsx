@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import TrackAction, { Events } from "../../utils/track";
 
 export interface Props {
   item: ProjectItem;
@@ -52,10 +53,32 @@ function ProjectCard({ item }: Props) {
           {item.links.map((links, index) => (
             <div key={`${links.id}_${index}`} className="gap">
               <button>
-                <a href={links.live}>View Live</a>
+                <a
+                  href={links.live}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    TrackAction(
+                      Events.SingleProject,
+                      `Clicked Projects${item.name}`
+                    );
+                  }}
+                >
+                  View Live
+                </a>
               </button>
               <button>
-                <a href={links.github}>Github</a>
+                <a
+                  href={links.github}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    TrackAction(
+                      Events.SingleProject,
+                      `Clicked Project Github${item.name}`
+                    );
+                  }}
+                >
+                  Github
+                </a>
               </button>
             </div>
           ))}

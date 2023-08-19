@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../styles/skills.css";
 import data from "../data/skills.json";
 import Heading from "./UI/Title";
+import TrackAction, { Events } from "../utils/track";
 function Skills() {
   return (
     <motion.div
@@ -25,6 +26,13 @@ function Skills() {
               <Link
                 to={`/work/${skill.name}`}
                 key={`${skill.name}-${skill.id}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  TrackAction(
+                    Events.SingleProject,
+                    `Project from SKills:${skill.name}`
+                  );
+                }}
               >
                 <div className="tooltip">
                   <img

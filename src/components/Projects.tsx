@@ -4,8 +4,15 @@ import Footer from "./Footer";
 import "../styles/projects.css";
 import projects from "../data/projects.json";
 import ProjectCard from "./UI/ProjectCard";
+import TrackAction, { Events } from "../utils/track";
 function Projects() {
   const [isWeb3, setIsWeb3] = useState(false);
+  React.useEffect(() => {
+    void TrackAction(
+      Events.Project,
+      `Project Tab: ${isWeb3 ? "Web3" : "Web2"}`
+    );
+  }, [isWeb3]);
   return (
     <>
       <motion.div

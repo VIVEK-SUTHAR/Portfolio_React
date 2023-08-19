@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import "../styles/Contact.css";
+import TrackAction, { Events } from "../utils/track";
 function Contact() {
+  React.useEffect(() => {
+    TrackAction(Events.Contact);
+  }, []);
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
