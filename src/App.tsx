@@ -4,6 +4,7 @@ import "./styles/App.css";
 import Loader from "./components/Loader";
 import ProjectWork from "./components/ProjectWork";
 import mixpanel from "mixpanel-browser";
+import Overlay from "./components/UI/Overlay";
 const Contact = lazy(() => import("./components/Contact"));
 const Main = lazy(() => import("./components/Main"));
 const Me = lazy(() => import("./components/Me"));
@@ -14,7 +15,7 @@ mixpanel.init("5030db963eb7a41e280efbf886e99139", {
   debug: true,
   track_pageview: true,
   persistence: "localStorage",
-  ignore_dnt:true,
+  ignore_dnt: true,
 });
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Router>
         <Navbar />
         <AppRoutes />
+        <Overlay />
       </Router>
     </Suspense>
   );

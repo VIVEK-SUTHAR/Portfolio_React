@@ -26,6 +26,21 @@ export interface TechStack {
 }
 
 function ProjectCard({ item }: Props) {
+  const handleImageClicked = React.useCallback(
+    (e: React.MouseEvent<HTMLImageElement>) => {
+      const overlay = document.getElementById("overlay");
+      const fullImage = document.getElementById("fullImage");
+      const imgSrc = e.currentTarget.src;
+      let body = document.querySelector("body");
+      if (fullImage && overlay && body) {
+        fullImage.setAttribute("src", imgSrc);
+        overlay.classList.add("active");
+        body.style.overflowY = "hidden";
+      }
+    },
+    []
+  );
+
   return (
     <motion.div
       initial={{
@@ -37,7 +52,12 @@ function ProjectCard({ item }: Props) {
       viewport={{ once: true }}
     >
       <article className="cards">
-        <img src={item.imgLink} alt="msg" loading="lazy"></img>
+        <img
+          src={item.imgLink}
+          alt="msg"
+          loading="lazy"
+          onClick={handleImageClicked}
+        />
         <span className="Project_Name">{item.name}</span>
         <div className="tech">
           {item["techStack"].map((tech) => (
