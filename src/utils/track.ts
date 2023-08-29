@@ -6,6 +6,7 @@ export const Events = {
   Contact: "ContactPage",
   SingleProject: "ProjectCardClick",
   SocialOpen: "OpenedSocialLink",
+  WorkPageOpen:"OpenedASkillPage"
 };
 
 async function TrackAction(event: string, extra?: string) {

@@ -6,6 +6,7 @@ import data from "../data/projects.json";
 import Footer from "./Footer";
 import { useEffect } from "react";
 import ProjectCard, { ProjectItem } from "./UI/ProjectCard";
+import TrackAction, { Events } from "../utils/track";
 function ProjectWork() {
   const { catagory } = useParams();
   let projectList: ProjectItem[] = [];
@@ -23,7 +24,8 @@ function ProjectWork() {
     window.scrollTo({
       top: 0,
     });
-  }, []);
+    void TrackAction(Events.WorkPageOpen, catagory);
+  }, [catagory]);
   return (
     <>
       <motion.section

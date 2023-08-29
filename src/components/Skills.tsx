@@ -26,13 +26,6 @@ function Skills() {
               <Link
                 to={`/work/${skill.name}`}
                 key={`${skill.name}-${skill.id}`}
-                onClick={(e) => {
-                  e.preventDefault();
-                  TrackAction(
-                    Events.SingleProject,
-                    `Project from SKills:${skill.name}`
-                  );
-                }}
               >
                 <div className="tooltip">
                   <img
