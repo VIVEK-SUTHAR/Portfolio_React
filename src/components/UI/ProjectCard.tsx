@@ -76,7 +76,7 @@ function ProjectCard({ item }: Props) {
                 <a
                   href={links.live}
                   onClick={(e) => {
-                    window.open(links.github, "_blank");
+                    window.open(links.live, "_blank");
                     e.preventDefault();
                     TrackAction(
                       Events.SingleProject,
