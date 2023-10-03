@@ -9,6 +9,10 @@ type AchievementsData = {
 
 const achievementsData: Array<AchievementsData> = [
   {
+    title: "Won Hackathon by D_DxPhala",
+    description: "Built SafeShift",
+  },
+  {
     title: "Won SuperFluid WavePool,A Hackathon By SFxLens",
     description: "Created SuperRaise",
   },

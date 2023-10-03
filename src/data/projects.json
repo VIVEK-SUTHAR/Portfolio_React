@@ -364,6 +364,38 @@
     ]
   },
   {
+    "id": 65,
+    "name": "SafeShift",
+    "catagory": ["NextJS", "Rust", "TypeScript", "TailwindCSS"],
+    "imgLink": "https://ik.imagekit.io/4uh8nmwsx/Screenshot%20from%202023-10-03%2023-30-38.png?updatedAt=1696356085770?f-webp",
+    "type": "web3",
+    "techStack": [
+      {
+        "id": 1,
+        "img": "/img/next_.png"
+      },
+      {
+        "id": 4,
+        "img": "/img/tailwind.svg"
+      },
+      {
+        "id": 4,
+        "img": "/img/ts.svg"
+      },
+      {
+        "id": 3,
+        "img": "/img/rust.svg"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "live": "https://safeshift.vercel.app/",
+        "github": "https://github.com/umangp31/safeshift"
+      }
+    ]
+  },
+  {
     "id": 34,
     "name": "SuperRaise",
     "catagory": ["NextJS", "GraphQL", "TypeScript", "TailwindCSS"],

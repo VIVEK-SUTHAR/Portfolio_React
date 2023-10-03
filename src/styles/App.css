@@ -177,6 +177,9 @@ body {
   }
 }
 
+.text-center{
+  text-align: center;
+}
 @media (max-width: 500px) {
   .AContainer {
     max-width: 100%;

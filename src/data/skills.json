@@ -66,6 +66,11 @@
       "name": "GraphQL"
     },
     {
+      "id":15,
+      "img":"/img/java.svg",
+      "name":"Java"
+    },
+    {
       "id": 10,
       "img": "/img/tailwind.svg",
       "name": "TailwindCSS"

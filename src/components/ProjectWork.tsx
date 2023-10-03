@@ -26,6 +26,7 @@ function ProjectWork() {
     });
     void TrackAction(Events.WorkPageOpen, catagory);
   }, [catagory]);
+
   return (
     <>
       <motion.section
@@ -36,6 +37,9 @@ function ProjectWork() {
         className="projectsContainer"
       >
         <h1 className="Projecttitle">Built with {catagory} </h1>
+        {projectList.length === 0 && catagory?.toLowerCase() === "java" && (
+          <center>I am working on it, Will be updaing here soon</center>
+        )}
         <div className="grid">
           {projectList &&
             projectList.map((el, index) => (
