@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "../styles/skills.css";
 import data from "../data/skills.json";
 import Heading from "./UI/Title";
-import TrackAction, { Events } from "../utils/track";
 function Skills() {
   return (
     <motion.div
